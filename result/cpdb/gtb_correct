@@ -1,0 +1,6 @@
+features size:  48.0
+test acc:  0.75
+test auc:  0.7999999999999999
+cache size:  212.0
+gain count:  8780.0
+bound count:  6283.0
