@@ -1,0 +1,7 @@
+features size:  99.5
+test acc:  0.7613445378151259
+test auc:  0.7631134085213033
+cache size:  19517.4
+gain count:  1051372.4
+bound count:  1051372.4
+time [s]:  12.057800000000002
