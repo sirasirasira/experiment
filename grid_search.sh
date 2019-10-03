@@ -54,7 +54,7 @@ do
 				grep testacc ./result/${data}/grid_search/model | cut -d " " -f 4 >> ./result/${data}/grid_search/gtb_acc
 				grep testauc ./result/${data}/grid_search/model | cut -d " " -f 4 >> ./result/${data}/grid_search/gtb_auc
 			done
-			python ./bin/grid_search/gtb_mean.py ./result/${data}/grid_search/gtb_acc ./result/${data}/grid_search/gtb_auc 500 >> ./result/${data}/grid_search/gtb_correct
+			python ./bin/grid_search/gtb_mean.py ./result/${data}/grid_search/gtb_acc ./result/${data}/grid_search/gtb_auc >> ./result/${data}/grid_search/gtb_correct
 		done
 	done
 done
@@ -62,7 +62,7 @@ rm ./result/${data}/grid_search/model ./result/${data}/grid_search/gtb_acc ./res
 
 #gtb bandit
 > ./result/${data}/grid_search/gtb_bandit
-for x in 4 6 8 10
+for x in 4 6 8 10 12
 do
 	for d in 1 3 5
 	do
@@ -77,11 +77,11 @@ do
 					> ./result/${data}/grid_search/gtb_auc
 					for idx in 0 1 2 3 4 5 6 7 8 9
 					do
-						./bin/gtb_bandit -x ${x} -d ${d} -s ${s} -i ${i} -c ${c} -t 10 ./data/${data}_buckets/train${idx}.gsp ./data/${data}_buckets/test${idx}.gsp > ./result/${data}/grid_search/model
+						./bin/gtb_bandit -x ${x} -d ${d} -s ${s} -i ${i} -c ${c} -t 500 ./data/${data}_buckets/train${idx}.gsp ./data/${data}_buckets/test${idx}.gsp > ./result/${data}/grid_search/model
 						grep testacc ./result/${data}/grid_search/model | cut -d " " -f 4 >> ./result/${data}/grid_search/gtb_acc
 						grep testauc ./result/${data}/grid_search/model | cut -d " " -f 4 >> ./result/${data}/grid_search/gtb_auc
 					done
-					python ./bin/grid_search/gtb_mean.py ./result/${data}/grid_search/gtb_acc ./result/${data}/grid_search/gtb_auc 10 >> ./result/${data}/grid_search/gtb_bandit
+					python ./bin/grid_search/gtb_mean.py ./result/${data}/grid_search/gtb_acc ./result/${data}/grid_search/gtb_auc >> ./result/${data}/grid_search/gtb_bandit
 				done
 			done
 		done
