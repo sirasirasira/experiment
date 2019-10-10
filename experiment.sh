@@ -1,4 +1,4 @@
-for data in cpdb mutag NCI1_comp NCI47_comp
+for data in cpdb mutag cas enzymes dd
 do
 	./grid_search.sh ${data}
 done

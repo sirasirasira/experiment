@@ -1,0 +1,9 @@
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.1
+tree_num: 298
+acc: 0.86807 0.04854682102300829
+auc: 0.9373625999999999 0.04854682102300829
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.4
+tree_num: 358
+acc: 0.8780700999999999 0.03577281634998843
+auc: 0.9430402999999998 0.03577281634998843
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.7

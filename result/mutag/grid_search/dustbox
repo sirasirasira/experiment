@@ -1,0 +1,180 @@
+Finder version 0.4->1.0
+      Okazaki
+  Feature => ./model
+  Graph   => ../../../data/mutag_buckets/test9.gsp
+#features: 15
+#features: 22
+# graphs: 18
+GRAPH #1 (10)
+   alpha[i]=1 i=1
+   alpha[i]=-0 i=3
+   alpha[i]=-0 i=5
+   alpha[i]=-0 i=6
+   alpha[i]=-0 i=7
+   alpha[i]=-0 i=9
+   alpha[i]=-0 i=10
+   alpha[i]=-0 i=11
+   alpha[i]=-0 i=13
+   alpha[i]=-0 i=15
+res + g=1 p=1 y=1
+GRAPH #2 (11)
+   alpha[i]=1 i=1
+   alpha[i]=-0 i=3
+   alpha[i]=-0 i=5
+   alpha[i]=-0 i=6
+   alpha[i]=-0 i=7
+   alpha[i]=-0 i=9
+   alpha[i]=-0 i=10
+   alpha[i]=-0 i=11
+   alpha[i]=-0 i=13
+   alpha[i]=-0 i=14
+   alpha[i]=-0 i=15
+res + g=2 p=1 y=1
+GRAPH #3 (10)
+   alpha[i]=1 i=1
+   alpha[i]=-0 i=5
+   alpha[i]=-0 i=6
+   alpha[i]=-0 i=7
+   alpha[i]=0 i=8
+   alpha[i]=-0 i=9
+   alpha[i]=-0 i=10
+   alpha[i]=-0 i=11
+   alpha[i]=0 i=12
+   alpha[i]=-0 i=14
+res + g=3 p=1 y=1
+GRAPH #4 (10)
+   alpha[i]=1 i=1
+   alpha[i]=-0 i=3
+   alpha[i]=-0 i=5
+   alpha[i]=-0 i=6
+   alpha[i]=-0 i=7
+   alpha[i]=-0 i=9
+   alpha[i]=-0 i=10
+   alpha[i]=-0 i=11
+   alpha[i]=-0 i=13
+   alpha[i]=-0 i=15
+res + g=4 p=1 y=1
+GRAPH #5 (7)
+   alpha[i]=1 i=1
+   alpha[i]=-0 i=5
+   alpha[i]=-0 i=7
+   alpha[i]=-0 i=9
+   alpha[i]=-0 i=10
+   alpha[i]=-0 i=11
+   alpha[i]=-0 i=14
+res + g=5 p=1 y=1
+GRAPH #6 (10)
+   alpha[i]=1 i=1
+   alpha[i]=-0 i=3
+   alpha[i]=-0 i=5
+   alpha[i]=-0 i=6
+   alpha[i]=-0 i=7
+   alpha[i]=-0 i=9
+   alpha[i]=-0 i=10
+   alpha[i]=-0 i=11
+   alpha[i]=-0 i=13
+   alpha[i]=-0 i=15
+res + g=6 p=1 y=1
+GRAPH #7 (11)
+   alpha[i]=1 i=1
+   alpha[i]=-0 i=3
+   alpha[i]=-0 i=5
+   alpha[i]=-0 i=6
+   alpha[i]=-0 i=7
+   alpha[i]=-0 i=9
+   alpha[i]=-0 i=10
+   alpha[i]=-0 i=11
+   alpha[i]=-0 i=13
+   alpha[i]=-0 i=14
+   alpha[i]=-0 i=15
+res + g=7 p=1 y=1
+GRAPH #8 (11)
+   alpha[i]=1 i=1
+   alpha[i]=-0 i=3
+   alpha[i]=-0 i=5
+   alpha[i]=-0 i=6
+   alpha[i]=-0 i=7
+   alpha[i]=-0 i=9
+   alpha[i]=-0 i=10
+   alpha[i]=-0 i=11
+   alpha[i]=-0 i=13
+   alpha[i]=-0 i=14
+   alpha[i]=-0 i=15
+res + g=8 p=1 y=1
+GRAPH #9 (11)
+   alpha[i]=1 i=1
+   alpha[i]=-0 i=3
+   alpha[i]=-0 i=5
+   alpha[i]=-0 i=6
+   alpha[i]=-0 i=7
+   alpha[i]=-0 i=9
+   alpha[i]=-0 i=10
+   alpha[i]=-0 i=11
+   alpha[i]=-0 i=13
+   alpha[i]=-0 i=14
+   alpha[i]=-0 i=15
+res + g=9 p=1 y=1
+GRAPH #10 (11)
+   alpha[i]=1 i=1
+   alpha[i]=-0 i=3
+   alpha[i]=-0 i=5
+   alpha[i]=-0 i=6
+   alpha[i]=-0 i=7
+   alpha[i]=-0 i=9
+   alpha[i]=-0 i=10
+   alpha[i]=-0 i=11
+   alpha[i]=-0 i=13
+   alpha[i]=-0 i=14
+   alpha[i]=-0 i=15
+res + g=10 p=1 y=1
+GRAPH #11 (9)
+   alpha[i]=1 i=1
+   alpha[i]=-0 i=3
+   alpha[i]=-0 i=5
+   alpha[i]=-0 i=6
+   alpha[i]=-0 i=9
+   alpha[i]=-0 i=10
+   alpha[i]=-0 i=11
+   alpha[i]=-0 i=13
+   alpha[i]=-0 i=15
+res + g=11 p=1 y=1
+GRAPH #12 (10)
+   alpha[i]=1 i=1
+   alpha[i]=-0 i=3
+   alpha[i]=-0 i=5
+   alpha[i]=-0 i=6
+   alpha[i]=-0 i=7
+   alpha[i]=-0 i=9
+   alpha[i]=-0 i=10
+   alpha[i]=-0 i=11
+   alpha[i]=-0 i=13
+   alpha[i]=-0 i=15
+res + g=12 p=1 y=1
+GRAPH #13 (0)
+res + g=13 p=-1 y=-1
+GRAPH #14 (0)
+res + g=14 p=-1 y=-1
+GRAPH #15 (2)
+   alpha[i]=0 i=4
+   alpha[i]=-0 i=14
+res + g=15 p=-1 y=-1
+GRAPH #16 (2)
+   alpha[i]=-0 i=5
+   alpha[i]=-0 i=6
+res + g=16 p=-1 y=-1
+GRAPH #17 (3)
+   alpha[i]=0 i=8
+   alpha[i]=0 i=12
+   alpha[i]=-0 i=14
+res + g=17 p=-1 y=-1
+GRAPH #18 (7)
+   alpha[i]=0 i=4
+   alpha[i]=-0 i=5
+   alpha[i]=-0 i=6
+   alpha[i]=-0 i=7
+   alpha[i]=-0 i=9
+   alpha[i]=-0 i=11
+   alpha[i]=-0 i=14
+res + g=18 p=-1 y=-1
+---
+correct:18 wrong:0  1
