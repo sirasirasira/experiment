@@ -1,0 +1,1296 @@
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 100, c: 1
+tree_num: 285
+acc: 0.7500743 0.0302723085409752
+auc: 0.819191 0.0302723085409752
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 100, c: 10
+tree_num: 68
+acc: 0.7369248 0.04053640431279025
+auc: 0.7946093 0.04053640431279025
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 100, c: 100
+tree_num: 57
+acc: 0.7354123 0.03519830950329859
+auc: 0.7841171000000001 0.03519830950329859
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 300, c: 1
+tree_num: 181
+acc: 0.770536 0.03215792051672496
+auc: 0.8279158000000001 0.03215792051672496
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 300, c: 10
+tree_num: 259
+acc: 0.7616703 0.03494645168196623
+auc: 0.8328988 0.03494645168196623
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 300, c: 100
+tree_num: 143
+acc: 0.7631835 0.03731669944408269
+auc: 0.8224690000000001 0.03731669944408269
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 500, c: 1
+tree_num: 462
+acc: 0.7705150999999999 0.03439589050976875
+auc: 0.8396522 0.03439589050976875
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 500, c: 10
+tree_num: 311
+acc: 0.7704937999999999 0.03320456581992905
+auc: 0.8341771 0.03320456581992905
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 500, c: 100
+tree_num: 315
+acc: 0.7704725000000001 0.03273389063722795
+auc: 0.8341964999999998 0.03273389063722795
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 100, c: 1
+tree_num: 302
+acc: 0.7630769 0.038634103989092346
+auc: 0.8136974 0.038634103989092346
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 100, c: 10
+tree_num: 15
+acc: 0.7485197 0.03437379515633967
+auc: 0.7944665 0.03437379515633967
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 100, c: 100
+tree_num: 10
+acc: 0.7340056 0.04250014720739213
+auc: 0.7840994999999998 0.04250014720739213
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 300, c: 1
+tree_num: 42
+acc: 0.7662083 0.031217675541910534
+auc: 0.8254884 0.031217675541910534
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 300, c: 10
+tree_num: 67
+acc: 0.7646115 0.0380937502471206
+auc: 0.8345289000000001 0.0380937502471206
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 300, c: 100
+tree_num: 34
+acc: 0.7734563999999999 0.03185284073611019
+auc: 0.8249378 0.03185284073611019
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 500, c: 1
+tree_num: 114
+acc: 0.7763336000000001 0.03769639957356672
+auc: 0.8409833000000001 0.03769639957356672
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 500, c: 10
+tree_num: 136
+acc: 0.7851152 0.03567975189151403
+auc: 0.8413404 0.03567975189151403
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 500, c: 100
+tree_num: 88
+acc: 0.773393 0.03301312877462541
+auc: 0.8389121000000002 0.03301312877462541
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 100, c: 1
+tree_num: 62
+acc: 0.7675309 0.033547244262532215
+auc: 0.8233773000000001 0.033547244262532215
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 100, c: 10
+tree_num: 424
+acc: 0.7441285999999999 0.0334028194797984
+auc: 0.795951 0.0334028194797984
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 100, c: 100
+tree_num: 384
+acc: 0.7354110000000001 0.040764185440285684
+auc: 0.7928707000000002 0.040764185440285684
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 300, c: 1
+tree_num: 140
+acc: 0.7661028999999999 0.04144436033780711
+auc: 0.8355383 0.04144436033780711
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 300, c: 10
+tree_num: 20
+acc: 0.7603483999999999 0.03507555277625715
+auc: 0.8307482 0.03507555277625715
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 300, c: 100
+tree_num: 27
+acc: 0.7675533 0.0382695175490886
+auc: 0.8248344 0.0382695175490886
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 500, c: 1
+tree_num: 120
+acc: 0.7749056999999999 0.04003729067319617
+auc: 0.8356175 0.04003729067319617
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 500, c: 10
+tree_num: 132
+acc: 0.7733089 0.04505417707482847
+auc: 0.8377101 0.04505417707482847
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 500, c: 100
+tree_num: 111
+acc: 0.774779 0.04336927804333387
+auc: 0.8345710000000001 0.04336927804333387
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 100, c: 1
+tree_num: 100
+acc: 0.7631403 0.04216924829126077
+auc: 0.8222925 0.04216924829126077
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 100, c: 10
+tree_num: 343
+acc: 0.7484976999999999 0.03559544070523639
+auc: 0.801363 0.03559544070523639
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 100, c: 100
+tree_num: 493
+acc: 0.7471532 0.041354885069239386
+auc: 0.7999628999999999 0.041354885069239386
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 300, c: 1
+tree_num: 99
+acc: 0.7646742 0.04964434075551813
+auc: 0.8273215 0.04964434075551813
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 300, c: 10
+tree_num: 13
+acc: 0.7631408 0.034922057754949096
+auc: 0.8167124000000001 0.034922057754949096
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 300, c: 100
+tree_num: 18
+acc: 0.7544873000000001 0.03648746986363948
+auc: 0.8170024999999999 0.03648746986363948
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 500, c: 1
+tree_num: 277
+acc: 0.7674046999999999 0.052593108376383306
+auc: 0.8281151 0.052593108376383306
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 500, c: 10
+tree_num: 130
+acc: 0.7821745 0.04583611067968136
+auc: 0.8325876000000001 0.04583611067968136
+# maxpat: 4, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 500, c: 100
+tree_num: 16
+acc: 0.7691511 0.0406750773550586
+auc: 0.8216476000000001 0.0406750773550586
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 100, c: 1
+tree_num: 65
+acc: 0.7528889 0.03516032492967036
+auc: 0.8215468000000001 0.03516032492967036
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 100, c: 10
+tree_num: 226
+acc: 0.7441492000000001 0.0376920321479222
+auc: 0.8020294 0.0376920321479222
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 100, c: 100
+tree_num: 345
+acc: 0.7397161999999999 0.0357653443580514
+auc: 0.8018725 0.0357653443580514
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 300, c: 1
+tree_num: 58
+acc: 0.7572798 0.03200151758338969
+auc: 0.8232234 0.03200151758338969
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 300, c: 10
+tree_num: 41
+acc: 0.7572591 0.03484885383251507
+auc: 0.8127704000000001 0.03484885383251507
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 300, c: 100
+tree_num: 70
+acc: 0.7572585999999999 0.030022594871196597
+auc: 0.813712 0.030022594871196597
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 500, c: 1
+tree_num: 127
+acc: 0.7674679 0.023580530370625682
+auc: 0.8372727999999998 0.023580530370625682
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 500, c: 10
+tree_num: 64
+acc: 0.7602424000000001 0.03551595902970943
+auc: 0.823537 0.03551595902970943
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 500, c: 100
+tree_num: 60
+acc: 0.7558306 0.02820628096718887
+auc: 0.818549 0.02820628096718887
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 100, c: 1
+tree_num: 7
+acc: 0.7588559 0.030060120457010803
+auc: 0.8230511 0.030060120457010803
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 100, c: 10
+tree_num: 342
+acc: 0.7542321000000001 0.031200136183036103
+auc: 0.8009223999999999 0.031200136183036103
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 100, c: 100
+tree_num: 347
+acc: 0.7455565 0.037739029996675846
+auc: 0.8000499 0.037739029996675846
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 300, c: 1
+tree_num: 20
+acc: 0.7676172 0.035796066477337976
+auc: 0.8264495000000001 0.035796066477337976
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 300, c: 10
+tree_num: 478
+acc: 0.7571739 0.04115011586192678
+auc: 0.8149285 0.04115011586192678
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 300, c: 100
+tree_num: 168
+acc: 0.7690233 0.041584036002293004
+auc: 0.8257975999999999 0.041584036002293004
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 500, c: 1
+tree_num: 25
+acc: 0.7618403 0.026471711134718884
+auc: 0.8235009999999999 0.026471711134718884
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 500, c: 10
+tree_num: 13
+acc: 0.7602423 0.03746489748404499
+auc: 0.8187549000000001 0.03746489748404499
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 500, c: 100
+tree_num: 164
+acc: 0.7644629999999999 0.03333762291900848
+auc: 0.8178191 0.03333762291900848
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 100, c: 1
+tree_num: 200
+acc: 0.7542107 0.03501803573317614
+auc: 0.8140702999999998 0.03501803573317614
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 100, c: 10
+tree_num: 290
+acc: 0.7485184 0.04001135668044761
+auc: 0.7985783000000001 0.04001135668044761
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 100, c: 100
+tree_num: 87
+acc: 0.7483918 0.042009391324916844
+auc: 0.7979339 0.042009391324916844
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 300, c: 1
+tree_num: 85
+acc: 0.7573433 0.02572128007778772
+auc: 0.8225474 0.02572128007778772
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 300, c: 10
+tree_num: 394
+acc: 0.7528675 0.03908338493017206
+auc: 0.8198530000000002 0.03908338493017206
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 300, c: 100
+tree_num: 130
+acc: 0.7660401 0.030695955498404013
+auc: 0.8166448 0.030695955498404013
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 500, c: 1
+tree_num: 20
+acc: 0.7734133 0.036383709474983435
+auc: 0.8218287999999999 0.036383709474983435
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 500, c: 10
+tree_num: 461
+acc: 0.7483496000000001 0.05109675605760114
+auc: 0.8130533 0.05109675605760114
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 500, c: 100
+tree_num: 80
+acc: 0.7646534999999999 0.03930959950190283
+auc: 0.811485 0.03930959950190283
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 100, c: 1
+tree_num: 116
+acc: 0.7529307 0.04251990949472966
+auc: 0.8118094000000001 0.04251990949472966
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 100, c: 10
+tree_num: 150
+acc: 0.7586877000000001 0.032329903268645904
+auc: 0.8092342 0.032329903268645904
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 100, c: 100
+tree_num: 173
+acc: 0.7395900000000001 0.0373732367810175
+auc: 0.7969959 0.0373732367810175
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 300, c: 1
+tree_num: 39
+acc: 0.7588138 0.04861669547840536
+auc: 0.8128676 0.04861669547840536
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 300, c: 10
+tree_num: 426
+acc: 0.7557867999999999 0.03281618641173895
+auc: 0.8061893 0.03281618641173895
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 300, c: 100
+tree_num: 243
+acc: 0.7675521 0.04802153129753361
+auc: 0.8199797999999999 0.04802153129753361
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 500, c: 1
+tree_num: 18
+acc: 0.7645481000000001 0.03721638155113955
+auc: 0.8195902 0.03721638155113955
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 500, c: 10
+tree_num: 395
+acc: 0.7674673000000001 0.04682323873932686
+auc: 0.8207203999999999 0.04682323873932686
+# maxpat: 4, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 500, c: 100
+tree_num: 146
+acc: 0.7602411 0.046354600638555836
+auc: 0.8140248 0.046354600638555836
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 100, c: 1
+tree_num: 21
+acc: 0.7631623000000001 0.036165748255635455
+auc: 0.8147751000000001 0.036165748255635455
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 100, c: 10
+tree_num: 106
+acc: 0.7426586000000001 0.033698770821648676
+auc: 0.8073631000000001 0.033698770821648676
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 100, c: 100
+tree_num: 393
+acc: 0.7528676 0.03681780612000125
+auc: 0.8115758999999999 0.03681780612000125
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 300, c: 1
+tree_num: 48
+acc: 0.7617763000000001 0.034424707869348724
+auc: 0.8226539 0.034424707869348724
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 300, c: 10
+tree_num: 238
+acc: 0.7558513 0.03628834135917485
+auc: 0.8244819999999999 0.03628834135917485
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 300, c: 100
+tree_num: 245
+acc: 0.7558507999999999 0.03533408531446655
+auc: 0.8214487 0.03533408531446655
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 500, c: 1
+tree_num: 131
+acc: 0.7558087 0.03336248470722767
+auc: 0.8279456 0.03336248470722767
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 500, c: 10
+tree_num: 110
+acc: 0.7558719 0.041589851149168605
+auc: 0.8184273 0.041589851149168605
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 500, c: 100
+tree_num: 402
+acc: 0.7573206000000001 0.04133932253061243
+auc: 0.8255751 0.04133932253061243
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 100, c: 1
+tree_num: 4
+acc: 0.7528468 0.03965015047638532
+auc: 0.7978489999999999 0.03965015047638532
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 100, c: 10
+tree_num: 333
+acc: 0.7572585999999999 0.040876582430653355
+auc: 0.8161847 0.040876582430653355
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 100, c: 100
+tree_num: 217
+acc: 0.7485191000000001 0.045058832522492195
+auc: 0.8172138999999999 0.045058832522492195
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 300, c: 1
+tree_num: 59
+acc: 0.7558499 0.03620804713168054
+auc: 0.8181099 0.03620804713168054
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 300, c: 10
+tree_num: 163
+acc: 0.7485822000000001 0.045268018255276
+auc: 0.8168232 0.045268018255276
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 300, c: 100
+tree_num: 72
+acc: 0.7528466 0.04111846809938328
+auc: 0.8128674 0.04111846809938328
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 500, c: 1
+tree_num: 15
+acc: 0.7660819999999999 0.044938919293191715
+auc: 0.8242025999999999 0.044938919293191715
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 500, c: 10
+tree_num: 36
+acc: 0.7659541 0.04371356690651083
+auc: 0.8189219 0.04371356690651083
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 500, c: 100
+tree_num: 66
+acc: 0.7573624999999999 0.0396620345398468
+auc: 0.8189834000000001 0.0396620345398468
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 100, c: 1
+tree_num: 182
+acc: 0.7544008 0.048450254154132136
+auc: 0.8209440000000001 0.048450254154132136
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 100, c: 10
+tree_num: 494
+acc: 0.7457874000000001 0.04442541263736331
+auc: 0.8215429999999999 0.04442541263736331
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 100, c: 100
+tree_num: 361
+acc: 0.7515016 0.036745997145811664
+auc: 0.8128703999999999 0.036745997145811664
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 300, c: 1
+tree_num: 32
+acc: 0.7586646 0.03252534477065541
+auc: 0.8137605000000001 0.03252534477065541
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 300, c: 10
+tree_num: 421
+acc: 0.7501144 0.04092492259003063
+auc: 0.8099890000000001 0.04092492259003063
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 300, c: 100
+tree_num: 244
+acc: 0.7412080999999999 0.046730558188513
+auc: 0.8126007 0.046730558188513
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 500, c: 1
+tree_num: 7
+acc: 0.7588977 0.04250921357494161
+auc: 0.8169888000000001 0.04250921357494161
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 500, c: 10
+tree_num: 133
+acc: 0.7601978 0.0472318613463412
+auc: 0.8168076000000001 0.0472318613463412
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 500, c: 100
+tree_num: 28
+acc: 0.7514602000000001 0.041781952772100055
+auc: 0.8111495 0.041781952772100055
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 100, c: 1
+tree_num: 49
+acc: 0.7557653 0.04372155153742831
+auc: 0.8102596 0.04372155153742831
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 100, c: 10
+tree_num: 416
+acc: 0.7426579999999999 0.03040327277925848
+auc: 0.8076041 0.03040327277925848
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 100, c: 100
+tree_num: 414
+acc: 0.7382669 0.03738791209682617
+auc: 0.8041992 0.03738791209682617
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 300, c: 1
+tree_num: 118
+acc: 0.7661003000000001 0.06062772938647792
+auc: 0.8224792000000001 0.06062772938647792
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 300, c: 10
+tree_num: 395
+acc: 0.7310602 0.03327429601118556
+auc: 0.8019634 0.03327429601118556
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 300, c: 100
+tree_num: 55
+acc: 0.7543168 0.03329217795594033
+auc: 0.8112275 0.03329217795594033
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 500, c: 1
+tree_num: 152
+acc: 0.7572159 0.03264338682428647
+auc: 0.8139588 0.03264338682428647
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 500, c: 10
+tree_num: 56
+acc: 0.7528035 0.03814591630423892
+auc: 0.8167089000000001 0.03814591630423892
+# maxpat: 4, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 500, c: 100
+tree_num: 157
+acc: 0.7513331000000001 0.03707096429134263
+auc: 0.8130071000000001 0.03707096429134263
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 100, c: 1
+tree_num: 337
+acc: 0.7558714 0.035051354478250904
+auc: 0.8247658000000001 0.035051354478250904
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 100, c: 10
+tree_num: 72
+acc: 0.7281013000000001 0.035411593876158685
+auc: 0.7944804999999999 0.035411593876158685
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 100, c: 100
+tree_num: 56
+acc: 0.7339417 0.03592754692377425
+auc: 0.7872332000000001 0.03592754692377425
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 300, c: 1
+tree_num: 453
+acc: 0.7719225 0.03469518342493667
+auc: 0.8373058999999999 0.03469518342493667
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 300, c: 10
+tree_num: 255
+acc: 0.7587505 0.03463952809089638
+auc: 0.8332878000000001 0.03463952809089638
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 300, c: 100
+tree_num: 191
+acc: 0.7645908 0.034621984963892516
+auc: 0.8307236000000001 0.034621984963892516
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 500, c: 1
+tree_num: 497
+acc: 0.7778255 0.0388722752079165
+auc: 0.8398676 0.0388722752079165
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 500, c: 10
+tree_num: 475
+acc: 0.7734563 0.034050563643058834
+auc: 0.8402597 0.034050563643058834
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 500, c: 100
+tree_num: 301
+acc: 0.7719437 0.03324265892930347
+auc: 0.8366911 0.03324265892930347
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 100, c: 1
+tree_num: 56
+acc: 0.7558092999999999 0.03072849549213238
+auc: 0.8156163 0.03072849549213238
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 100, c: 10
+tree_num: 16
+acc: 0.7382469 0.03710961389734471
+auc: 0.7921773 0.03710961389734471
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 100, c: 100
+tree_num: 10
+acc: 0.7354549 0.04597644274462739
+auc: 0.7836885 0.04597644274462739
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 300, c: 1
+tree_num: 114
+acc: 0.7704512000000001 0.03540362945928002
+auc: 0.8355178999999999 0.03540362945928002
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 300, c: 10
+tree_num: 30
+acc: 0.7646547 0.037107236949279844
+auc: 0.8127867 0.037107236949279844
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 300, c: 100
+tree_num: 42
+acc: 0.7778055 0.02887230162699192
+auc: 0.8283594000000001 0.02887230162699192
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 500, c: 1
+tree_num: 133
+acc: 0.7791902 0.03889168875736819
+auc: 0.83897 0.03889168875736819
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 500, c: 10
+tree_num: 133
+acc: 0.7763342 0.03976859189875851
+auc: 0.8381637000000002 0.03976859189875851
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 500, c: 100
+tree_num: 76
+acc: 0.7793388 0.0324114696371516
+auc: 0.8360344 0.0324114696371516
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 100, c: 1
+tree_num: 191
+acc: 0.7629715 0.03630513673297484
+auc: 0.824759 0.03630513673297484
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 100, c: 10
+tree_num: 25
+acc: 0.742744 0.04019643094056984
+auc: 0.8097002 0.04019643094056984
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 100, c: 100
+tree_num: 450
+acc: 0.7340464 0.03492317108010095
+auc: 0.7919931 0.03492317108010095
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 300, c: 1
+tree_num: 76
+acc: 0.7820472 0.034970129585261765
+auc: 0.8312087 0.034970129585261765
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 300, c: 10
+tree_num: 29
+acc: 0.7720278 0.04226714132384637
+auc: 0.8276241000000001 0.04226714132384637
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 300, c: 100
+tree_num: 196
+acc: 0.7630562000000001 0.042259082173658244
+auc: 0.8230938 0.042259082173658244
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 500, c: 1
+tree_num: 199
+acc: 0.7821526 0.0493563830867903
+auc: 0.8324987 0.0493563830867903
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 500, c: 10
+tree_num: 131
+acc: 0.7777836 0.04371974277188739
+auc: 0.8419905999999999 0.04371974277188739
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 500, c: 100
+tree_num: 25
+acc: 0.7865017 0.02541263086124694
+auc: 0.8341931 0.02541263086124694
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 100, c: 1
+tree_num: 425
+acc: 0.7616276 0.04370712671224226
+auc: 0.8186604 0.04370712671224226
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 100, c: 10
+tree_num: 406
+acc: 0.7442551999999999 0.037256971313433404
+auc: 0.7930255 0.037256971313433404
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 100, c: 100
+tree_num: 65
+acc: 0.7470484 0.044380897127142424
+auc: 0.7953603 0.044380897127142424
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 300, c: 1
+tree_num: 20
+acc: 0.774927 0.037087947816507726
+auc: 0.8278644 0.037087947816507726
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 300, c: 10
+tree_num: 15
+acc: 0.7573225000000001 0.03940554407199576
+auc: 0.8255376999999999 0.03940554407199576
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 300, c: 100
+tree_num: 459
+acc: 0.7630769 0.042017150932089624
+auc: 0.8110744999999999 0.042017150932089624
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 500, c: 1
+tree_num: 241
+acc: 0.7749051 0.042805714478443176
+auc: 0.8313233 0.042805714478443176
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 500, c: 10
+tree_num: 161
+acc: 0.7689805999999999 0.04463600326922204
+auc: 0.8250014999999999 0.04463600326922204
+# maxpat: 6, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 500, c: 100
+tree_num: 155
+acc: 0.780724 0.04636748558861049
+auc: 0.8304083 0.04636748558861049
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 100, c: 1
+tree_num: 26
+acc: 0.7601365000000001 0.035920063064532604
+auc: 0.8152108 0.035920063064532604
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 100, c: 10
+tree_num: 343
+acc: 0.7382447999999999 0.038496193256087025
+auc: 0.7968413 0.038496193256087025
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 100, c: 100
+tree_num: 27
+acc: 0.7382675000000001 0.03626209524572457
+auc: 0.8035797 0.03626209524572457
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 300, c: 1
+tree_num: 144
+acc: 0.7719438000000001 0.03670790939688611
+auc: 0.8370229 0.03670790939688611
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 300, c: 10
+tree_num: 55
+acc: 0.7601583999999999 0.03936220363241876
+auc: 0.824387 0.03936220363241876
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 300, c: 100
+tree_num: 59
+acc: 0.7661039000000001 0.03625529146207489
+auc: 0.825204 0.03625529146207489
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 500, c: 1
+tree_num: 397
+acc: 0.7761649 0.03498749746538039
+auc: 0.8338701000000001 0.03498749746538039
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 500, c: 10
+tree_num: 303
+acc: 0.7659127000000001 0.04100721714576594
+auc: 0.8334086 0.04100721714576594
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 500, c: 100
+tree_num: 70
+acc: 0.7733296999999999 0.03437644515493129
+auc: 0.8307971000000001 0.03437644515493129
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 100, c: 1
+tree_num: 404
+acc: 0.7571518 0.041482732781363385
+auc: 0.8101593000000001 0.041482732781363385
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 100, c: 10
+tree_num: 65
+acc: 0.7631616 0.04604316069298458
+auc: 0.813264 0.04604316069298458
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 100, c: 100
+tree_num: 453
+acc: 0.7512489 0.038532633399366835
+auc: 0.8051461 0.038532633399366835
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 300, c: 1
+tree_num: 31
+acc: 0.7587292 0.043019404594787196
+auc: 0.8117459 0.043019404594787196
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 300, c: 10
+tree_num: 84
+acc: 0.7615649999999998 0.03207862095789032
+auc: 0.8255268000000001 0.03207862095789032
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 300, c: 100
+tree_num: 12
+acc: 0.7704305 0.03291603051462919
+auc: 0.8151386 0.03291603051462919
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 500, c: 1
+tree_num: 287
+acc: 0.7791262 0.043620502661477885
+auc: 0.8364326 0.043620502661477885
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 500, c: 10
+tree_num: 155
+acc: 0.7659760999999999 0.04064891751031017
+auc: 0.8267738 0.04064891751031017
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 500, c: 100
+tree_num: 13
+acc: 0.7675113 0.026163714575724896
+auc: 0.814861 0.026163714575724896
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 100, c: 1
+tree_num: 97
+acc: 0.7602623999999999 0.03828056927685377
+auc: 0.8079738000000001 0.03828056927685377
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 100, c: 10
+tree_num: 270
+acc: 0.7483923000000001 0.033127561430929375
+auc: 0.7917592 0.033127561430929375
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 100, c: 100
+tree_num: 130
+acc: 0.7542538999999999 0.034506262101972156
+auc: 0.8103814999999999 0.034506262101972156
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 300, c: 1
+tree_num: 47
+acc: 0.7586438 0.04738776933228657
+auc: 0.8131031 0.04738776933228657
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 300, c: 10
+tree_num: 100
+acc: 0.7572153 0.04683001983439681
+auc: 0.8178991 0.04683001983439681
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 300, c: 100
+tree_num: 96
+acc: 0.7659554 0.04116251754217663
+auc: 0.8281237000000001 0.04116251754217663
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 500, c: 1
+tree_num: 150
+acc: 0.7733498000000001 0.042029785495645816
+auc: 0.8381507000000001 0.042029785495645816
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 500, c: 10
+tree_num: 449
+acc: 0.7615851 0.04563985659103235
+auc: 0.8236135000000001 0.04563985659103235
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 500, c: 100
+tree_num: 36
+acc: 0.7616063000000001 0.03994433025599504
+auc: 0.8242430000000001 0.03994433025599504
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 100, c: 1
+tree_num: 110
+acc: 0.7601364 0.04509972018859985
+auc: 0.8184921 0.04509972018859985
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 100, c: 10
+tree_num: 494
+acc: 0.7455565 0.03615976155562977
+auc: 0.8112358000000001 0.03615976155562977
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 100, c: 100
+tree_num: 338
+acc: 0.748477 0.04013994803633906
+auc: 0.8040521999999999 0.04013994803633906
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 300, c: 1
+tree_num: 4
+acc: 0.7559773999999999 0.02752634144324305
+auc: 0.8104855000000001 0.02752634144324305
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 300, c: 10
+tree_num: 44
+acc: 0.752932 0.04581996491061511
+auc: 0.8105892999999998 0.04581996491061511
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 300, c: 100
+tree_num: 42
+acc: 0.7585384999999999 0.03764468960172204
+auc: 0.8113396999999999 0.03764468960172204
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 500, c: 1
+tree_num: 87
+acc: 0.7615011 0.04629753487994798
+auc: 0.8195392 0.04629753487994798
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 500, c: 10
+tree_num: 168
+acc: 0.7645902 0.044390428920658115
+auc: 0.8265962 0.044390428920658115
+# maxpat: 6, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 500, c: 100
+tree_num: 138
+acc: 0.7557872999999999 0.05582328156325101
+auc: 0.8153641 0.05582328156325101
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 100, c: 1
+tree_num: 110
+acc: 0.7572371999999998 0.03271436859240907
+auc: 0.820832 0.03271436859240907
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 100, c: 10
+tree_num: 201
+acc: 0.7513970000000001 0.03705934085503951
+auc: 0.8107897000000002 0.03705934085503951
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 100, c: 100
+tree_num: 200
+acc: 0.7529942000000001 0.03598966915880167
+auc: 0.8067372 0.03598966915880167
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 300, c: 1
+tree_num: 104
+acc: 0.7601576 0.03892222861103923
+auc: 0.8292255000000001 0.03892222861103923
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 300, c: 10
+tree_num: 316
+acc: 0.7659341 0.04382369036947938
+auc: 0.829027 0.04382369036947938
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 300, c: 100
+tree_num: 421
+acc: 0.7673626 0.04067790560685248
+auc: 0.8230208000000001 0.04067790560685248
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 500, c: 1
+tree_num: 73
+acc: 0.7615436 0.0480767907790235
+auc: 0.8174277 0.0480767907790235
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 500, c: 10
+tree_num: 185
+acc: 0.7673626 0.05011364715564015
+auc: 0.8296673999999999 0.05011364715564015
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 500, c: 100
+tree_num: 395
+acc: 0.7659547999999999 0.056197530967205325
+auc: 0.8196453 0.056197530967205325
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 100, c: 1
+tree_num: 438
+acc: 0.7529087999999999 0.04552553689183687
+auc: 0.8168119 0.04552553689183687
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 100, c: 10
+tree_num: 28
+acc: 0.7485415000000001 0.032907555996153824
+auc: 0.8085716 0.032907555996153824
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 100, c: 100
+tree_num: 34
+acc: 0.7617117999999999 0.032827618958584256
+auc: 0.8134610999999999 0.032827618958584256
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 300, c: 1
+tree_num: 383
+acc: 0.7585794 0.0519142931547758
+auc: 0.8248692 0.0519142931547758
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 300, c: 10
+tree_num: 51
+acc: 0.7673621 0.05124827040203407
+auc: 0.827242 0.05124827040203407
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 300, c: 100
+tree_num: 321
+acc: 0.7616056999999999 0.054233335592142974
+auc: 0.8195265 0.054233335592142974
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 500, c: 1
+tree_num: 235
+acc: 0.7646749 0.05075408073248889
+auc: 0.8328650000000002 0.05075408073248889
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 500, c: 10
+tree_num: 442
+acc: 0.7659967000000001 0.05540833763830133
+auc: 0.8320415999999999 0.05540833763830133
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 500, c: 100
+tree_num: 498
+acc: 0.7571945 0.05884138813590313
+auc: 0.8217967999999999 0.05884138813590313
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 100, c: 1
+tree_num: 141
+acc: 0.7586853 0.04513388232237508
+auc: 0.8099611 0.04513388232237508
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 100, c: 10
+tree_num: 41
+acc: 0.7558305000000001 0.051939662669389756
+auc: 0.8202633 0.051939662669389756
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 100, c: 100
+tree_num: 58
+acc: 0.7586859 0.04340801144719717
+auc: 0.819148 0.04340801144719717
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 300, c: 1
+tree_num: 222
+acc: 0.7629709 0.055359288319937784
+auc: 0.8279838999999999 0.055359288319937784
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 300, c: 10
+tree_num: 415
+acc: 0.7528036 0.050449243408003636
+auc: 0.8180994 0.050449243408003636
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 300, c: 100
+tree_num: 406
+acc: 0.7615209999999999 0.05938761752284731
+auc: 0.8180104 0.05938761752284731
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 500, c: 1
+tree_num: 474
+acc: 0.7571944 0.04759797518056834
+auc: 0.8266500999999999 0.04759797518056834
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 500, c: 10
+tree_num: 61
+acc: 0.7572366 0.05151531465583802
+auc: 0.8251371000000001 0.05151531465583802
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 500, c: 100
+tree_num: 407
+acc: 0.7499884000000001 0.05590395113084584
+auc: 0.8257824000000001 0.05590395113084584
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 100, c: 1
+tree_num: 381
+acc: 0.7528675 0.03366748945867511
+auc: 0.8226804999999999 0.03366748945867511
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 100, c: 10
+tree_num: 8
+acc: 0.7544432999999999 0.035652519296678044
+auc: 0.8055350000000001 0.035652519296678044
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 100, c: 100
+tree_num: 285
+acc: 0.7543374 0.04908338512623187
+auc: 0.8217745000000001 0.04908338512623187
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 300, c: 1
+tree_num: 230
+acc: 0.7468790000000001 0.05992391342894755
+auc: 0.8170324000000001 0.05992391342894755
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 300, c: 10
+tree_num: 492
+acc: 0.7557661 0.05715397586423888
+auc: 0.8229059000000001 0.05715397586423888
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 300, c: 100
+tree_num: 393
+acc: 0.7469639000000001 0.056841013401328466
+auc: 0.8141669 0.056841013401328466
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 500, c: 1
+tree_num: 254
+acc: 0.7602412000000001 0.04594111727026237
+auc: 0.8305116 0.04594111727026237
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 500, c: 10
+tree_num: 499
+acc: 0.7454724 0.06392317299923399
+auc: 0.8230499 0.06392317299923399
+# maxpat: 6, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 500, c: 100
+tree_num: 445
+acc: 0.7630342999999999 0.05364318517426046
+auc: 0.8216694 0.05364318517426046
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 100, c: 1
+tree_num: 294
+acc: 0.7617123 0.033326735040204586
+auc: 0.8246256000000001 0.033326735040204586
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 100, c: 10
+tree_num: 49
+acc: 0.7354334 0.04375771314008537
+auc: 0.7890775000000001 0.04375771314008537
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 100, c: 100
+tree_num: 68
+acc: 0.7354543 0.03992503982415048
+auc: 0.7904351999999999 0.03992503982415048
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 300, c: 1
+tree_num: 496
+acc: 0.7763548999999998 0.040939397210511055
+auc: 0.8397238000000001 0.040939397210511055
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 300, c: 10
+tree_num: 409
+acc: 0.7645901999999999 0.034574294880011645
+auc: 0.8361215 0.034574294880011645
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 300, c: 100
+tree_num: 277
+acc: 0.7646115 0.0314776034468954
+auc: 0.8341761999999999 0.0314776034468954
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 500, c: 1
+tree_num: 468
+acc: 0.7851997000000001 0.04048763786688476
+auc: 0.8424784000000001 0.04048763786688476
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 500, c: 10
+tree_num: 256
+acc: 0.7749482000000001 0.031102353199717846
+auc: 0.8399452000000001 0.031102353199717846
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.1, iteration: 500, c: 100
+tree_num: 269
+acc: 0.7705151000000001 0.033621443614009205
+auc: 0.8336030999999998 0.033621443614009205
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 100, c: 1
+tree_num: 34
+acc: 0.7631623000000001 0.03799485250346419
+auc: 0.8173792000000001 0.03799485250346419
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 100, c: 10
+tree_num: 25
+acc: 0.7397594000000001 0.027897949201330197
+auc: 0.8002606 0.027897949201330197
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 100, c: 100
+tree_num: 271
+acc: 0.7265247000000001 0.03214125483922493
+auc: 0.7903513999999999 0.03214125483922493
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 300, c: 1
+tree_num: 168
+acc: 0.7792529000000001 0.03784093353023943
+auc: 0.8418214 0.03784093353023943
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 300, c: 10
+tree_num: 37
+acc: 0.7573011999999999 0.032673850043115515
+auc: 0.8242424000000002 0.032673850043115515
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 300, c: 100
+tree_num: 43
+acc: 0.7806827999999999 0.033571501339826886
+auc: 0.8323316999999999 0.033571501339826886
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 500, c: 1
+tree_num: 288
+acc: 0.7850513 0.04468174669649789
+auc: 0.8376455 0.04468174669649789
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 500, c: 10
+tree_num: 258
+acc: 0.7835386 0.043978075193896356
+auc: 0.8416181999999999 0.043978075193896356
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.4, iteration: 500, c: 100
+tree_num: 311
+acc: 0.7777196 0.03938905779832769
+auc: 0.8432226 0.03938905779832769
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 100, c: 1
+tree_num: 19
+acc: 0.7557678999999999 0.038707637277415934
+auc: 0.8172149999999998 0.038707637277415934
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 100, c: 10
+tree_num: 399
+acc: 0.7383102 0.03549384207450638
+auc: 0.7946853 0.03549384207450638
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 100, c: 100
+tree_num: 424
+acc: 0.7324691999999999 0.03939002051801952
+auc: 0.7917333 0.03939002051801952
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 300, c: 1
+tree_num: 112
+acc: 0.7836233 0.04074062242038038
+auc: 0.83163 0.04074062242038038
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 300, c: 10
+tree_num: 20
+acc: 0.7646968000000001 0.034491324684476805
+auc: 0.8160339000000001 0.034491324684476805
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 300, c: 100
+tree_num: 14
+acc: 0.7602856 0.03887075216470604
+auc: 0.8104535 0.03887075216470604
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 500, c: 1
+tree_num: 187
+acc: 0.7806814 0.045479054769860805
+auc: 0.8424251999999999 0.045479054769860805
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 500, c: 10
+tree_num: 23
+acc: 0.7895057 0.02671955372924481
+auc: 0.8373948999999999 0.02671955372924481
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 0.7, iteration: 500, c: 100
+tree_num: 71
+acc: 0.7879729999999998 0.03313894967013891
+auc: 0.8404316 0.03313894967013891
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 100, c: 1
+tree_num: 153
+acc: 0.7646535999999999 0.03568156680976889
+auc: 0.8178849999999999 0.03568156680976889
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 100, c: 10
+tree_num: 499
+acc: 0.7499464 0.039116280877532314
+auc: 0.7979219000000001 0.039116280877532314
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 100, c: 100
+tree_num: 106
+acc: 0.7469004 0.04087984390870397
+auc: 0.793353 0.04087984390870397
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 300, c: 1
+tree_num: 443
+acc: 0.7690013 0.053530711228602215
+auc: 0.8305804 0.053530711228602215
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 300, c: 10
+tree_num: 15
+acc: 0.7704519000000001 0.038673389735062035
+auc: 0.8311150000000002 0.038673389735062035
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 300, c: 100
+tree_num: 494
+acc: 0.7586438 0.04354969390983133
+auc: 0.8113856 0.04354969390983133
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 500, c: 1
+tree_num: 136
+acc: 0.7704926999999999 0.050847637062994375
+auc: 0.8177299000000001 0.050847637062994375
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 500, c: 10
+tree_num: 164
+acc: 0.7807662000000001 0.048919252547437786
+auc: 0.8234600000000001 0.048919252547437786
+# maxpat: 8, minsup: 1, depth: 1, shrinkage: 1.0, iteration: 500, c: 100
+tree_num: 458
+acc: 0.7762276000000001 0.04634446880707556
+auc: 0.8253793 0.04634446880707556
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 100, c: 1
+tree_num: 33
+acc: 0.763141 0.03705124949593468
+auc: 0.8152283 0.03705124949593468
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 100, c: 10
+tree_num: 414
+acc: 0.7440433000000001 0.03856344433125754
+auc: 0.8027481 0.03856344433125754
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 100, c: 100
+tree_num: 231
+acc: 0.7397161999999999 0.03493307929398724
+auc: 0.8006162 0.03493307929398724
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 300, c: 1
+tree_num: 58
+acc: 0.7719644 0.032709943519364244
+auc: 0.8283306000000001 0.032709943519364244
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 300, c: 10
+tree_num: 48
+acc: 0.7601796999999999 0.0310807273113098
+auc: 0.8218650000000001 0.0310807273113098
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 300, c: 100
+tree_num: 69
+acc: 0.7646121 0.03159339253324974
+auc: 0.8248442 0.03159339253324974
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 500, c: 1
+tree_num: 373
+acc: 0.7776137000000001 0.04433073458177748
+auc: 0.8386788 0.04433073458177748
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 500, c: 10
+tree_num: 418
+acc: 0.7673408 0.03252575947399231
+auc: 0.8328268 0.03252575947399231
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.1, iteration: 500, c: 100
+tree_num: 482
+acc: 0.7717526 0.03755566004545787
+auc: 0.8358755 0.03755566004545787
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 100, c: 1
+tree_num: 150
+acc: 0.7571739 0.04395182425349374
+auc: 0.8166327000000001 0.04395182425349374
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 100, c: 10
+tree_num: 363
+acc: 0.7587698 0.04210507143278587
+auc: 0.8089898 0.04210507143278587
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 100, c: 100
+tree_num: 377
+acc: 0.7513754999999999 0.03896363633132823
+auc: 0.8030128 0.03896363633132823
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 300, c: 1
+tree_num: 136
+acc: 0.7733076999999999 0.04166485578710192
+auc: 0.8285848 0.04166485578710192
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 300, c: 10
+tree_num: 403
+acc: 0.7687906 0.03866431969348485
+auc: 0.8179508 0.03866431969348485
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 300, c: 100
+tree_num: 287
+acc: 0.7660395 0.033650932242064245
+auc: 0.8246672 0.033650932242064245
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 500, c: 1
+tree_num: 143
+acc: 0.7718999 0.037821069356114186
+auc: 0.8360714 0.037821069356114186
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 500, c: 10
+tree_num: 227
+acc: 0.7732651 0.037400376583665566
+auc: 0.836002 0.037400376583665566
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.4, iteration: 500, c: 100
+tree_num: 12
+acc: 0.7719017999999999 0.030868713300686832
+auc: 0.8162826000000001 0.030868713300686832
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 100, c: 1
+tree_num: 229
+acc: 0.7601570000000001 0.040451328015282756
+auc: 0.815935 0.040451328015282756
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 100, c: 10
+tree_num: 65
+acc: 0.7514388999999999 0.03907607051329496
+auc: 0.8068388000000001 0.03907607051329496
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 100, c: 100
+tree_num: 221
+acc: 0.7484976999999999 0.02469814086302852
+auc: 0.8032619000000001 0.02469814086302852
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 300, c: 1
+tree_num: 32
+acc: 0.7631635000000001 0.0470720411603321
+auc: 0.822455 0.0470720411603321
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 300, c: 10
+tree_num: 147
+acc: 0.7645055000000001 0.03276027133419379
+auc: 0.8287219 0.03276027133419379
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 300, c: 100
+tree_num: 50
+acc: 0.7558512 0.03552888911646408
+auc: 0.8129394999999999 0.03552888911646408
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 500, c: 1
+tree_num: 59
+acc: 0.780724 0.040043092334259095
+auc: 0.8405891000000001 0.040043092334259095
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 500, c: 10
+tree_num: 153
+acc: 0.7660606999999999 0.040876643209661924
+auc: 0.8226199 0.040876643209661924
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 0.7, iteration: 500, c: 100
+tree_num: 263
+acc: 0.7673816 0.042178831105188296
+auc: 0.8267899999999999 0.042178831105188296
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 100, c: 1
+tree_num: 284
+acc: 0.7526974999999999 0.04025928303000439
+auc: 0.8096941 0.04025928303000439
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 100, c: 10
+tree_num: 320
+acc: 0.7544014 0.03359014605818199
+auc: 0.8197462999999999 0.03359014605818199
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 100, c: 100
+tree_num: 8
+acc: 0.7454723999999999 0.03811992180789463
+auc: 0.7942056000000001 0.03811992180789463
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 300, c: 1
+tree_num: 44
+acc: 0.7528253 0.04679940533211935
+auc: 0.8113963999999999 0.04679940533211935
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 300, c: 10
+tree_num: 195
+acc: 0.7543582000000001 0.030291378353584374
+auc: 0.8128882 0.030291378353584374
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 300, c: 100
+tree_num: 330
+acc: 0.7440867000000001 0.049531436692771186
+auc: 0.8173144999999999 0.049531436692771186
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 500, c: 1
+tree_num: 62
+acc: 0.7747996 0.04234123673028459
+auc: 0.8356165000000001 0.04234123673028459
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 500, c: 10
+tree_num: 416
+acc: 0.7572353000000001 0.044252226841143265
+auc: 0.823319 0.044252226841143265
+# maxpat: 8, minsup: 1, depth: 3, shrinkage: 1.0, iteration: 500, c: 100
+tree_num: 207
+acc: 0.7660175 0.038321838709670486
+auc: 0.8344769 0.038321838709670486
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 100, c: 1
+tree_num: 12
+acc: 0.7542114000000001 0.030560308192817687
+auc: 0.8078673999999999 0.030560308192817687
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 100, c: 10
+tree_num: 184
+acc: 0.7485611000000001 0.03421722028759787
+auc: 0.8100777000000001 0.03421722028759787
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 100, c: 100
+tree_num: 349
+acc: 0.7529095 0.03911296148388665
+auc: 0.8112695999999999 0.03911296148388665
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 300, c: 1
+tree_num: 137
+acc: 0.7601570000000001 0.04637470676564976
+auc: 0.827314 0.04637470676564976
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 300, c: 10
+tree_num: 331
+acc: 0.7659554000000001 0.043206590888428126
+auc: 0.825329 0.043206590888428126
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 300, c: 100
+tree_num: 285
+acc: 0.7688752000000001 0.0452301262306441
+auc: 0.8291796 0.0452301262306441
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 500, c: 1
+tree_num: 479
+acc: 0.7673827 0.04812214330471992
+auc: 0.8295956 0.04812214330471992
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 500, c: 10
+tree_num: 214
+acc: 0.7527619999999999 0.04916291656889368
+auc: 0.8250041999999999 0.04916291656889368
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.1, iteration: 500, c: 100
+tree_num: 299
+acc: 0.7557027 0.050784265418434484
+auc: 0.8271118999999999 0.050784265418434484
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 100, c: 1
+tree_num: 73
+acc: 0.7630975999999999 0.036970439454380305
+auc: 0.8189455000000001 0.036970439454380305
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 100, c: 10
+tree_num: 20
+acc: 0.7485415 0.03572868181447506
+auc: 0.8131110000000001 0.03572868181447506
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 100, c: 100
+tree_num: 103
+acc: 0.7573218999999999 0.0432884397433079
+auc: 0.8108007 0.0432884397433079
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 300, c: 1
+tree_num: 499
+acc: 0.7703665000000001 0.054453977227471625
+auc: 0.8278729 0.054453977227471625
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 300, c: 10
+tree_num: 477
+acc: 0.7702807 0.051731935135368744
+auc: 0.8254945000000001 0.051731935135368744
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 300, c: 100
+tree_num: 156
+acc: 0.7586651 0.054940404959919975
+auc: 0.8121592 0.054940404959919975
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 500, c: 1
+tree_num: 320
+acc: 0.7542741 0.054512915031302435
+auc: 0.8281347 0.054512915031302435
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 500, c: 10
+tree_num: 457
+acc: 0.7587059999999999 0.05629619738854481
+auc: 0.8265637 0.05629619738854481
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.4, iteration: 500, c: 100
+tree_num: 482
+acc: 0.7718157999999999 0.05000667038146009
+auc: 0.8340434 0.05000667038146009
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 100, c: 1
+tree_num: 31
+acc: 0.7645474 0.04996330156064549
+auc: 0.8186254 0.04996330156064549
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 100, c: 10
+tree_num: 22
+acc: 0.7529714999999999 0.042384929281644425
+auc: 0.8104286999999999 0.042384929281644425
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 100, c: 100
+tree_num: 93
+acc: 0.7574048 0.04728367209819896
+auc: 0.8161809 0.04728367209819896
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 300, c: 1
+tree_num: 449
+acc: 0.7556174 0.054534045480690324
+auc: 0.8239791000000001 0.054534045480690324
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 300, c: 10
+tree_num: 431
+acc: 0.762929 0.05705139140494296
+auc: 0.8327244 0.05705139140494296
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 300, c: 100
+tree_num: 468
+acc: 0.7542741000000002 0.047301528462090944
+auc: 0.8145814999999998 0.047301528462090944
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 500, c: 1
+tree_num: 30
+acc: 0.7747784000000001 0.05521326204717485
+auc: 0.8274840999999998 0.05521326204717485
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 500, c: 10
+tree_num: 18
+acc: 0.7542328 0.0359522233372291
+auc: 0.8178540999999999 0.0359522233372291
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 0.7, iteration: 500, c: 100
+tree_num: 227
+acc: 0.7602616999999998 0.055800239168035816
+auc: 0.8317962999999999 0.055800239168035816
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 100, c: 1
+tree_num: 439
+acc: 0.7632242 0.04926540284712995
+auc: 0.8250890999999999 0.04926540284712995
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 100, c: 10
+tree_num: 24
+acc: 0.7485825 0.04504214097886555
+auc: 0.8028502000000002 0.04504214097886555
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 100, c: 100
+tree_num: 245
+acc: 0.7456405 0.035964347250575825
+auc: 0.8026802 0.035964347250575825
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 300, c: 1
+tree_num: 254
+acc: 0.7600929999999999 0.05617934015854941
+auc: 0.8333035000000001 0.05617934015854941
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 300, c: 10
+tree_num: 276
+acc: 0.7616056999999999 0.05806645198985383
+auc: 0.8187631 0.05806645198985383
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 300, c: 100
+tree_num: 402
+acc: 0.7630775 0.053851243728348555
+auc: 0.8180248999999999 0.053851243728348555
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 500, c: 1
+tree_num: 222
+acc: 0.7601771999999999 0.05774222656115712
+auc: 0.8298584000000002 0.05774222656115712
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 500, c: 10
+tree_num: 318
+acc: 0.7470472 0.049939692053616015
+auc: 0.8156237000000001 0.049939692053616015
+# maxpat: 8, minsup: 1, depth: 5, shrinkage: 1.0, iteration: 500, c: 100
+tree_num: 492
+acc: 0.7587266999999999 0.045352954853680724
+auc: 0.8282092000000001 0.045352954853680724
