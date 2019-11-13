@@ -1,0 +1,8 @@
+# maxpat: 10, minsup: 1, depth: 3, tree_num: 100
+acc: 0.789474
+auc: 0.807553
+time: 32497.584
+features size: 409.0
+cache size: 1628066.0
+gain count: 267916787.0
+bound count: 267916787.0

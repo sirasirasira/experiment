@@ -58,8 +58,8 @@ do
 				for idx in 0 1 2 3 4 5 6 7 8 9
 				do
 					../../../bin/gtb_correct -x ${x} -m ${m} -d ${d} -s ${s} -t 500 ../../../data/${data}_buckets/train${idx}.gsp ../../../data/${data}_buckets/test${idx}.gsp > ./model
-					grep testacc ./model | cut -d " " -f 4 >> ./gtb_acc
-					grep testauc ./model | cut -d " " -f 4 >> ./gtb_auc
+					grep -a testacc ./model | cut -d " " -f 4 >> ./gtb_acc
+					grep -a testauc ./model | cut -d " " -f 4 >> ./gtb_auc
 				done
 				python ../../../bin/grid_search/gtb_mean.py ./gtb_acc ./gtb_auc >> ./gtb_correct
 			done
@@ -88,8 +88,8 @@ do
 							for idx in 0 1 2 3 4 5 6 7 8 9
 							do
 								../../../bin/gtb_bandit -x ${x} -m ${m} -d ${d} -s ${s} -i ${i} -c ${c} -t 500 ../../../data/${data}_buckets/train${idx}.gsp ../../../data/${data}_buckets/test${idx}.gsp > ./model
-								grep testacc ./model | cut -d " " -f 4 >> ./gtb_acc
-								grep testauc ./model | cut -d " " -f 4 >> ./gtb_auc
+								grep -a testacc ./model | cut -d " " -f 4 >> ./gtb_acc
+								grep -a testauc ./model | cut -d " " -f 4 >> ./gtb_auc
 							done
 							python ../../../bin/grid_search/gtb_mean.py ./gtb_acc ./gtb_auc >> ./gtb_bandit
 					done

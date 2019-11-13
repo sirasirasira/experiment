@@ -1,0 +1,5842 @@
+train_file : ../../../../../data/aids_ca_vs_cm_buckets/train0.gsp , size 1351
+test_file : ../../../../../data/aids_ca_vs_cm_buckets/test0.gsp , size 152
+ minsup (min_node_size) 1 maxpat 10 num_of_trees 100 shrinkage 1 needed_impurity_decrease 0 max_depth 3 iteration 10 threshold 1 exploration_strength 1 stopping_rate 0.9 UCB:bound_rate 0
+1 edge graphs size: 83
+BEGIN_tree
+---* [61] 0.822597
+--* (2) 1 (0f3)
+---* [3] -0.587239
+-* (1) 2 (0f2)
+---* [11] -0.587239
+--* (2) 1 (0f3)
+---* [3] 0.0794272
+* (1) 1 (0f6)
+---* [190] 0.32855
+--* (1) 1 (0f4)
+---* [7] -0.587239
+-* (0) 1 (0f1)
+---* [89] 0.356581
+--* (0) 2 (0f2)
+---* [987] -0.169813
+END_tree
+REPORT 1 FI (0) 1 (0f1) : 29.6931
+REPORT 1 FI (0) 2 (0f2) : 22.6212
+REPORT 1 FI (1) 1 (0f4) : 5.66209
+REPORT 1 FI (1) 1 (0f6) : 26.6257
+REPORT 1 FI (1) 2 (0f2) : 16.5662
+REPORT 1 FI (2) 1 (0f3) : 6.73102
+REPORT 1 used_features 6
+REPORT 1 trainacc 0.737972
+REPORT 1 trainauc 0.652818
+REPORT 1 trainloss_mean 0.548395
+REPORT 1 testacc 0.723684
+REPORT 1 testauc 0.630894
+REPORT 1 testloss_mean 0.565421
+REPORT 1 cache_size 117
+REPORT 1 gain_count 357
+REPORT 1 bound_count 287
+BEGIN_tree
+---* [2] -0.917832
+--* (0) 2 (0f2)
+---* [16] -0.442435
+-* (0) 1 (0f0)
+---* [72] -0.177923
+--* (1) 1 (0f3)
+---* [807] 0.0884371
+* (1) 1 (0f2)
+---* [29] 0.655892
+--* (0) 2 (0f1)
+---* [20] -0.379809
+-* (1) 1 (0f3)
+---* [35] -0.515452
+--* (0) 2 (0f2)
+---* [370] -0.207321
+END_tree
+REPORT 2 FI (0) 1 (0f0) : 5.56866
+REPORT 2 FI (0) 1 (0f1) : 29.6931
+REPORT 2 FI (0) 2 (0f1) : 12.697
+REPORT 2 FI (0) 2 (0f2) : 26.0589
+REPORT 2 FI (1) 1 (0f2) : 17.2009
+REPORT 2 FI (1) 1 (0f3) : 14.2271
+REPORT 2 FI (1) 1 (0f4) : 5.66209
+REPORT 2 FI (1) 1 (0f6) : 26.6257
+REPORT 2 FI (1) 2 (0f2) : 16.5662
+REPORT 2 FI (2) 1 (0f3) : 6.73102
+REPORT 2 used_features 10
+REPORT 2 trainacc 0.746854
+REPORT 2 trainauc 0.730639
+REPORT 2 trainloss_mean 0.524058
+REPORT 2 testacc 0.736842
+REPORT 2 testauc 0.719117
+REPORT 2 testloss_mean 0.546157
+REPORT 2 cache_size 153
+REPORT 2 gain_count 687
+REPORT 2 bound_count 547
+BEGIN_tree
+---* [2] -1.04711
+--* (0) 1 (0f3)
+---* [1] -0.217734
+-* (1) 1 (0f3)
+---* [4] -0.0445991
+--* (0) 1 (0f1)
+---* [51] -0.301665
+* (0) 1 (0f0)
+---* [21] -0.106356
+--* (1) 2 (0f2)
+---* [45] -0.33207
+-* (0) 1 (0f4)
+---* [4] -0.855539
+--* (1) 1 (0f18)
+---* [1223] 0.0141245
+END_tree
+REPORT 3 FI (0) 1 (0f0) : 10.7536
+REPORT 3 FI (0) 1 (0f1) : 29.9382
+REPORT 3 FI (0) 1 (0f3) : 0.458576
+REPORT 3 FI (0) 1 (0f4) : 4.61808
+REPORT 3 FI (0) 2 (0f1) : 12.697
+REPORT 3 FI (0) 2 (0f2) : 26.0589
+REPORT 3 FI (1) 1 (0f2) : 17.2009
+REPORT 3 FI (1) 1 (0f3) : 14.9037
+REPORT 3 FI (1) 1 (0f4) : 5.66209
+REPORT 3 FI (1) 1 (0f6) : 26.6257
+REPORT 3 FI (1) 1 (0f18) : 3.0154
+REPORT 3 FI (1) 2 (0f2) : 17.2956
+REPORT 3 FI (2) 1 (0f3) : 6.73102
+REPORT 3 used_features 13
+REPORT 3 trainacc 0.749075
+REPORT 3 trainauc 0.742277
+REPORT 3 trainloss_mean 0.516207
+REPORT 3 testacc 0.743421
+REPORT 3 testauc 0.724237
+REPORT 3 testloss_mean 0.542737
+REPORT 3 cache_size 159
+REPORT 3 gain_count 1050
+REPORT 3 bound_count 846
+BEGIN_tree
+---* [2] -0.28396
+--* (0) 1 (0f0)
+---* [37] 1.06246
+-* (2) 1 (0f5)
+---* [25] -0.73378
+--* (1) 1 (0f2)
+---* [30] -0.189463
+* (0) 2 (0f2)
+---* [60] -0.279149
+--* (1) 1 (0f2)
+---* [48] 0.00723265
+-* (1) 1 (0f3)
+---* [50] -0.159754
+--* (0) 1 (0f0)
+---* [1099] -0.00493886
+END_tree
+REPORT 4 FI (0) 1 (0f0) : 15.3396
+REPORT 4 FI (0) 1 (0f1) : 29.9382
+REPORT 4 FI (0) 1 (0f3) : 0.458576
+REPORT 4 FI (0) 1 (0f4) : 4.61808
+REPORT 4 FI (0) 2 (0f1) : 12.697
+REPORT 4 FI (0) 2 (0f2) : 28.9008
+REPORT 4 FI (1) 1 (0f2) : 23.4281
+REPORT 4 FI (1) 1 (0f3) : 16.844
+REPORT 4 FI (1) 1 (0f4) : 5.66209
+REPORT 4 FI (1) 1 (0f6) : 26.6257
+REPORT 4 FI (1) 1 (0f18) : 3.0154
+REPORT 4 FI (1) 2 (0f2) : 17.2956
+REPORT 4 FI (2) 1 (0f3) : 6.73102
+REPORT 4 FI (2) 1 (0f5) : 46.6821
+REPORT 4 used_features 14
+REPORT 4 trainacc 0.77054
+REPORT 4 trainauc 0.765238
+REPORT 4 trainloss_mean 0.488944
+REPORT 4 testacc 0.75
+REPORT 4 testauc 0.729144
+REPORT 4 testloss_mean 0.52502
+REPORT 4 cache_size 191
+REPORT 4 gain_count 1402
+REPORT 4 bound_count 1128
+BEGIN_tree
+---* [9] 0.173807
+--* (1) 2 (0f2)
+---* [28] -0.1275
+-* (0) 1 (0f3)
+---* [25] -0.27167
+--* (2) 1 (0f3)
+---* [5] 0.072264
+* (0) 1 (0f4)
+---* [4] -0.793094
+--* (0) 1 (0f1)
+---* [58] -0.0639238
+-* (0) 1 (0f3)
+---* [245] 0.0511575
+--* (0) 2 (0f1)
+---* [977] -0.0114443
+END_tree
+REPORT 5 FI (0) 1 (0f0) : 15.3396
+REPORT 5 FI (0) 1 (0f1) : 31.9278
+REPORT 5 FI (0) 1 (0f3) : 1.62458
+REPORT 5 FI (0) 1 (0f4) : 5.55978
+REPORT 5 FI (0) 2 (0f1) : 13.4646
+REPORT 5 FI (0) 2 (0f2) : 28.9008
+REPORT 5 FI (1) 1 (0f2) : 23.4281
+REPORT 5 FI (1) 1 (0f3) : 16.844
+REPORT 5 FI (1) 1 (0f4) : 5.66209
+REPORT 5 FI (1) 1 (0f6) : 26.6257
+REPORT 5 FI (1) 1 (0f18) : 3.0154
+REPORT 5 FI (1) 2 (0f2) : 17.9139
+REPORT 5 FI (2) 1 (0f3) : 7.2239
+REPORT 5 FI (2) 1 (0f5) : 46.6821
+REPORT 5 used_features 14
+REPORT 5 trainacc 0.775722
+REPORT 5 trainauc 0.767008
+REPORT 5 trainloss_mean 0.485811
+REPORT 5 testacc 0.717105
+REPORT 5 testauc 0.721037
+REPORT 5 testloss_mean 0.529417
+REPORT 5 cache_size 191
+REPORT 5 gain_count 1730
+REPORT 5 bound_count 1386
+BEGIN_tree
+---* [1] 0.45025
+--* (1) 1 (0f3)
+---* [1] -0.748173
+-* (0) 1 (0f1)
+---* [1] -1.11909
+--* (1) 1 (0f3)
+---* [2] -0.251301
+* (0) 2 (0f3)
+---* [4] 0.0604167
+--* (0) 1 (0f1)
+---* [53] -0.127788
+-* (0) 1 (0f0)
+---* [66] -0.0857453
+--* (0) 1 (0f4)
+---* [1223] 0.00295167
+END_tree
+REPORT 6 FI (0) 1 (0f0) : 16.0365
+REPORT 6 FI (0) 1 (0f1) : 32.2435
+REPORT 6 FI (0) 1 (0f3) : 1.62458
+REPORT 6 FI (0) 1 (0f4) : 6.05242
+REPORT 6 FI (0) 2 (0f1) : 13.4646
+REPORT 6 FI (0) 2 (0f2) : 28.9008
+REPORT 6 FI (0) 2 (0f3) : 0.710077
+REPORT 6 FI (1) 1 (0f2) : 23.4281
+REPORT 6 FI (1) 1 (0f3) : 18.0641
+REPORT 6 FI (1) 1 (0f4) : 5.66209
+REPORT 6 FI (1) 1 (0f6) : 26.6257
+REPORT 6 FI (1) 1 (0f18) : 3.0154
+REPORT 6 FI (1) 2 (0f2) : 17.9139
+REPORT 6 FI (2) 1 (0f3) : 7.2239
+REPORT 6 FI (2) 1 (0f5) : 46.6821
+REPORT 6 used_features 15
+REPORT 6 trainacc 0.776462
+REPORT 6 trainauc 0.768081
+REPORT 6 trainloss_mean 0.483983
+REPORT 6 testacc 0.717105
+REPORT 6 testauc 0.725091
+REPORT 6 testloss_mean 0.531678
+REPORT 6 cache_size 203
+REPORT 6 gain_count 2171
+REPORT 6 bound_count 1763
+BEGIN_tree
+---* [3] 0.231138
+--* (2) 2 (0f2)
+---* [1] -0.611116
+-* (0) 1 (0f1)
+---* [17] -0.0674098
+--* (1) 1 (0f2)
+---* [37] -0.115413
+* (0) 1 (0f0)
+---* [538] -0.021884
+--* (1) 1 (0f4)
+---* [341] 0.0506565
+-* (1) 1 (0f2)
+---* [248] 0.0308649
+--* (0) 1 (0f2)
+---* [166] -0.0986783
+END_tree
+REPORT 7 FI (0) 1 (0f0) : 16.4808
+REPORT 7 FI (0) 1 (0f1) : 32.2979
+REPORT 7 FI (0) 1 (0f2) : 1.66874
+REPORT 7 FI (0) 1 (0f3) : 1.62458
+REPORT 7 FI (0) 1 (0f4) : 6.05242
+REPORT 7 FI (0) 2 (0f1) : 13.4646
+REPORT 7 FI (0) 2 (0f2) : 28.9008
+REPORT 7 FI (0) 2 (0f3) : 0.710077
+REPORT 7 FI (1) 1 (0f2) : 23.6653
+REPORT 7 FI (1) 1 (0f3) : 18.0641
+REPORT 7 FI (1) 1 (0f4) : 6.76036
+REPORT 7 FI (1) 1 (0f6) : 26.6257
+REPORT 7 FI (1) 1 (0f18) : 3.0154
+REPORT 7 FI (1) 2 (0f2) : 17.9139
+REPORT 7 FI (2) 1 (0f3) : 7.2239
+REPORT 7 FI (2) 1 (0f5) : 46.6821
+REPORT 7 FI (2) 2 (0f2) : 0.532043
+REPORT 7 used_features 17
+REPORT 7 trainacc 0.776462
+REPORT 7 trainauc 0.77675
+REPORT 7 trainloss_mean 0.481809
+REPORT 7 testacc 0.717105
+REPORT 7 testauc 0.716343
+REPORT 7 testloss_mean 0.531195
+REPORT 7 cache_size 207
+REPORT 7 gain_count 2520
+REPORT 7 bound_count 2042
+BEGIN_tree
+---* [3] 0.0747357
+--* (2) 2 (0f2)
+---* [1] -0.229482
+-* (0) 1 (0f1)
+---* [17] -0.0591732
+--* (1) 1 (0f2)
+---* [37] -0.0927577
+* (0) 1 (0f0)
+---* [12] -0.424572
+--* (0) 1 (0f1)
+---* [107] -0.00684707
+-* (1) 1 (0f3)
+---* [4] -0.54845
+--* (1) 1 (0f8)
+---* [1170] 0.00536214
+END_tree
+REPORT 8 FI (0) 1 (0f0) : 16.7952
+REPORT 8 FI (0) 1 (0f1) : 34.2051
+REPORT 8 FI (0) 1 (0f2) : 1.66874
+REPORT 8 FI (0) 1 (0f3) : 1.62458
+REPORT 8 FI (0) 1 (0f4) : 6.05242
+REPORT 8 FI (0) 2 (0f1) : 13.4646
+REPORT 8 FI (0) 2 (0f2) : 28.9008
+REPORT 8 FI (0) 2 (0f3) : 0.710077
+REPORT 8 FI (1) 1 (0f2) : 23.6784
+REPORT 8 FI (1) 1 (0f3) : 18.3613
+REPORT 8 FI (1) 1 (0f4) : 6.76036
+REPORT 8 FI (1) 1 (0f6) : 26.6257
+REPORT 8 FI (1) 1 (0f8) : 1.22265
+REPORT 8 FI (1) 1 (0f18) : 3.0154
+REPORT 8 FI (1) 2 (0f2) : 17.9139
+REPORT 8 FI (2) 1 (0f3) : 7.2239
+REPORT 8 FI (2) 1 (0f5) : 46.6821
+REPORT 8 FI (2) 2 (0f2) : 0.601455
+REPORT 8 used_features 18
+REPORT 8 trainacc 0.776462
+REPORT 8 trainauc 0.779818
+REPORT 8 trainloss_mean 0.479706
+REPORT 8 testacc 0.717105
+REPORT 8 testauc 0.716983
+REPORT 8 testloss_mean 0.532481
+REPORT 8 cache_size 209
+REPORT 8 gain_count 2893
+REPORT 8 bound_count 2345
+BEGIN_tree
+---* [3] -0.183401
+--* (2) 1 (0f3)
+---* [2] 0.579433
+-* (1) 1 (0f4)
+---* [12] -0.238951
+--* (1) 1 (0f2)
+---* [50] -0.045577
+* (0) 1 (0f4)
+---* [18] -0.0472076
+--* (1) 1 (0f4)
+---* [39] -0.0761348
+-* (0) 1 (0f0)
+---* [1] -0.37171
+--* (0) 1 (0f22)
+---* [1226] 0.00236951
+END_tree
+REPORT 9 FI (0) 1 (0f0) : 17.055
+REPORT 9 FI (0) 1 (0f1) : 34.2051
+REPORT 9 FI (0) 1 (0f2) : 1.66874
+REPORT 9 FI (0) 1 (0f3) : 1.62458
+REPORT 9 FI (0) 1 (0f4) : 6.33592
+REPORT 9 FI (0) 1 (0f22) : 0.139821
+REPORT 9 FI (0) 2 (0f1) : 13.4646
+REPORT 9 FI (0) 2 (0f2) : 28.9008
+REPORT 9 FI (0) 2 (0f3) : 0.710077
+REPORT 9 FI (1) 1 (0f2) : 24.0403
+REPORT 9 FI (1) 1 (0f3) : 18.3613
+REPORT 9 FI (1) 1 (0f4) : 6.96461
+REPORT 9 FI (1) 1 (0f6) : 26.6257
+REPORT 9 FI (1) 1 (0f8) : 1.22265
+REPORT 9 FI (1) 1 (0f18) : 3.0154
+REPORT 9 FI (1) 2 (0f2) : 17.9139
+REPORT 9 FI (2) 1 (0f3) : 7.9222
+REPORT 9 FI (2) 1 (0f5) : 46.6821
+REPORT 9 FI (2) 2 (0f2) : 0.601455
+REPORT 9 used_features 19
+REPORT 9 trainacc 0.776462
+REPORT 9 trainauc 0.780754
+REPORT 9 trainloss_mean 0.478604
+REPORT 9 testacc 0.717105
+REPORT 9 testauc 0.71805
+REPORT 9 testloss_mean 0.53491
+REPORT 9 cache_size 209
+REPORT 9 gain_count 3242
+REPORT 9 bound_count 2624
+BEGIN_tree
+---* [4] 0.1723
+--* (1) 1 (0f4)
+---* [59] -0.0531543
+-* (2) 1 (0f4)
+---* [1] -0.918009
+--* (1) 1 (0f2)
+---* [3] -0.118834
+* (0) 1 (0f4)
+---* [4] 0.00806502
+--* (0) 1 (0f1)
+---* [53] -0.0615436
+-* (0) 1 (0f0)
+---* [1] -0.373146
+--* (0) 1 (0f24)
+---* [1226] 0.000818643
+END_tree
+REPORT 10 FI (0) 1 (0f0) : 17.2331
+REPORT 10 FI (0) 1 (0f1) : 34.2231
+REPORT 10 FI (0) 1 (0f2) : 1.66874
+REPORT 10 FI (0) 1 (0f3) : 1.62458
+REPORT 10 FI (0) 1 (0f4) : 6.51831
+REPORT 10 FI (0) 1 (0f22) : 0.139821
+REPORT 10 FI (0) 1 (0f24) : 0.139736
+REPORT 10 FI (0) 2 (0f1) : 13.4646
+REPORT 10 FI (0) 2 (0f2) : 28.9008
+REPORT 10 FI (0) 2 (0f3) : 0.710077
+REPORT 10 FI (1) 1 (0f2) : 24.5193
+REPORT 10 FI (1) 1 (0f3) : 18.3613
+REPORT 10 FI (1) 1 (0f4) : 7.15502
+REPORT 10 FI (1) 1 (0f6) : 26.6257
+REPORT 10 FI (1) 1 (0f8) : 1.22265
+REPORT 10 FI (1) 1 (0f18) : 3.0154
+REPORT 10 FI (1) 2 (0f2) : 17.9139
+REPORT 10 FI (2) 1 (0f3) : 7.9222
+REPORT 10 FI (2) 1 (0f4) : 0.294432
+REPORT 10 FI (2) 1 (0f5) : 46.6821
+REPORT 10 FI (2) 2 (0f2) : 0.601455
+REPORT 10 used_features 21
+REPORT 10 trainacc 0.777202
+REPORT 10 trainauc 0.781575
+REPORT 10 trainloss_mean 0.477824
+REPORT 10 testacc 0.717105
+REPORT 10 testauc 0.71933
+REPORT 10 testloss_mean 0.533762
+REPORT 10 cache_size 209
+REPORT 10 gain_count 3584
+REPORT 10 bound_count 2902
+BEGIN_tree
+---* [3] 0.0510719
+--* (2) 2 (0f2)
+---* [1] -0.140814
+-* (0) 1 (0f1)
+---* [17] -0.0422688
+--* (1) 1 (0f2)
+---* [37] -0.0598245
+* (0) 1 (0f0)
+---* [302] 0.035763
+--* (0) 1 (0f2)
+---* [9] -0.688377
+-* (0) 2 (0f1)
+---* [732] 0.0140881
+--* (1) 2 (0f2)
+---* [250] -0.0689521
+END_tree
+REPORT 11 FI (0) 1 (0f0) : 17.3639
+REPORT 11 FI (0) 1 (0f1) : 34.2354
+REPORT 11 FI (0) 1 (0f2) : 6.25158
+REPORT 11 FI (0) 1 (0f3) : 1.62458
+REPORT 11 FI (0) 1 (0f4) : 6.51831
+REPORT 11 FI (0) 1 (0f22) : 0.139821
+REPORT 11 FI (0) 1 (0f24) : 0.139736
+REPORT 11 FI (0) 2 (0f1) : 13.5775
+REPORT 11 FI (0) 2 (0f2) : 28.9008
+REPORT 11 FI (0) 2 (0f3) : 0.710077
+REPORT 11 FI (1) 1 (0f2) : 24.5229
+REPORT 11 FI (1) 1 (0f3) : 18.3613
+REPORT 11 FI (1) 1 (0f4) : 7.15502
+REPORT 11 FI (1) 1 (0f6) : 26.6257
+REPORT 11 FI (1) 1 (0f8) : 1.22265
+REPORT 11 FI (1) 1 (0f18) : 3.0154
+REPORT 11 FI (1) 2 (0f2) : 19.199
+REPORT 11 FI (2) 1 (0f3) : 7.9222
+REPORT 11 FI (2) 1 (0f4) : 0.294432
+REPORT 11 FI (2) 1 (0f5) : 46.6821
+REPORT 11 FI (2) 2 (0f2) : 0.62907
+REPORT 11 used_features 21
+REPORT 11 trainacc 0.780903
+REPORT 11 trainauc 0.790852
+REPORT 11 trainloss_mean 0.475018
+REPORT 11 testacc 0.717105
+REPORT 11 testauc 0.726264
+REPORT 11 testloss_mean 0.53681
+REPORT 11 cache_size 209
+REPORT 11 gain_count 3899
+REPORT 11 bound_count 3147
+BEGIN_tree
+---* [1] -1.47405
+--* (1) 1 (0f6)
+---* [320] 0.0089558
+-* (0) 2 (0f1)
+---* [50] -0.251713
+--* (1) 1 (0f4)
+---* [194] 0.000952579
+* (0) 1 (0f2)
+---* [505] 0.0519114
+--* (1) 1 (0f2)
+---* [112] -0.0653081
+-* (1) 2 (0f2)
+---* [36] 0.240141
+--* (0) 2 (0f2)
+---* [133] -0.169307
+END_tree
+REPORT 12 FI (0) 1 (0f0) : 17.3639
+REPORT 12 FI (0) 1 (0f1) : 34.2354
+REPORT 12 FI (0) 1 (0f2) : 6.47178
+REPORT 12 FI (0) 1 (0f3) : 1.62458
+REPORT 12 FI (0) 1 (0f4) : 6.51831
+REPORT 12 FI (0) 1 (0f22) : 0.139821
+REPORT 12 FI (0) 1 (0f24) : 0.139736
+REPORT 12 FI (0) 2 (0f1) : 13.9993
+REPORT 12 FI (0) 2 (0f2) : 33.6505
+REPORT 12 FI (0) 2 (0f3) : 0.710077
+REPORT 12 FI (1) 1 (0f2) : 25.7824
+REPORT 12 FI (1) 1 (0f3) : 18.3613
+REPORT 12 FI (1) 1 (0f4) : 9.69292
+REPORT 12 FI (1) 1 (0f6) : 28.8182
+REPORT 12 FI (1) 1 (0f8) : 1.22265
+REPORT 12 FI (1) 1 (0f18) : 3.0154
+REPORT 12 FI (1) 2 (0f2) : 20.8846
+REPORT 12 FI (2) 1 (0f3) : 7.9222
+REPORT 12 FI (2) 1 (0f4) : 0.294432
+REPORT 12 FI (2) 1 (0f5) : 46.6821
+REPORT 12 FI (2) 2 (0f2) : 0.62907
+REPORT 12 used_features 21
+REPORT 12 trainacc 0.780903
+REPORT 12 trainauc 0.794873
+REPORT 12 trainloss_mean 0.468313
+REPORT 12 testacc 0.723684
+REPORT 12 testauc 0.744079
+REPORT 12 testloss_mean 0.518518
+REPORT 12 cache_size 209
+REPORT 12 gain_count 4181
+REPORT 12 bound_count 3359
+BEGIN_tree
+---* [3] -0.865468
+--* (0) 1 (0f1)
+---* [54] -0.0943866
+-* (1) 2 (0f2)
+---* [50] -0.00599751
+--* (1) 2 (0f3)
+---* [15] 0.226553
+* (1) 1 (0f3)
+---* [1] -0.0400751
+--* (0) 1 (0f0)
+---* [2] -0.273089
+-* (0) 2 (0f3)
+---* [80] -0.0393601
+--* (0) 2 (0f2)
+---* [1146] -0.000842102
+END_tree
+REPORT 13 FI (0) 1 (0f0) : 17.4001
+REPORT 13 FI (0) 1 (0f1) : 35.9252
+REPORT 13 FI (0) 1 (0f2) : 6.47178
+REPORT 13 FI (0) 1 (0f3) : 1.62458
+REPORT 13 FI (0) 1 (0f4) : 6.51831
+REPORT 13 FI (0) 1 (0f22) : 0.139821
+REPORT 13 FI (0) 1 (0f24) : 0.139736
+REPORT 13 FI (0) 2 (0f1) : 13.9993
+REPORT 13 FI (0) 2 (0f2) : 33.7615
+REPORT 13 FI (0) 2 (0f3) : 0.82047
+REPORT 13 FI (1) 1 (0f2) : 25.7824
+REPORT 13 FI (1) 1 (0f3) : 18.4884
+REPORT 13 FI (1) 1 (0f4) : 9.69292
+REPORT 13 FI (1) 1 (0f6) : 28.8182
+REPORT 13 FI (1) 1 (0f8) : 1.22265
+REPORT 13 FI (1) 1 (0f18) : 3.0154
+REPORT 13 FI (1) 2 (0f2) : 21.8976
+REPORT 13 FI (1) 2 (0f3) : 0.623999
+REPORT 13 FI (2) 1 (0f3) : 7.9222
+REPORT 13 FI (2) 1 (0f4) : 0.294432
+REPORT 13 FI (2) 1 (0f5) : 46.6821
+REPORT 13 FI (2) 2 (0f2) : 0.62907
+REPORT 13 used_features 22
+REPORT 13 trainacc 0.781643
+REPORT 13 trainauc 0.797046
+REPORT 13 trainloss_mean 0.466318
+REPORT 13 testacc 0.723684
+REPORT 13 testauc 0.743866
+REPORT 13 testloss_mean 0.518547
+REPORT 13 cache_size 209
+REPORT 13 gain_count 4474
+REPORT 13 bound_count 3592
+BEGIN_tree
+---* [3] 0.0196473
+--* (0) 1 (0f1)
+---* [15] -0.0308789
+-* (1) 1 (0f4)
+---* [1] -0.147728
+--* (0) 1 (0f1)
+---* [39] -0.0498026
+* (0) 1 (0f0)
+---* [5] 0.134827
+--* (1) 1 (0f4)
+---* [61] -0.0468324
+-* (0) 1 (0f4)
+---* [55] -0.0429057
+--* (0) 1 (0f3)
+---* [1172] 0.00229651
+END_tree
+REPORT 14 FI (0) 1 (0f0) : 17.496
+REPORT 14 FI (0) 1 (0f1) : 35.9409
+REPORT 14 FI (0) 1 (0f2) : 6.47178
+REPORT 14 FI (0) 1 (0f3) : 1.73192
+REPORT 14 FI (0) 1 (0f4) : 6.58793
+REPORT 14 FI (0) 1 (0f22) : 0.139821
+REPORT 14 FI (0) 1 (0f24) : 0.139736
+REPORT 14 FI (0) 2 (0f1) : 13.9993
+REPORT 14 FI (0) 2 (0f2) : 33.7615
+REPORT 14 FI (0) 2 (0f3) : 0.82047
+REPORT 14 FI (1) 1 (0f2) : 25.7824
+REPORT 14 FI (1) 1 (0f3) : 18.4884
+REPORT 14 FI (1) 1 (0f4) : 9.85644
+REPORT 14 FI (1) 1 (0f6) : 28.8182
+REPORT 14 FI (1) 1 (0f8) : 1.22265
+REPORT 14 FI (1) 1 (0f18) : 3.0154
+REPORT 14 FI (1) 2 (0f2) : 21.8976
+REPORT 14 FI (1) 2 (0f3) : 0.623999
+REPORT 14 FI (2) 1 (0f3) : 7.9222
+REPORT 14 FI (2) 1 (0f4) : 0.294432
+REPORT 14 FI (2) 1 (0f5) : 46.6821
+REPORT 14 FI (2) 2 (0f2) : 0.62907
+REPORT 14 used_features 22
+REPORT 14 trainacc 0.781643
+REPORT 14 trainauc 0.79729
+REPORT 14 trainloss_mean 0.466028
+REPORT 14 testacc 0.723684
+REPORT 14 testauc 0.74664
+REPORT 14 testloss_mean 0.51693
+REPORT 14 cache_size 209
+REPORT 14 gain_count 4796
+REPORT 14 bound_count 3844
+BEGIN_tree
+---* [12] -0.0133077
+--* (2) 2 (0f2)
+---* [6] -0.0434117
+-* (1) 1 (0f4)
+---* [1] -0.112055
+--* (0) 1 (0f1)
+---* [39] -0.0451938
+* (0) 1 (0f0)
+---* [154] -0.0553904
+--* (1) 2 (0f2)
+---* [157] 0.0803202
+-* (0) 2 (0f1)
+---* [3] -0.626094
+--* (1) 1 (0f15)
+---* [979] -0.00421304
+END_tree
+REPORT 15 FI (0) 1 (0f0) : 17.5765
+REPORT 15 FI (0) 1 (0f1) : 35.9453
+REPORT 15 FI (0) 1 (0f2) : 6.47178
+REPORT 15 FI (0) 1 (0f3) : 1.73192
+REPORT 15 FI (0) 1 (0f4) : 6.58793
+REPORT 15 FI (0) 1 (0f22) : 0.139821
+REPORT 15 FI (0) 1 (0f24) : 0.139736
+REPORT 15 FI (0) 2 (0f1) : 14.0866
+REPORT 15 FI (0) 2 (0f2) : 33.7615
+REPORT 15 FI (0) 2 (0f3) : 0.82047
+REPORT 15 FI (1) 1 (0f2) : 25.7824
+REPORT 15 FI (1) 1 (0f3) : 18.4884
+REPORT 15 FI (1) 1 (0f4) : 9.86331
+REPORT 15 FI (1) 1 (0f6) : 28.8182
+REPORT 15 FI (1) 1 (0f8) : 1.22265
+REPORT 15 FI (1) 1 (0f15) : 1.15666
+REPORT 15 FI (1) 1 (0f18) : 3.0154
+REPORT 15 FI (1) 2 (0f2) : 23.3294
+REPORT 15 FI (1) 2 (0f3) : 0.623999
+REPORT 15 FI (2) 1 (0f3) : 7.9222
+REPORT 15 FI (2) 1 (0f4) : 0.294432
+REPORT 15 FI (2) 1 (0f5) : 46.6821
+REPORT 15 FI (2) 2 (0f2) : 0.632695
+REPORT 15 used_features 23
+REPORT 15 trainacc 0.781643
+REPORT 15 trainauc 0.79976
+REPORT 15 trainloss_mean 0.4647
+REPORT 15 testacc 0.723684
+REPORT 15 testauc 0.744719
+REPORT 15 testloss_mean 0.520168
+REPORT 15 cache_size 209
+REPORT 15 gain_count 5138
+REPORT 15 bound_count 4116
+BEGIN_tree
+---* [11] 0.211249
+--* (1) 2 (0f2)
+---* [33] -0.0173553
+-* (0) 2 (0f1)
+---* [14] 0.0912662
+--* (0) 2 (0f2)
+---* [64] -0.10081
+* (1) 1 (0f3)
+---* [18] -0.0202896
+--* (1) 1 (0f4)
+---* [37] -0.04192
+-* (0) 1 (0f0)
+---* [3] -0.562035
+--* (1) 1 (0f13)
+---* [1171] 0.00408673
+END_tree
+REPORT 16 FI (0) 1 (0f0) : 17.6503
+REPORT 16 FI (0) 1 (0f1) : 35.9453
+REPORT 16 FI (0) 1 (0f2) : 6.47178
+REPORT 16 FI (0) 1 (0f3) : 1.73192
+REPORT 16 FI (0) 1 (0f4) : 6.58793
+REPORT 16 FI (0) 1 (0f22) : 0.139821
+REPORT 16 FI (0) 1 (0f24) : 0.139736
+REPORT 16 FI (0) 2 (0f1) : 14.4035
+REPORT 16 FI (0) 2 (0f2) : 34.1853
+REPORT 16 FI (0) 2 (0f3) : 0.82047
+REPORT 16 FI (1) 1 (0f2) : 25.7824
+REPORT 16 FI (1) 1 (0f3) : 18.5819
+REPORT 16 FI (1) 1 (0f4) : 9.86897
+REPORT 16 FI (1) 1 (0f6) : 28.8182
+REPORT 16 FI (1) 1 (0f8) : 1.22265
+REPORT 16 FI (1) 1 (0f13) : 0.959026
+REPORT 16 FI (1) 1 (0f15) : 1.15666
+REPORT 16 FI (1) 1 (0f18) : 3.0154
+REPORT 16 FI (1) 2 (0f2) : 23.7606
+REPORT 16 FI (1) 2 (0f3) : 0.623999
+REPORT 16 FI (2) 1 (0f3) : 7.9222
+REPORT 16 FI (2) 1 (0f4) : 0.294432
+REPORT 16 FI (2) 1 (0f5) : 46.6821
+REPORT 16 FI (2) 2 (0f2) : 0.632695
+REPORT 16 used_features 24
+REPORT 16 trainacc 0.782383
+REPORT 16 trainauc 0.800621
+REPORT 16 trainloss_mean 0.463417
+REPORT 16 testacc 0.723684
+REPORT 16 testauc 0.746853
+REPORT 16 testloss_mean 0.519692
+REPORT 16 cache_size 209
+REPORT 16 gain_count 5407
+REPORT 16 bound_count 4315
+BEGIN_tree
+-* [1] -0.248948
+* (0) 1 (0f24)
+--* [1] -0.248898
+-* (0) 1 (0f22)
+---* [67] -0.0309353
+--* (0) 1 (0f4)
+---* [1282] -0.000687409
+END_tree
+REPORT 17 FI (0) 1 (0f0) : 17.6503
+REPORT 17 FI (0) 1 (0f1) : 35.9453
+REPORT 17 FI (0) 1 (0f2) : 6.47178
+REPORT 17 FI (0) 1 (0f3) : 1.73192
+REPORT 17 FI (0) 1 (0f4) : 6.64619
+REPORT 17 FI (0) 1 (0f22) : 0.200641
+REPORT 17 FI (0) 1 (0f24) : 0.20049
+REPORT 17 FI (0) 2 (0f1) : 14.4035
+REPORT 17 FI (0) 2 (0f2) : 34.1853
+REPORT 17 FI (0) 2 (0f3) : 0.82047
+REPORT 17 FI (1) 1 (0f2) : 25.7824
+REPORT 17 FI (1) 1 (0f3) : 18.5819
+REPORT 17 FI (1) 1 (0f4) : 9.86897
+REPORT 17 FI (1) 1 (0f6) : 28.8182
+REPORT 17 FI (1) 1 (0f8) : 1.22265
+REPORT 17 FI (1) 1 (0f13) : 0.959026
+REPORT 17 FI (1) 1 (0f15) : 1.15666
+REPORT 17 FI (1) 1 (0f18) : 3.0154
+REPORT 17 FI (1) 2 (0f2) : 23.7606
+REPORT 17 FI (1) 2 (0f3) : 0.623999
+REPORT 17 FI (2) 1 (0f3) : 7.9222
+REPORT 17 FI (2) 1 (0f4) : 0.294432
+REPORT 17 FI (2) 1 (0f5) : 46.6821
+REPORT 17 FI (2) 2 (0f2) : 0.632695
+REPORT 17 used_features 24
+REPORT 17 trainacc 0.782383
+REPORT 17 trainauc 0.800626
+REPORT 17 trainloss_mean 0.463302
+REPORT 17 testacc 0.723684
+REPORT 17 testauc 0.745573
+REPORT 17 testloss_mean 0.519851
+REPORT 17 cache_size 209
+REPORT 17 gain_count 5479
+REPORT 17 bound_count 4357
+BEGIN_tree
+---* [3] 0.0322981
+--* (0) 1 (0f1)
+---* [15] -0.0266352
+-* (1) 1 (0f4)
+---* [1] -0.0834865
+--* (0) 1 (0f1)
+---* [39] -0.0388632
+* (0) 1 (0f0)
+---* [12] -0.136024
+--* (0) 1 (0f1)
+---* [107] -0.00615202
+-* (1) 1 (0f3)
+---* [1] 0.843393
+--* (1) 1 (0f20)
+---* [1173] 0.00102313
+END_tree
+REPORT 18 FI (0) 1 (0f0) : 17.7093
+REPORT 18 FI (0) 1 (0f1) : 36.1379
+REPORT 18 FI (0) 1 (0f2) : 6.47178
+REPORT 18 FI (0) 1 (0f3) : 1.73192
+REPORT 18 FI (0) 1 (0f4) : 6.64619
+REPORT 18 FI (0) 1 (0f22) : 0.200641
+REPORT 18 FI (0) 1 (0f24) : 0.20049
+REPORT 18 FI (0) 2 (0f1) : 14.4035
+REPORT 18 FI (0) 2 (0f2) : 34.1853
+REPORT 18 FI (0) 2 (0f3) : 0.82047
+REPORT 18 FI (1) 1 (0f2) : 25.7824
+REPORT 18 FI (1) 1 (0f3) : 18.6295
+REPORT 18 FI (1) 1 (0f4) : 9.87564
+REPORT 18 FI (1) 1 (0f6) : 28.8182
+REPORT 18 FI (1) 1 (0f8) : 1.22265
+REPORT 18 FI (1) 1 (0f13) : 0.959026
+REPORT 18 FI (1) 1 (0f15) : 1.15666
+REPORT 18 FI (1) 1 (0f18) : 3.0154
+REPORT 18 FI (1) 1 (0f20) : 0.708982
+REPORT 18 FI (1) 2 (0f2) : 23.7606
+REPORT 18 FI (1) 2 (0f3) : 0.623999
+REPORT 18 FI (2) 1 (0f3) : 7.9222
+REPORT 18 FI (2) 1 (0f4) : 0.294432
+REPORT 18 FI (2) 1 (0f5) : 46.6821
+REPORT 18 FI (2) 2 (0f2) : 0.632695
+REPORT 18 used_features 25
+REPORT 18 trainacc 0.782383
+REPORT 18 trainauc 0.801416
+REPORT 18 trainloss_mean 0.462805
+REPORT 18 testacc 0.723684
+REPORT 18 testauc 0.740666
+REPORT 18 testloss_mean 0.523216
+REPORT 18 cache_size 209
+REPORT 18 gain_count 5774
+REPORT 18 bound_count 4582
+BEGIN_tree
+---* [12] -0.0102506
+--* (2) 2 (0f2)
+---* [6] -0.0382835
+-* (1) 1 (0f4)
+---* [1] -0.0711046
+--* (0) 1 (0f1)
+---* [39] -0.0360141
+* (0) 1 (0f0)
+---* [21] 0.0593607
+--* (1) 2 (0f2)
+---* [45] -0.0617471
+-* (0) 1 (0f4)
+---* [598] -0.00530512
+--* (1) 1 (0f4)
+---* [629] 0.00643792
+END_tree
+REPORT 19 FI (0) 1 (0f0) : 17.7627
+REPORT 19 FI (0) 1 (0f1) : 36.1391
+REPORT 19 FI (0) 1 (0f2) : 6.47178
+REPORT 19 FI (0) 1 (0f3) : 1.73192
+REPORT 19 FI (0) 1 (0f4) : 6.68205
+REPORT 19 FI (0) 1 (0f22) : 0.200641
+REPORT 19 FI (0) 1 (0f24) : 0.20049
+REPORT 19 FI (0) 2 (0f1) : 14.4035
+REPORT 19 FI (0) 2 (0f2) : 34.1853
+REPORT 19 FI (0) 2 (0f3) : 0.82047
+REPORT 19 FI (1) 1 (0f2) : 25.7824
+REPORT 19 FI (1) 1 (0f3) : 18.6295
+REPORT 19 FI (1) 1 (0f4) : 9.92162
+REPORT 19 FI (1) 1 (0f6) : 28.8182
+REPORT 19 FI (1) 1 (0f8) : 1.22265
+REPORT 19 FI (1) 1 (0f13) : 0.959026
+REPORT 19 FI (1) 1 (0f15) : 1.15666
+REPORT 19 FI (1) 1 (0f18) : 3.0154
+REPORT 19 FI (1) 1 (0f20) : 0.708982
+REPORT 19 FI (1) 2 (0f2) : 23.9706
+REPORT 19 FI (1) 2 (0f3) : 0.623999
+REPORT 19 FI (2) 1 (0f3) : 7.9222
+REPORT 19 FI (2) 1 (0f4) : 0.294432
+REPORT 19 FI (2) 1 (0f5) : 46.6821
+REPORT 19 FI (2) 2 (0f2) : 0.635839
+REPORT 19 used_features 25
+REPORT 19 trainacc 0.783124
+REPORT 19 trainauc 0.801782
+REPORT 19 trainloss_mean 0.462578
+REPORT 19 testacc 0.723684
+REPORT 19 testauc 0.741946
+REPORT 19 testloss_mean 0.523419
+REPORT 19 cache_size 209
+REPORT 19 gain_count 6055
+REPORT 19 bound_count 4793
+BEGIN_tree
+---* [3] 0.0180942
+--* (0) 1 (0f1)
+---* [15] -0.0243355
+-* (1) 1 (0f4)
+---* [13] -0.0412842
+--* (0) 2 (0f1)
+---* [27] -0.0308891
+* (0) 1 (0f0)
+--* [1] -0.187052
+-* (0) 2 (0f6)
+---* [66] -0.0225501
+--* (0) 1 (0f4)
+---* [1226] 0.000870218
+END_tree
+REPORT 20 FI (0) 1 (0f0) : 17.8079
+REPORT 20 FI (0) 1 (0f1) : 36.1436
+REPORT 20 FI (0) 1 (0f2) : 6.47178
+REPORT 20 FI (0) 1 (0f3) : 1.73192
+REPORT 20 FI (0) 1 (0f4) : 6.7164
+REPORT 20 FI (0) 1 (0f22) : 0.200641
+REPORT 20 FI (0) 1 (0f24) : 0.20049
+REPORT 20 FI (0) 2 (0f1) : 14.4045
+REPORT 20 FI (0) 2 (0f2) : 34.1853
+REPORT 20 FI (0) 2 (0f3) : 0.82047
+REPORT 20 FI (0) 2 (0f6) : 0.0348397
+REPORT 20 FI (1) 1 (0f2) : 25.7824
+REPORT 20 FI (1) 1 (0f3) : 18.6295
+REPORT 20 FI (1) 1 (0f4) : 9.92521
+REPORT 20 FI (1) 1 (0f6) : 28.8182
+REPORT 20 FI (1) 1 (0f8) : 1.22265
+REPORT 20 FI (1) 1 (0f13) : 0.959026
+REPORT 20 FI (1) 1 (0f15) : 1.15666
+REPORT 20 FI (1) 1 (0f18) : 3.0154
+REPORT 20 FI (1) 1 (0f20) : 0.708982
+REPORT 20 FI (1) 2 (0f2) : 23.9706
+REPORT 20 FI (1) 2 (0f3) : 0.623999
+REPORT 20 FI (2) 1 (0f3) : 7.9222
+REPORT 20 FI (2) 1 (0f4) : 0.294432
+REPORT 20 FI (2) 1 (0f5) : 46.6821
+REPORT 20 FI (2) 2 (0f2) : 0.635839
+REPORT 20 used_features 26
+REPORT 20 trainacc 0.782383
+REPORT 20 trainauc 0.801514
+REPORT 20 trainloss_mean 0.462493
+REPORT 20 testacc 0.723684
+REPORT 20 testauc 0.741732
+REPORT 20 testloss_mean 0.52432
+REPORT 20 cache_size 209
+REPORT 20 gain_count 6300
+REPORT 20 bound_count 4978
+BEGIN_tree
+---* [12] -0.010142
+--* (2) 2 (0f2)
+---* [6] -0.0352381
+-* (1) 1 (0f4)
+---* [13] -0.0380811
+--* (0) 2 (0f1)
+---* [27] -0.0290672
+* (0) 1 (0f0)
+--* [1] -0.158082
+-* (0) 1 (0f24)
+---* [1] -0.158063
+--* (0) 1 (0f22)
+---* [1291] -0.000474139
+END_tree
+REPORT 21 FI (0) 1 (0f0) : 17.8486
+REPORT 21 FI (0) 1 (0f1) : 36.1436
+REPORT 21 FI (0) 1 (0f2) : 6.47178
+REPORT 21 FI (0) 1 (0f3) : 1.73192
+REPORT 21 FI (0) 1 (0f4) : 6.7164
+REPORT 21 FI (0) 1 (0f22) : 0.225456
+REPORT 21 FI (0) 1 (0f24) : 0.225273
+REPORT 21 FI (0) 2 (0f1) : 14.4052
+REPORT 21 FI (0) 2 (0f2) : 34.1853
+REPORT 21 FI (0) 2 (0f3) : 0.82047
+REPORT 21 FI (0) 2 (0f6) : 0.0348397
+REPORT 21 FI (1) 1 (0f2) : 25.7824
+REPORT 21 FI (1) 1 (0f3) : 18.6295
+REPORT 21 FI (1) 1 (0f4) : 9.92747
+REPORT 21 FI (1) 1 (0f6) : 28.8182
+REPORT 21 FI (1) 1 (0f8) : 1.22265
+REPORT 21 FI (1) 1 (0f13) : 0.959026
+REPORT 21 FI (1) 1 (0f15) : 1.15666
+REPORT 21 FI (1) 1 (0f18) : 3.0154
+REPORT 21 FI (1) 1 (0f20) : 0.708982
+REPORT 21 FI (1) 2 (0f2) : 23.9706
+REPORT 21 FI (1) 2 (0f3) : 0.623999
+REPORT 21 FI (2) 1 (0f3) : 7.9222
+REPORT 21 FI (2) 1 (0f4) : 0.294432
+REPORT 21 FI (2) 1 (0f5) : 46.6821
+REPORT 21 FI (2) 2 (0f2) : 0.638358
+REPORT 21 used_features 26
+REPORT 21 trainacc 0.782383
+REPORT 21 trainauc 0.801527
+REPORT 21 trainloss_mean 0.462424
+REPORT 21 testacc 0.723684
+REPORT 21 testauc 0.741732
+REPORT 21 testloss_mean 0.525206
+REPORT 21 cache_size 209
+REPORT 21 gain_count 6530
+REPORT 21 bound_count 5148
+BEGIN_tree
+---* [3] 0.0138875
+--* (0) 1 (0f1)
+---* [15] -0.0223917
+-* (1) 1 (0f4)
+---* [3] -0.0431405
+--* (1) 1 (0f3)
+---* [37] -0.0289506
+* (0) 1 (0f0)
+---* [21] 0.0454986
+--* (1) 2 (0f2)
+---* [45] -0.0459907
+-* (0) 1 (0f4)
+---* [1] -0.187187
+--* (1) 1 (0f5)
+---* [1226] 0.000705416
+END_tree
+REPORT 22 FI (0) 1 (0f0) : 17.8845
+REPORT 22 FI (0) 1 (0f1) : 36.1469
+REPORT 22 FI (0) 1 (0f2) : 6.47178
+REPORT 22 FI (0) 1 (0f3) : 1.73192
+REPORT 22 FI (0) 1 (0f4) : 6.73543
+REPORT 22 FI (0) 1 (0f22) : 0.225456
+REPORT 22 FI (0) 1 (0f24) : 0.225273
+REPORT 22 FI (0) 2 (0f1) : 14.4052
+REPORT 22 FI (0) 2 (0f2) : 34.1853
+REPORT 22 FI (0) 2 (0f3) : 0.82047
+REPORT 22 FI (0) 2 (0f6) : 0.0348397
+REPORT 22 FI (1) 1 (0f2) : 25.7824
+REPORT 22 FI (1) 1 (0f3) : 18.63
+REPORT 22 FI (1) 1 (0f4) : 9.92979
+REPORT 22 FI (1) 1 (0f5) : 0.0352746
+REPORT 22 FI (1) 1 (0f6) : 28.8182
+REPORT 22 FI (1) 1 (0f8) : 1.22265
+REPORT 22 FI (1) 1 (0f13) : 0.959026
+REPORT 22 FI (1) 1 (0f15) : 1.15666
+REPORT 22 FI (1) 1 (0f18) : 3.0154
+REPORT 22 FI (1) 1 (0f20) : 0.708982
+REPORT 22 FI (1) 2 (0f2) : 24.0904
+REPORT 22 FI (1) 2 (0f3) : 0.623999
+REPORT 22 FI (2) 1 (0f3) : 7.9222
+REPORT 22 FI (2) 1 (0f4) : 0.294432
+REPORT 22 FI (2) 1 (0f5) : 46.6821
+REPORT 22 FI (2) 2 (0f2) : 0.638358
+REPORT 22 used_features 27
+REPORT 22 trainacc 0.783124
+REPORT 22 trainauc 0.801905
+REPORT 22 trainloss_mean 0.46228
+REPORT 22 testacc 0.723684
+REPORT 22 testauc 0.741946
+REPORT 22 testloss_mean 0.525128
+REPORT 22 cache_size 209
+REPORT 22 gain_count 6826
+REPORT 22 bound_count 5374
+BEGIN_tree
+---* [12] -0.0095213
+--* (2) 2 (0f2)
+---* [6] -0.0326116
+-* (1) 1 (0f4)
+---* [1] -0.0502037
+--* (0) 1 (0f1)
+---* [39] -0.0277066
+* (0) 1 (0f0)
+---* [37] 0.0203253
+--* (0) 1 (0f3)
+---* [29] -0.0658634
+-* (0) 1 (0f4)
+---* [55] -0.0233137
+--* (0) 1 (0f3)
+---* [1172] 0.00120641
+END_tree
+REPORT 23 FI (0) 1 (0f0) : 17.9166
+REPORT 23 FI (0) 1 (0f1) : 36.1474
+REPORT 23 FI (0) 1 (0f2) : 6.47178
+REPORT 23 FI (0) 1 (0f3) : 1.88427
+REPORT 23 FI (0) 1 (0f4) : 6.75495
+REPORT 23 FI (0) 1 (0f22) : 0.225456
+REPORT 23 FI (0) 1 (0f24) : 0.225273
+REPORT 23 FI (0) 2 (0f1) : 14.4052
+REPORT 23 FI (0) 2 (0f2) : 34.1853
+REPORT 23 FI (0) 2 (0f3) : 0.82047
+REPORT 23 FI (0) 2 (0f6) : 0.0348397
+REPORT 23 FI (1) 1 (0f2) : 25.7824
+REPORT 23 FI (1) 1 (0f3) : 18.63
+REPORT 23 FI (1) 1 (0f4) : 9.93131
+REPORT 23 FI (1) 1 (0f5) : 0.0352746
+REPORT 23 FI (1) 1 (0f6) : 28.8182
+REPORT 23 FI (1) 1 (0f8) : 1.22265
+REPORT 23 FI (1) 1 (0f13) : 0.959026
+REPORT 23 FI (1) 1 (0f15) : 1.15666
+REPORT 23 FI (1) 1 (0f18) : 3.0154
+REPORT 23 FI (1) 1 (0f20) : 0.708982
+REPORT 23 FI (1) 2 (0f2) : 24.0904
+REPORT 23 FI (1) 2 (0f3) : 0.623999
+REPORT 23 FI (2) 1 (0f3) : 7.9222
+REPORT 23 FI (2) 1 (0f4) : 0.294432
+REPORT 23 FI (2) 1 (0f5) : 46.6821
+REPORT 23 FI (2) 2 (0f2) : 0.64049
+REPORT 23 used_features 27
+REPORT 23 trainacc 0.782383
+REPORT 23 trainauc 0.801793
+REPORT 23 trainloss_mean 0.462141
+REPORT 23 testacc 0.723684
+REPORT 23 testauc 0.740239
+REPORT 23 testloss_mean 0.526469
+REPORT 23 cache_size 209
+REPORT 23 gain_count 7107
+REPORT 23 bound_count 5585
+BEGIN_tree
+---* [3] 0.0279937
+--* (2) 2 (0f2)
+---* [1] -0.093146
+-* (0) 1 (0f1)
+---* [17] -0.0187028
+--* (1) 1 (0f2)
+---* [37] -0.0274676
+* (0) 1 (0f0)
+---* [6] -0.346699
+--* (0) 2 (0f2)
+---* [305] 0.01296
+-* (0) 2 (0f1)
+---* [1] -0.633823
+--* (1) 1 (0f25)
+---* [981] -0.00238386
+END_tree
+REPORT 24 FI (0) 1 (0f0) : 17.9443
+REPORT 24 FI (0) 1 (0f1) : 36.1492
+REPORT 24 FI (0) 1 (0f2) : 6.47178
+REPORT 24 FI (0) 1 (0f3) : 1.88427
+REPORT 24 FI (0) 1 (0f4) : 6.75495
+REPORT 24 FI (0) 1 (0f22) : 0.225456
+REPORT 24 FI (0) 1 (0f24) : 0.225273
+REPORT 24 FI (0) 2 (0f1) : 14.4245
+REPORT 24 FI (0) 2 (0f2) : 34.9464
+REPORT 24 FI (0) 2 (0f3) : 0.82047
+REPORT 24 FI (0) 2 (0f6) : 0.0348397
+REPORT 24 FI (1) 1 (0f2) : 25.7833
+REPORT 24 FI (1) 1 (0f3) : 18.63
+REPORT 24 FI (1) 1 (0f4) : 9.93131
+REPORT 24 FI (1) 1 (0f5) : 0.0352746
+REPORT 24 FI (1) 1 (0f6) : 28.8182
+REPORT 24 FI (1) 1 (0f8) : 1.22265
+REPORT 24 FI (1) 1 (0f13) : 0.959026
+REPORT 24 FI (1) 1 (0f15) : 1.15666
+REPORT 24 FI (1) 1 (0f18) : 3.0154
+REPORT 24 FI (1) 1 (0f20) : 0.708982
+REPORT 24 FI (1) 1 (0f25) : 0.398309
+REPORT 24 FI (1) 2 (0f2) : 24.0904
+REPORT 24 FI (1) 2 (0f3) : 0.623999
+REPORT 24 FI (2) 1 (0f3) : 7.9222
+REPORT 24 FI (2) 1 (0f4) : 0.294432
+REPORT 24 FI (2) 1 (0f5) : 46.6821
+REPORT 24 FI (2) 2 (0f2) : 0.651497
+REPORT 24 used_features 28
+REPORT 24 trainacc 0.782383
+REPORT 24 trainauc 0.802062
+REPORT 24 trainloss_mean 0.461488
+REPORT 24 testacc 0.723684
+REPORT 24 testauc 0.740026
+REPORT 24 testloss_mean 0.527899
+REPORT 24 cache_size 209
+REPORT 24 gain_count 7408
+REPORT 24 bound_count 5816
+BEGIN_tree
+---* [76] -0.156177
+--* (1) 1 (0f2)
+---* [31] 0.123746
+-* (1) 2 (0f2)
+---* [61] 0.149708
+--* (1) 1 (0f2)
+---* [29] -0.146958
+* (0) 1 (0f1)
+---* [1] -0.0183296
+--* (0) 1 (0f0)
+---* [2] -0.255652
+-* (0) 2 (0f3)
+---* [131] 0.0223117
+--* (0) 2 (0f1)
+---* [1020] -0.00185636
+END_tree
+REPORT 25 FI (0) 1 (0f0) : 17.9818
+REPORT 25 FI (0) 1 (0f1) : 36.195
+REPORT 25 FI (0) 1 (0f2) : 6.47178
+REPORT 25 FI (0) 1 (0f3) : 1.88427
+REPORT 25 FI (0) 1 (0f4) : 6.75495
+REPORT 25 FI (0) 1 (0f22) : 0.225456
+REPORT 25 FI (0) 1 (0f24) : 0.225273
+REPORT 25 FI (0) 2 (0f1) : 14.4923
+REPORT 25 FI (0) 2 (0f2) : 34.9464
+REPORT 25 FI (0) 2 (0f3) : 0.914678
+REPORT 25 FI (0) 2 (0f6) : 0.0348397
+REPORT 25 FI (1) 1 (0f2) : 29.2385
+REPORT 25 FI (1) 1 (0f3) : 18.63
+REPORT 25 FI (1) 1 (0f4) : 9.93131
+REPORT 25 FI (1) 1 (0f5) : 0.0352746
+REPORT 25 FI (1) 1 (0f6) : 28.8182
+REPORT 25 FI (1) 1 (0f8) : 1.22265
+REPORT 25 FI (1) 1 (0f13) : 0.959026
+REPORT 25 FI (1) 1 (0f15) : 1.15666
+REPORT 25 FI (1) 1 (0f18) : 3.0154
+REPORT 25 FI (1) 1 (0f20) : 0.708982
+REPORT 25 FI (1) 1 (0f25) : 0.398309
+REPORT 25 FI (1) 2 (0f2) : 24.9063
+REPORT 25 FI (1) 2 (0f3) : 0.623999
+REPORT 25 FI (2) 1 (0f3) : 7.9222
+REPORT 25 FI (2) 1 (0f4) : 0.294432
+REPORT 25 FI (2) 1 (0f5) : 46.6821
+REPORT 25 FI (2) 2 (0f2) : 0.651497
+REPORT 25 used_features 28
+REPORT 25 trainacc 0.788305
+REPORT 25 trainauc 0.802727
+REPORT 25 trainloss_mean 0.459598
+REPORT 25 testacc 0.736842
+REPORT 25 testauc 0.740666
+REPORT 25 testloss_mean 0.530171
+REPORT 25 cache_size 209
+REPORT 25 gain_count 7718
+REPORT 25 bound_count 6066
+BEGIN_tree
+---* [37] -0.0164233
+--* (1) 2 (0f3)
+---* [7] 0.209012
+-* (0) 2 (0f1)
+---* [39] -0.104478
+--* (1) 2 (0f3)
+---* [39] 0.0188266
+* (1) 1 (0f3)
+---* [1] -0.0176756
+--* (0) 1 (0f0)
+---* [2] -0.161883
+-* (0) 2 (0f3)
+---* [67] -0.0194637
+--* (0) 1 (0f4)
+---* [1159] 0.00457188
+END_tree
+REPORT 26 FI (0) 1 (0f0) : 17.9957
+REPORT 26 FI (0) 1 (0f1) : 36.195
+REPORT 26 FI (0) 1 (0f2) : 6.47178
+REPORT 26 FI (0) 1 (0f3) : 1.88427
+REPORT 26 FI (0) 1 (0f4) : 6.79154
+REPORT 26 FI (0) 1 (0f22) : 0.225456
+REPORT 26 FI (0) 1 (0f24) : 0.225273
+REPORT 26 FI (0) 2 (0f1) : 14.6014
+REPORT 26 FI (0) 2 (0f2) : 34.9464
+REPORT 26 FI (0) 2 (0f3) : 0.955695
+REPORT 26 FI (0) 2 (0f6) : 0.0348397
+REPORT 26 FI (1) 1 (0f2) : 29.2385
+REPORT 26 FI (1) 1 (0f3) : 18.6905
+REPORT 26 FI (1) 1 (0f4) : 9.93131
+REPORT 26 FI (1) 1 (0f5) : 0.0352746
+REPORT 26 FI (1) 1 (0f6) : 28.8182
+REPORT 26 FI (1) 1 (0f8) : 1.22265
+REPORT 26 FI (1) 1 (0f13) : 0.959026
+REPORT 26 FI (1) 1 (0f15) : 1.15666
+REPORT 26 FI (1) 1 (0f18) : 3.0154
+REPORT 26 FI (1) 1 (0f20) : 0.708982
+REPORT 26 FI (1) 1 (0f25) : 0.398309
+REPORT 26 FI (1) 2 (0f2) : 24.9063
+REPORT 26 FI (1) 2 (0f3) : 1.21962
+REPORT 26 FI (2) 1 (0f3) : 7.9222
+REPORT 26 FI (2) 1 (0f4) : 0.294432
+REPORT 26 FI (2) 1 (0f5) : 46.6821
+REPORT 26 FI (2) 2 (0f2) : 0.651497
+REPORT 26 used_features 28
+REPORT 26 trainacc 0.788305
+REPORT 26 trainauc 0.80292
+REPORT 26 trainloss_mean 0.459076
+REPORT 26 testacc 0.736842
+REPORT 26 testauc 0.741732
+REPORT 26 testloss_mean 0.529481
+REPORT 26 cache_size 209
+REPORT 26 gain_count 7991
+REPORT 26 bound_count 6279
+BEGIN_tree
+---* [29] -0.14923
+--* (1) 2 (0f3)
+---* [44] 0.0203008
+-* (1) 1 (0f2)
+---* [15] -0.0814914
+--* (1) 2 (0f2)
+---* [34] 0.080857
+* (1) 1 (0f3)
+---* [1] -0.0170669
+--* (0) 1 (0f0)
+---* [2] -0.119917
+-* (0) 2 (0f3)
+---* [1] -0.132982
+--* (0) 2 (0f6)
+---* [1225] 0.000643977
+END_tree
+REPORT 27 FI (0) 1 (0f0) : 18.0027
+REPORT 27 FI (0) 1 (0f1) : 36.195
+REPORT 27 FI (0) 1 (0f2) : 6.47178
+REPORT 27 FI (0) 1 (0f3) : 1.88427
+REPORT 27 FI (0) 1 (0f4) : 6.79154
+REPORT 27 FI (0) 1 (0f22) : 0.225456
+REPORT 27 FI (0) 1 (0f24) : 0.225273
+REPORT 27 FI (0) 2 (0f1) : 14.6014
+REPORT 27 FI (0) 2 (0f2) : 34.9464
+REPORT 27 FI (0) 2 (0f3) : 0.977916
+REPORT 27 FI (0) 2 (0f6) : 0.0526809
+REPORT 27 FI (1) 1 (0f2) : 29.4179
+REPORT 27 FI (1) 1 (0f3) : 18.7188
+REPORT 27 FI (1) 1 (0f4) : 9.93131
+REPORT 27 FI (1) 1 (0f5) : 0.0352746
+REPORT 27 FI (1) 1 (0f6) : 28.8182
+REPORT 27 FI (1) 1 (0f8) : 1.22265
+REPORT 27 FI (1) 1 (0f13) : 0.959026
+REPORT 27 FI (1) 1 (0f15) : 1.15666
+REPORT 27 FI (1) 1 (0f18) : 3.0154
+REPORT 27 FI (1) 1 (0f20) : 0.708982
+REPORT 27 FI (1) 1 (0f25) : 0.398309
+REPORT 27 FI (1) 2 (0f2) : 25.1806
+REPORT 27 FI (1) 2 (0f3) : 1.722
+REPORT 27 FI (2) 1 (0f3) : 7.9222
+REPORT 27 FI (2) 1 (0f4) : 0.294432
+REPORT 27 FI (2) 1 (0f5) : 46.6821
+REPORT 27 FI (2) 2 (0f2) : 0.651497
+REPORT 27 used_features 28
+REPORT 27 trainacc 0.788305
+REPORT 27 trainauc 0.803867
+REPORT 27 trainloss_mean 0.458448
+REPORT 27 testacc 0.736842
+REPORT 27 testauc 0.741519
+REPORT 27 testloss_mean 0.52969
+REPORT 27 cache_size 209
+REPORT 27 gain_count 8263
+REPORT 27 bound_count 6491
+BEGIN_tree
+---* [3] -0.192089
+--* (1) 2 (0f3)
+---* [11] 0.143489
+-* (0) 2 (0f2)
+---* [60] -0.0675414
+--* (1) 1 (0f2)
+---* [48] 0.0111222
+* (1) 1 (0f3)
+---* [4] 0.0645979
+--* (0) 1 (0f1)
+---* [51] -0.0232151
+-* (0) 1 (0f0)
+---* [4] -0.257095
+--* (1) 1 (0f8)
+---* [1170] 0.00162965
+END_tree
+REPORT 28 FI (0) 1 (0f0) : 18.019
+REPORT 28 FI (0) 1 (0f1) : 36.2236
+REPORT 28 FI (0) 1 (0f2) : 6.47178
+REPORT 28 FI (0) 1 (0f3) : 1.88427
+REPORT 28 FI (0) 1 (0f4) : 6.79154
+REPORT 28 FI (0) 1 (0f22) : 0.225456
+REPORT 28 FI (0) 1 (0f24) : 0.225273
+REPORT 28 FI (0) 2 (0f1) : 14.6014
+REPORT 28 FI (0) 2 (0f2) : 35.0809
+REPORT 28 FI (0) 2 (0f3) : 0.977916
+REPORT 28 FI (0) 2 (0f6) : 0.0526809
+REPORT 28 FI (1) 1 (0f2) : 29.5829
+REPORT 28 FI (1) 1 (0f3) : 18.7658
+REPORT 28 FI (1) 1 (0f4) : 9.93131
+REPORT 28 FI (1) 1 (0f5) : 0.0352746
+REPORT 28 FI (1) 1 (0f6) : 28.8182
+REPORT 28 FI (1) 1 (0f8) : 1.48949
+REPORT 28 FI (1) 1 (0f13) : 0.959026
+REPORT 28 FI (1) 1 (0f15) : 1.15666
+REPORT 28 FI (1) 1 (0f18) : 3.0154
+REPORT 28 FI (1) 1 (0f20) : 0.708982
+REPORT 28 FI (1) 1 (0f25) : 0.398309
+REPORT 28 FI (1) 2 (0f2) : 25.1806
+REPORT 28 FI (1) 2 (0f3) : 1.98744
+REPORT 28 FI (2) 1 (0f3) : 7.9222
+REPORT 28 FI (2) 1 (0f4) : 0.294432
+REPORT 28 FI (2) 1 (0f5) : 46.6821
+REPORT 28 FI (2) 2 (0f2) : 0.651497
+REPORT 28 used_features 28
+REPORT 28 trainacc 0.788305
+REPORT 28 trainauc 0.804149
+REPORT 28 trainloss_mean 0.457867
+REPORT 28 testacc 0.736842
+REPORT 28 testauc 0.741732
+REPORT 28 testloss_mean 0.529824
+REPORT 28 cache_size 216
+REPORT 28 gain_count 8562
+REPORT 28 bound_count 6720
+BEGIN_tree
+---* [3] -0.136576
+--* (1) 2 (0f3)
+---* [11] 0.109756
+-* (0) 2 (0f2)
+---* [3] -0.183464
+--* (1) 1 (0f6)
+---* [105] -0.0203822
+* (1) 1 (0f3)
+---* [4] 0.0298078
+--* (0) 1 (0f1)
+---* [51] -0.0221744
+-* (0) 1 (0f0)
+---* [3] -0.269799
+--* (1) 1 (0f18)
+---* [1171] 0.000638311
+END_tree
+REPORT 29 FI (0) 1 (0f0) : 18.0366
+REPORT 29 FI (0) 1 (0f1) : 36.2336
+REPORT 29 FI (0) 1 (0f2) : 6.47178
+REPORT 29 FI (0) 1 (0f3) : 1.88427
+REPORT 29 FI (0) 1 (0f4) : 6.79154
+REPORT 29 FI (0) 1 (0f22) : 0.225456
+REPORT 29 FI (0) 1 (0f24) : 0.225273
+REPORT 29 FI (0) 2 (0f1) : 14.6014
+REPORT 29 FI (0) 2 (0f2) : 35.164
+REPORT 29 FI (0) 2 (0f3) : 0.977916
+REPORT 29 FI (0) 2 (0f6) : 0.0526809
+REPORT 29 FI (1) 1 (0f2) : 29.5829
+REPORT 29 FI (1) 1 (0f3) : 18.7896
+REPORT 29 FI (1) 1 (0f4) : 9.93131
+REPORT 29 FI (1) 1 (0f5) : 0.0352746
+REPORT 29 FI (1) 1 (0f6) : 28.8957
+REPORT 29 FI (1) 1 (0f8) : 1.48949
+REPORT 29 FI (1) 1 (0f13) : 0.959026
+REPORT 29 FI (1) 1 (0f15) : 1.15666
+REPORT 29 FI (1) 1 (0f18) : 3.23424
+REPORT 29 FI (1) 1 (0f20) : 0.708982
+REPORT 29 FI (1) 1 (0f25) : 0.398309
+REPORT 29 FI (1) 2 (0f2) : 25.1806
+REPORT 29 FI (1) 2 (0f3) : 2.13047
+REPORT 29 FI (2) 1 (0f3) : 7.9222
+REPORT 29 FI (2) 1 (0f4) : 0.294432
+REPORT 29 FI (2) 1 (0f5) : 46.6821
+REPORT 29 FI (2) 2 (0f2) : 0.651497
+REPORT 29 used_features 28
+REPORT 29 trainacc 0.788305
+REPORT 29 trainauc 0.804304
+REPORT 29 trainloss_mean 0.457501
+REPORT 29 testacc 0.736842
+REPORT 29 testauc 0.742159
+REPORT 29 testloss_mean 0.529971
+REPORT 29 cache_size 216
+REPORT 29 gain_count 8917
+REPORT 29 bound_count 7005
+BEGIN_tree
+---* [6] 0.328169
+--* (1) 1 (0f4)
+---* [50] 0.0153092
+-* (1) 2 (0f2)
+---* [3] -0.788618
+--* (1) 2 (0f3)
+---* [40] -0.0475594
+* (0) 1 (0f3)
+---* [5] 0.173732
+--* (3) 1 (0f4) 1 (0f4)
+---* [25] -0.0910189
+-* (0) 1 (0f4)
+---* [77] -0.0164925
+--* (1) 1 (0f6)
+---* [1145] 0.00165183
+END_tree
+REPORT 30 FI (0) 1 (0f0) : 18.0366
+REPORT 30 FI (0) 1 (0f1) : 36.2336
+REPORT 30 FI (0) 1 (0f2) : 6.47178
+REPORT 30 FI (0) 1 (0f3) : 1.90455
+REPORT 30 FI (0) 1 (0f4) : 6.85734
+REPORT 30 FI (0) 1 (0f22) : 0.225456
+REPORT 30 FI (0) 1 (0f24) : 0.225273
+REPORT 30 FI (0) 2 (0f1) : 14.6014
+REPORT 30 FI (0) 2 (0f2) : 35.164
+REPORT 30 FI (0) 2 (0f3) : 0.977916
+REPORT 30 FI (0) 2 (0f6) : 0.0526809
+REPORT 30 FI (1) 1 (0f2) : 29.5829
+REPORT 30 FI (1) 1 (0f3) : 18.7896
+REPORT 30 FI (1) 1 (0f4) : 10.4557
+REPORT 30 FI (1) 1 (0f5) : 0.0352746
+REPORT 30 FI (1) 1 (0f6) : 28.9195
+REPORT 30 FI (1) 1 (0f8) : 1.48949
+REPORT 30 FI (1) 1 (0f13) : 0.959026
+REPORT 30 FI (1) 1 (0f15) : 1.15666
+REPORT 30 FI (1) 1 (0f18) : 3.23424
+REPORT 30 FI (1) 1 (0f20) : 0.708982
+REPORT 30 FI (1) 1 (0f25) : 0.398309
+REPORT 30 FI (1) 2 (0f2) : 25.7141
+REPORT 30 FI (1) 2 (0f3) : 3.66304
+REPORT 30 FI (2) 1 (0f3) : 7.9222
+REPORT 30 FI (2) 1 (0f4) : 0.294432
+REPORT 30 FI (2) 1 (0f5) : 46.6821
+REPORT 30 FI (2) 2 (0f2) : 0.651497
+REPORT 30 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 30 used_features 29
+REPORT 30 trainacc 0.790526
+REPORT 30 trainauc 0.806427
+REPORT 30 trainloss_mean 0.455928
+REPORT 30 testacc 0.743421
+REPORT 30 testauc 0.746746
+REPORT 30 testloss_mean 0.52662
+REPORT 30 cache_size 216
+REPORT 30 gain_count 9222
+REPORT 30 bound_count 7240
+BEGIN_tree
+---* [3] 0.0405012
+--* (2) 2 (0f2)
+---* [1] -0.0713689
+-* (0) 1 (0f1)
+---* [17] -0.0165568
+--* (1) 1 (0f2)
+---* [37] -0.0232528
+* (0) 1 (0f0)
+--* [1] -0.119273
+-* (0) 1 (0f24)
+---* [1] -0.119263
+--* (0) 1 (0f22)
+---* [1291] -0.000675583
+END_tree
+REPORT 31 FI (0) 1 (0f0) : 18.0545
+REPORT 31 FI (0) 1 (0f1) : 36.2378
+REPORT 31 FI (0) 1 (0f2) : 6.47178
+REPORT 31 FI (0) 1 (0f3) : 1.90455
+REPORT 31 FI (0) 1 (0f4) : 6.85734
+REPORT 31 FI (0) 1 (0f22) : 0.239509
+REPORT 31 FI (0) 1 (0f24) : 0.239306
+REPORT 31 FI (0) 2 (0f1) : 14.6014
+REPORT 31 FI (0) 2 (0f2) : 35.164
+REPORT 31 FI (0) 2 (0f3) : 0.977916
+REPORT 31 FI (0) 2 (0f6) : 0.0526809
+REPORT 31 FI (1) 1 (0f2) : 29.5834
+REPORT 31 FI (1) 1 (0f3) : 18.7896
+REPORT 31 FI (1) 1 (0f4) : 10.4557
+REPORT 31 FI (1) 1 (0f5) : 0.0352746
+REPORT 31 FI (1) 1 (0f6) : 28.9195
+REPORT 31 FI (1) 1 (0f8) : 1.48949
+REPORT 31 FI (1) 1 (0f13) : 0.959026
+REPORT 31 FI (1) 1 (0f15) : 1.15666
+REPORT 31 FI (1) 1 (0f18) : 3.23424
+REPORT 31 FI (1) 1 (0f20) : 0.708982
+REPORT 31 FI (1) 1 (0f25) : 0.398309
+REPORT 31 FI (1) 2 (0f2) : 25.7141
+REPORT 31 FI (1) 2 (0f3) : 3.66304
+REPORT 31 FI (2) 1 (0f3) : 7.9222
+REPORT 31 FI (2) 1 (0f4) : 0.294432
+REPORT 31 FI (2) 1 (0f5) : 46.6821
+REPORT 31 FI (2) 2 (0f2) : 0.660883
+REPORT 31 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 31 used_features 29
+REPORT 31 trainacc 0.790526
+REPORT 31 trainauc 0.806427
+REPORT 31 trainloss_mean 0.455885
+REPORT 31 testacc 0.743421
+REPORT 31 testauc 0.746746
+REPORT 31 testloss_mean 0.527103
+REPORT 31 cache_size 216
+REPORT 31 gain_count 9467
+REPORT 31 bound_count 7425
+BEGIN_tree
+---* [3] 0.0072794
+--* (0) 1 (0f1)
+---* [15] -0.0180475
+-* (1) 1 (0f4)
+---* [1] -0.0467418
+--* (0) 1 (0f1)
+---* [39] -0.0211125
+* (0) 1 (0f0)
+--* [1] -0.104173
+-* (0) 2 (0f6)
+---* [92] -0.0105707
+--* (0) 1 (0f3)
+---* [1200] 0.000494894
+END_tree
+REPORT 32 FI (0) 1 (0f0) : 18.0744
+REPORT 32 FI (0) 1 (0f1) : 36.2401
+REPORT 32 FI (0) 1 (0f2) : 6.47178
+REPORT 32 FI (0) 1 (0f3) : 1.91501
+REPORT 32 FI (0) 1 (0f4) : 6.85734
+REPORT 32 FI (0) 1 (0f22) : 0.239509
+REPORT 32 FI (0) 1 (0f24) : 0.239306
+REPORT 32 FI (0) 2 (0f1) : 14.6014
+REPORT 32 FI (0) 2 (0f2) : 35.164
+REPORT 32 FI (0) 2 (0f3) : 0.977916
+REPORT 32 FI (0) 2 (0f6) : 0.0634635
+REPORT 32 FI (1) 1 (0f2) : 29.5834
+REPORT 32 FI (1) 1 (0f3) : 18.7896
+REPORT 32 FI (1) 1 (0f4) : 10.4565
+REPORT 32 FI (1) 1 (0f5) : 0.0352746
+REPORT 32 FI (1) 1 (0f6) : 28.9195
+REPORT 32 FI (1) 1 (0f8) : 1.48949
+REPORT 32 FI (1) 1 (0f13) : 0.959026
+REPORT 32 FI (1) 1 (0f15) : 1.15666
+REPORT 32 FI (1) 1 (0f18) : 3.23424
+REPORT 32 FI (1) 1 (0f20) : 0.708982
+REPORT 32 FI (1) 1 (0f25) : 0.398309
+REPORT 32 FI (1) 2 (0f2) : 25.7141
+REPORT 32 FI (1) 2 (0f3) : 3.66304
+REPORT 32 FI (2) 1 (0f3) : 7.9222
+REPORT 32 FI (2) 1 (0f4) : 0.294432
+REPORT 32 FI (2) 1 (0f5) : 46.6821
+REPORT 32 FI (2) 2 (0f2) : 0.660883
+REPORT 32 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 32 used_features 29
+REPORT 32 trainacc 0.790526
+REPORT 32 trainauc 0.806318
+REPORT 32 trainloss_mean 0.455854
+REPORT 32 testacc 0.743421
+REPORT 32 testauc 0.746746
+REPORT 32 testloss_mean 0.527442
+REPORT 32 cache_size 216
+REPORT 32 gain_count 9719
+REPORT 32 bound_count 7617
+BEGIN_tree
+---* [3] 0.0021393
+--* (0) 1 (0f1)
+---* [15] -0.0174139
+-* (1) 1 (0f4)
+---* [1] -0.0426592
+--* (0) 1 (0f1)
+---* [39] -0.0202493
+* (0) 1 (0f0)
+--* [1] -0.0952543
+-* (0) 1 (0f24)
+---* [1] -0.0952479
+--* (0) 1 (0f22)
+---* [1291] -0.000188636
+END_tree
+REPORT 33 FI (0) 1 (0f0) : 18.0932
+REPORT 33 FI (0) 1 (0f1) : 36.2415
+REPORT 33 FI (0) 1 (0f2) : 6.47178
+REPORT 33 FI (0) 1 (0f3) : 1.91501
+REPORT 33 FI (0) 1 (0f4) : 6.85734
+REPORT 33 FI (0) 1 (0f22) : 0.248538
+REPORT 33 FI (0) 1 (0f24) : 0.248322
+REPORT 33 FI (0) 2 (0f1) : 14.6014
+REPORT 33 FI (0) 2 (0f2) : 35.164
+REPORT 33 FI (0) 2 (0f3) : 0.977916
+REPORT 33 FI (0) 2 (0f6) : 0.0634635
+REPORT 33 FI (1) 1 (0f2) : 29.5834
+REPORT 33 FI (1) 1 (0f3) : 18.7896
+REPORT 33 FI (1) 1 (0f4) : 10.457
+REPORT 33 FI (1) 1 (0f5) : 0.0352746
+REPORT 33 FI (1) 1 (0f6) : 28.9195
+REPORT 33 FI (1) 1 (0f8) : 1.48949
+REPORT 33 FI (1) 1 (0f13) : 0.959026
+REPORT 33 FI (1) 1 (0f15) : 1.15666
+REPORT 33 FI (1) 1 (0f18) : 3.23424
+REPORT 33 FI (1) 1 (0f20) : 0.708982
+REPORT 33 FI (1) 1 (0f25) : 0.398309
+REPORT 33 FI (1) 2 (0f2) : 25.7141
+REPORT 33 FI (1) 2 (0f3) : 3.66304
+REPORT 33 FI (2) 1 (0f3) : 7.9222
+REPORT 33 FI (2) 1 (0f4) : 0.294432
+REPORT 33 FI (2) 1 (0f5) : 46.6821
+REPORT 33 FI (2) 2 (0f2) : 0.660883
+REPORT 33 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 33 used_features 29
+REPORT 33 trainacc 0.790526
+REPORT 33 trainauc 0.806324
+REPORT 33 trainloss_mean 0.455825
+REPORT 33 testacc 0.743421
+REPORT 33 testauc 0.746746
+REPORT 33 testloss_mean 0.527904
+REPORT 33 cache_size 216
+REPORT 33 gain_count 9963
+REPORT 33 bound_count 7801
+BEGIN_tree
+---* [3] 0.000627449
+--* (0) 1 (0f1)
+---* [15] -0.0168234
+-* (1) 1 (0f4)
+---* [1] -0.039239
+--* (0) 1 (0f1)
+---* [39] -0.0194542
+* (0) 1 (0f0)
+---* [6] -0.215562
+--* (0) 2 (0f2)
+---* [305] 0.00844845
+-* (0) 2 (0f1)
+---* [1] -0.566858
+--* (1) 1 (0f26)
+---* [981] -0.000975626
+END_tree
+REPORT 34 FI (0) 1 (0f0) : 18.111
+REPORT 34 FI (0) 1 (0f1) : 36.2427
+REPORT 34 FI (0) 1 (0f2) : 6.47178
+REPORT 34 FI (0) 1 (0f3) : 1.91501
+REPORT 34 FI (0) 1 (0f4) : 6.85734
+REPORT 34 FI (0) 1 (0f22) : 0.248538
+REPORT 34 FI (0) 1 (0f24) : 0.248322
+REPORT 34 FI (0) 2 (0f1) : 14.609
+REPORT 34 FI (0) 2 (0f2) : 35.4592
+REPORT 34 FI (0) 2 (0f3) : 0.977916
+REPORT 34 FI (0) 2 (0f6) : 0.0634635
+REPORT 34 FI (1) 1 (0f2) : 29.5834
+REPORT 34 FI (1) 1 (0f3) : 18.7896
+REPORT 34 FI (1) 1 (0f4) : 10.4575
+REPORT 34 FI (1) 1 (0f5) : 0.0352746
+REPORT 34 FI (1) 1 (0f6) : 28.9195
+REPORT 34 FI (1) 1 (0f8) : 1.48949
+REPORT 34 FI (1) 1 (0f13) : 0.959026
+REPORT 34 FI (1) 1 (0f15) : 1.15666
+REPORT 34 FI (1) 1 (0f18) : 3.23424
+REPORT 34 FI (1) 1 (0f20) : 0.708982
+REPORT 34 FI (1) 1 (0f25) : 0.398309
+REPORT 34 FI (1) 1 (0f26) : 0.319896
+REPORT 34 FI (1) 2 (0f2) : 25.7141
+REPORT 34 FI (1) 2 (0f3) : 3.66304
+REPORT 34 FI (2) 1 (0f3) : 7.9222
+REPORT 34 FI (2) 1 (0f4) : 0.294432
+REPORT 34 FI (2) 1 (0f5) : 46.6821
+REPORT 34 FI (2) 2 (0f2) : 0.660883
+REPORT 34 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 34 used_features 30
+REPORT 34 trainacc 0.790526
+REPORT 34 trainauc 0.806682
+REPORT 34 trainloss_mean 0.45547
+REPORT 34 testacc 0.743421
+REPORT 34 testauc 0.746746
+REPORT 34 testloss_mean 0.52883
+REPORT 34 cache_size 216
+REPORT 34 gain_count 10241
+REPORT 34 bound_count 8009
+BEGIN_tree
+---* [12] -0.00910728
+--* (2) 2 (0f2)
+---* [6] -0.0223729
+-* (1) 1 (0f4)
+---* [1] -0.0363311
+--* (0) 1 (0f1)
+---* [39] -0.0187194
+* (0) 1 (0f0)
+--* [1] -0.085227
+-* (0) 2 (0f6)
+---* [66] -0.0105474
+--* (0) 1 (0f4)
+---* [1226] -5.52779e-05
+END_tree
+REPORT 35 FI (0) 1 (0f0) : 18.1266
+REPORT 35 FI (0) 1 (0f1) : 36.243
+REPORT 35 FI (0) 1 (0f2) : 6.47178
+REPORT 35 FI (0) 1 (0f3) : 1.91501
+REPORT 35 FI (0) 1 (0f4) : 6.86423
+REPORT 35 FI (0) 1 (0f22) : 0.248538
+REPORT 35 FI (0) 1 (0f24) : 0.248322
+REPORT 35 FI (0) 2 (0f1) : 14.609
+REPORT 35 FI (0) 2 (0f2) : 35.4592
+REPORT 35 FI (0) 2 (0f3) : 0.977916
+REPORT 35 FI (0) 2 (0f6) : 0.0706212
+REPORT 35 FI (1) 1 (0f2) : 29.5834
+REPORT 35 FI (1) 1 (0f3) : 18.7896
+REPORT 35 FI (1) 1 (0f4) : 10.4578
+REPORT 35 FI (1) 1 (0f5) : 0.0352746
+REPORT 35 FI (1) 1 (0f6) : 28.9195
+REPORT 35 FI (1) 1 (0f8) : 1.48949
+REPORT 35 FI (1) 1 (0f13) : 0.959026
+REPORT 35 FI (1) 1 (0f15) : 1.15666
+REPORT 35 FI (1) 1 (0f18) : 3.23424
+REPORT 35 FI (1) 1 (0f20) : 0.708982
+REPORT 35 FI (1) 1 (0f25) : 0.398309
+REPORT 35 FI (1) 1 (0f26) : 0.319896
+REPORT 35 FI (1) 2 (0f2) : 25.7141
+REPORT 35 FI (1) 2 (0f3) : 3.66304
+REPORT 35 FI (2) 1 (0f3) : 7.9222
+REPORT 35 FI (2) 1 (0f4) : 0.294432
+REPORT 35 FI (2) 1 (0f5) : 46.6821
+REPORT 35 FI (2) 2 (0f2) : 0.661587
+REPORT 35 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 35 used_features 30
+REPORT 35 trainacc 0.790526
+REPORT 35 trainauc 0.806679
+REPORT 35 trainloss_mean 0.455447
+REPORT 35 testacc 0.743421
+REPORT 35 testauc 0.746746
+REPORT 35 testloss_mean 0.5294
+REPORT 35 cache_size 216
+REPORT 35 gain_count 10464
+REPORT 35 bound_count 8172
+BEGIN_tree
+---* [3] 0.0161022
+--* (2) 2 (0f2)
+---* [1] -0.0607026
+-* (0) 1 (0f1)
+---* [17] -0.0140293
+--* (1) 1 (0f2)
+---* [37] -0.0189973
+* (0) 1 (0f0)
+---* [187] 0.00178924
+--* (1) 1 (0f4)
+---* [6] -0.247017
+-* (0) 1 (0f1)
+---* [2] -0.148451
+--* (0) 2 (0f3)
+---* [1098] 0.000737387
+END_tree
+REPORT 36 FI (0) 1 (0f0) : 18.1407
+REPORT 36 FI (0) 1 (0f1) : 36.2505
+REPORT 36 FI (0) 1 (0f2) : 6.47178
+REPORT 36 FI (0) 1 (0f3) : 1.91501
+REPORT 36 FI (0) 1 (0f4) : 6.86423
+REPORT 36 FI (0) 1 (0f22) : 0.248538
+REPORT 36 FI (0) 1 (0f24) : 0.248322
+REPORT 36 FI (0) 2 (0f1) : 14.609
+REPORT 36 FI (0) 2 (0f2) : 35.4592
+REPORT 36 FI (0) 2 (0f3) : 1.02235
+REPORT 36 FI (0) 2 (0f6) : 0.0706212
+REPORT 36 FI (1) 1 (0f2) : 29.5837
+REPORT 36 FI (1) 1 (0f3) : 18.7896
+REPORT 36 FI (1) 1 (0f4) : 10.8177
+REPORT 36 FI (1) 1 (0f5) : 0.0352746
+REPORT 36 FI (1) 1 (0f6) : 28.9195
+REPORT 36 FI (1) 1 (0f8) : 1.48949
+REPORT 36 FI (1) 1 (0f13) : 0.959026
+REPORT 36 FI (1) 1 (0f15) : 1.15666
+REPORT 36 FI (1) 1 (0f18) : 3.23424
+REPORT 36 FI (1) 1 (0f20) : 0.708982
+REPORT 36 FI (1) 1 (0f25) : 0.398309
+REPORT 36 FI (1) 1 (0f26) : 0.319896
+REPORT 36 FI (1) 2 (0f2) : 25.7141
+REPORT 36 FI (1) 2 (0f3) : 3.66304
+REPORT 36 FI (2) 1 (0f3) : 7.9222
+REPORT 36 FI (2) 1 (0f4) : 0.294432
+REPORT 36 FI (2) 1 (0f5) : 46.6821
+REPORT 36 FI (2) 2 (0f2) : 0.666011
+REPORT 36 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 36 used_features 30
+REPORT 36 trainacc 0.790526
+REPORT 36 trainauc 0.806818
+REPORT 36 trainloss_mean 0.455179
+REPORT 36 testacc 0.743421
+REPORT 36 testauc 0.746746
+REPORT 36 testloss_mean 0.529493
+REPORT 36 cache_size 216
+REPORT 36 gain_count 10757
+REPORT 36 bound_count 8395
+BEGIN_tree
+---* [3] -0.00132804
+--* (0) 1 (0f1)
+---* [15] -0.0154039
+-* (1) 1 (0f4)
+---* [1] -0.0349157
+--* (0) 1 (0f1)
+---* [39] -0.0173806
+* (0) 1 (0f0)
+--* [1] -0.0793425
+-* (0) 1 (0f24)
+---* [1] -0.0793381
+--* (0) 1 (0f22)
+---* [1291] -0.00055776
+END_tree
+REPORT 37 FI (0) 1 (0f0) : 18.1543
+REPORT 37 FI (0) 1 (0f1) : 36.2513
+REPORT 37 FI (0) 1 (0f2) : 6.47178
+REPORT 37 FI (0) 1 (0f3) : 1.91501
+REPORT 37 FI (0) 1 (0f4) : 6.86423
+REPORT 37 FI (0) 1 (0f22) : 0.254739
+REPORT 37 FI (0) 1 (0f24) : 0.254515
+REPORT 37 FI (0) 2 (0f1) : 14.609
+REPORT 37 FI (0) 2 (0f2) : 35.4592
+REPORT 37 FI (0) 2 (0f3) : 1.02235
+REPORT 37 FI (0) 2 (0f6) : 0.0706212
+REPORT 37 FI (1) 1 (0f2) : 29.5837
+REPORT 37 FI (1) 1 (0f3) : 18.7896
+REPORT 37 FI (1) 1 (0f4) : 10.818
+REPORT 37 FI (1) 1 (0f5) : 0.0352746
+REPORT 37 FI (1) 1 (0f6) : 28.9195
+REPORT 37 FI (1) 1 (0f8) : 1.48949
+REPORT 37 FI (1) 1 (0f13) : 0.959026
+REPORT 37 FI (1) 1 (0f15) : 1.15666
+REPORT 37 FI (1) 1 (0f18) : 3.23424
+REPORT 37 FI (1) 1 (0f20) : 0.708982
+REPORT 37 FI (1) 1 (0f25) : 0.398309
+REPORT 37 FI (1) 1 (0f26) : 0.319896
+REPORT 37 FI (1) 2 (0f2) : 25.7141
+REPORT 37 FI (1) 2 (0f3) : 3.66304
+REPORT 37 FI (2) 1 (0f3) : 7.9222
+REPORT 37 FI (2) 1 (0f4) : 0.294432
+REPORT 37 FI (2) 1 (0f5) : 46.6821
+REPORT 37 FI (2) 2 (0f2) : 0.666011
+REPORT 37 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 37 used_features 30
+REPORT 37 trainacc 0.790526
+REPORT 37 trainauc 0.806818
+REPORT 37 trainloss_mean 0.455158
+REPORT 37 testacc 0.743421
+REPORT 37 testauc 0.746746
+REPORT 37 testloss_mean 0.529898
+REPORT 37 cache_size 216
+REPORT 37 gain_count 10980
+REPORT 37 bound_count 8558
+BEGIN_tree
+---* [3] -0.000396844
+--* (0) 1 (0f1)
+---* [15] -0.0149405
+-* (1) 1 (0f4)
+---* [1] -0.0325991
+--* (0) 1 (0f1)
+---* [39] -0.0167922
+* (0) 1 (0f0)
+--* [1] -0.0723787
+-* (0) 2 (0f6)
+---* [92] -0.00728187
+--* (0) 1 (0f3)
+---* [1200] 0.000302754
+END_tree
+REPORT 38 FI (0) 1 (0f0) : 18.1676
+REPORT 38 FI (0) 1 (0f1) : 36.2521
+REPORT 38 FI (0) 1 (0f2) : 6.47178
+REPORT 38 FI (0) 1 (0f3) : 1.91993
+REPORT 38 FI (0) 1 (0f4) : 6.86423
+REPORT 38 FI (0) 1 (0f22) : 0.254739
+REPORT 38 FI (0) 1 (0f24) : 0.254515
+REPORT 38 FI (0) 2 (0f1) : 14.609
+REPORT 38 FI (0) 2 (0f2) : 35.4592
+REPORT 38 FI (0) 2 (0f3) : 1.02235
+REPORT 38 FI (0) 2 (0f6) : 0.0758215
+REPORT 38 FI (1) 1 (0f2) : 29.5837
+REPORT 38 FI (1) 1 (0f3) : 18.7896
+REPORT 38 FI (1) 1 (0f4) : 10.8183
+REPORT 38 FI (1) 1 (0f5) : 0.0352746
+REPORT 38 FI (1) 1 (0f6) : 28.9195
+REPORT 38 FI (1) 1 (0f8) : 1.48949
+REPORT 38 FI (1) 1 (0f13) : 0.959026
+REPORT 38 FI (1) 1 (0f15) : 1.15666
+REPORT 38 FI (1) 1 (0f18) : 3.23424
+REPORT 38 FI (1) 1 (0f20) : 0.708982
+REPORT 38 FI (1) 1 (0f25) : 0.398309
+REPORT 38 FI (1) 1 (0f26) : 0.319896
+REPORT 38 FI (1) 2 (0f2) : 25.7141
+REPORT 38 FI (1) 2 (0f3) : 3.66304
+REPORT 38 FI (2) 1 (0f3) : 7.9222
+REPORT 38 FI (2) 1 (0f4) : 0.294432
+REPORT 38 FI (2) 1 (0f5) : 46.6821
+REPORT 38 FI (2) 2 (0f2) : 0.666011
+REPORT 38 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 38 used_features 30
+REPORT 38 trainacc 0.790526
+REPORT 38 trainauc 0.806761
+REPORT 38 trainloss_mean 0.45514
+REPORT 38 testacc 0.743421
+REPORT 38 testauc 0.746746
+REPORT 38 testloss_mean 0.530198
+REPORT 38 cache_size 216
+REPORT 38 gain_count 11203
+REPORT 38 bound_count 8721
+BEGIN_tree
+---* [3] -0.000118619
+--* (0) 1 (0f1)
+---* [15] -0.0145042
+-* (1) 1 (0f4)
+---* [1] -0.0305729
+--* (0) 1 (0f1)
+---* [39] -0.0162426
+* (0) 1 (0f0)
+---* [2] 0.180929
+--* (0) 1 (0f1)
+---* [2] -0.112932
+-* (0) 2 (0f3)
+---* [1] -0.133897
+--* (1) 1 (0f5)
+---* [1288] -0.000249821
+END_tree
+REPORT 39 FI (0) 1 (0f0) : 18.18
+REPORT 39 FI (0) 1 (0f1) : 36.3391
+REPORT 39 FI (0) 1 (0f2) : 6.47178
+REPORT 39 FI (0) 1 (0f3) : 1.91993
+REPORT 39 FI (0) 1 (0f4) : 6.86423
+REPORT 39 FI (0) 1 (0f22) : 0.254739
+REPORT 39 FI (0) 1 (0f24) : 0.254515
+REPORT 39 FI (0) 2 (0f1) : 14.609
+REPORT 39 FI (0) 2 (0f2) : 35.4592
+REPORT 39 FI (0) 2 (0f3) : 1.02706
+REPORT 39 FI (0) 2 (0f6) : 0.0758215
+REPORT 39 FI (1) 1 (0f2) : 29.5837
+REPORT 39 FI (1) 1 (0f3) : 18.7896
+REPORT 39 FI (1) 1 (0f4) : 10.8185
+REPORT 39 FI (1) 1 (0f5) : 0.0531224
+REPORT 39 FI (1) 1 (0f6) : 28.9195
+REPORT 39 FI (1) 1 (0f8) : 1.48949
+REPORT 39 FI (1) 1 (0f13) : 0.959026
+REPORT 39 FI (1) 1 (0f15) : 1.15666
+REPORT 39 FI (1) 1 (0f18) : 3.23424
+REPORT 39 FI (1) 1 (0f20) : 0.708982
+REPORT 39 FI (1) 1 (0f25) : 0.398309
+REPORT 39 FI (1) 1 (0f26) : 0.319896
+REPORT 39 FI (1) 2 (0f2) : 25.7141
+REPORT 39 FI (1) 2 (0f3) : 3.66304
+REPORT 39 FI (2) 1 (0f3) : 7.9222
+REPORT 39 FI (2) 1 (0f4) : 0.294432
+REPORT 39 FI (2) 1 (0f5) : 46.6821
+REPORT 39 FI (2) 2 (0f2) : 0.666011
+REPORT 39 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 39 used_features 30
+REPORT 39 trainacc 0.790526
+REPORT 39 trainauc 0.80678
+REPORT 39 trainloss_mean 0.455064
+REPORT 39 testacc 0.743421
+REPORT 39 testauc 0.746746
+REPORT 39 testloss_mean 0.530469
+REPORT 39 cache_size 216
+REPORT 39 gain_count 11478
+REPORT 39 bound_count 8926
+BEGIN_tree
+---* [3] 0.00828826
+--* (2) 2 (0f2)
+---* [1] -0.0537568
+-* (0) 1 (0f1)
+---* [15] -0.0185403
+--* (0) 2 (0f1)
+---* [39] -0.0140173
+* (0) 1 (0f0)
+---* [4] -0.252557
+--* (0) 1 (0f3)
+---* [189] -8.32253e-05
+-* (0) 1 (0f1)
+---* [2] -0.0913985
+--* (0) 2 (0f3)
+---* [1098] 0.000917835
+END_tree
+REPORT 40 FI (0) 1 (0f0) : 18.1917
+REPORT 40 FI (0) 1 (0f1) : 36.3454
+REPORT 40 FI (0) 1 (0f2) : 6.47178
+REPORT 40 FI (0) 1 (0f3) : 2.16961
+REPORT 40 FI (0) 1 (0f4) : 6.86423
+REPORT 40 FI (0) 1 (0f22) : 0.254739
+REPORT 40 FI (0) 1 (0f24) : 0.254515
+REPORT 40 FI (0) 2 (0f1) : 14.6092
+REPORT 40 FI (0) 2 (0f2) : 35.4592
+REPORT 40 FI (0) 2 (0f3) : 1.04407
+REPORT 40 FI (0) 2 (0f6) : 0.0758215
+REPORT 40 FI (1) 1 (0f2) : 29.5837
+REPORT 40 FI (1) 1 (0f3) : 18.7896
+REPORT 40 FI (1) 1 (0f4) : 10.8185
+REPORT 40 FI (1) 1 (0f5) : 0.0531224
+REPORT 40 FI (1) 1 (0f6) : 28.9195
+REPORT 40 FI (1) 1 (0f8) : 1.48949
+REPORT 40 FI (1) 1 (0f13) : 0.959026
+REPORT 40 FI (1) 1 (0f15) : 1.15666
+REPORT 40 FI (1) 1 (0f18) : 3.23424
+REPORT 40 FI (1) 1 (0f20) : 0.708982
+REPORT 40 FI (1) 1 (0f25) : 0.398309
+REPORT 40 FI (1) 1 (0f26) : 0.319896
+REPORT 40 FI (1) 2 (0f2) : 25.7141
+REPORT 40 FI (1) 2 (0f3) : 3.66304
+REPORT 40 FI (2) 1 (0f3) : 7.9222
+REPORT 40 FI (2) 1 (0f4) : 0.294432
+REPORT 40 FI (2) 1 (0f5) : 46.6821
+REPORT 40 FI (2) 2 (0f2) : 0.668898
+REPORT 40 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 40 used_features 30
+REPORT 40 trainacc 0.790526
+REPORT 40 trainauc 0.806997
+REPORT 40 trainloss_mean 0.454887
+REPORT 40 testacc 0.743421
+REPORT 40 testauc 0.746746
+REPORT 40 testloss_mean 0.530901
+REPORT 40 cache_size 216
+REPORT 40 gain_count 11751
+REPORT 40 bound_count 9129
+BEGIN_tree
+---* [12] -0.00913101
+--* (2) 2 (0f2)
+---* [6] -0.0177933
+-* (1) 1 (0f4)
+---* [1] -0.0292597
+--* (0) 1 (0f1)
+---* [39] -0.01525
+* (0) 1 (0f0)
+--* [1] -0.0682244
+-* (0) 1 (0f24)
+---* [1] -0.0682212
+--* (0) 1 (0f22)
+---* [1291] -0.000231418
+END_tree
+REPORT 41 FI (0) 1 (0f0) : 18.2029
+REPORT 41 FI (0) 1 (0f1) : 36.3456
+REPORT 41 FI (0) 1 (0f2) : 6.47178
+REPORT 41 FI (0) 1 (0f3) : 2.16961
+REPORT 41 FI (0) 1 (0f4) : 6.86423
+REPORT 41 FI (0) 1 (0f22) : 0.259358
+REPORT 41 FI (0) 1 (0f24) : 0.259127
+REPORT 41 FI (0) 2 (0f1) : 14.6092
+REPORT 41 FI (0) 2 (0f2) : 35.4592
+REPORT 41 FI (0) 2 (0f3) : 1.04407
+REPORT 41 FI (0) 2 (0f6) : 0.0758215
+REPORT 41 FI (1) 1 (0f2) : 29.5837
+REPORT 41 FI (1) 1 (0f3) : 18.7896
+REPORT 41 FI (1) 1 (0f4) : 10.8187
+REPORT 41 FI (1) 1 (0f5) : 0.0531224
+REPORT 41 FI (1) 1 (0f6) : 28.9195
+REPORT 41 FI (1) 1 (0f8) : 1.48949
+REPORT 41 FI (1) 1 (0f13) : 0.959026
+REPORT 41 FI (1) 1 (0f15) : 1.15666
+REPORT 41 FI (1) 1 (0f18) : 3.23424
+REPORT 41 FI (1) 1 (0f20) : 0.708982
+REPORT 41 FI (1) 1 (0f25) : 0.398309
+REPORT 41 FI (1) 1 (0f26) : 0.319896
+REPORT 41 FI (1) 2 (0f2) : 25.7141
+REPORT 41 FI (1) 2 (0f3) : 3.66304
+REPORT 41 FI (2) 1 (0f3) : 7.9222
+REPORT 41 FI (2) 1 (0f4) : 0.294432
+REPORT 41 FI (2) 1 (0f5) : 46.6821
+REPORT 41 FI (2) 2 (0f2) : 0.669198
+REPORT 41 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 41 used_features 30
+REPORT 41 trainacc 0.790526
+REPORT 41 trainauc 0.806997
+REPORT 41 trainloss_mean 0.454871
+REPORT 41 testacc 0.743421
+REPORT 41 testauc 0.746746
+REPORT 41 testloss_mean 0.531317
+REPORT 41 cache_size 216
+REPORT 41 gain_count 11973
+REPORT 41 bound_count 9291
+BEGIN_tree
+---* [3] 0.00923836
+--* (2) 2 (0f2)
+---* [1] -0.0467568
+-* (0) 1 (0f1)
+---* [15] -0.0173711
+--* (0) 2 (0f1)
+---* [39] -0.0132514
+* (0) 1 (0f0)
+--* [1] -0.0629845
+-* (0) 2 (0f6)
+---* [2] -0.0435527
+--* (0) 1 (0f18)
+---* [1290] -5.45775e-05
+END_tree
+REPORT 42 FI (0) 1 (0f0) : 18.2131
+REPORT 42 FI (0) 1 (0f1) : 36.3459
+REPORT 42 FI (0) 1 (0f2) : 6.47178
+REPORT 42 FI (0) 1 (0f3) : 2.16961
+REPORT 42 FI (0) 1 (0f4) : 6.86423
+REPORT 42 FI (0) 1 (0f18) : 0.00377832
+REPORT 42 FI (0) 1 (0f22) : 0.259358
+REPORT 42 FI (0) 1 (0f24) : 0.259127
+REPORT 42 FI (0) 2 (0f1) : 14.6094
+REPORT 42 FI (0) 2 (0f2) : 35.4592
+REPORT 42 FI (0) 2 (0f3) : 1.04407
+REPORT 42 FI (0) 2 (0f6) : 0.0797702
+REPORT 42 FI (1) 1 (0f2) : 29.5837
+REPORT 42 FI (1) 1 (0f3) : 18.7896
+REPORT 42 FI (1) 1 (0f4) : 10.8187
+REPORT 42 FI (1) 1 (0f5) : 0.0531224
+REPORT 42 FI (1) 1 (0f6) : 28.9195
+REPORT 42 FI (1) 1 (0f8) : 1.48949
+REPORT 42 FI (1) 1 (0f13) : 0.959026
+REPORT 42 FI (1) 1 (0f15) : 1.15666
+REPORT 42 FI (1) 1 (0f18) : 3.23424
+REPORT 42 FI (1) 1 (0f20) : 0.708982
+REPORT 42 FI (1) 1 (0f25) : 0.398309
+REPORT 42 FI (1) 1 (0f26) : 0.319896
+REPORT 42 FI (1) 2 (0f2) : 25.7141
+REPORT 42 FI (1) 2 (0f3) : 3.66304
+REPORT 42 FI (2) 1 (0f3) : 7.9222
+REPORT 42 FI (2) 1 (0f4) : 0.294432
+REPORT 42 FI (2) 1 (0f5) : 46.6821
+REPORT 42 FI (2) 2 (0f2) : 0.67155
+REPORT 42 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 42 used_features 31
+REPORT 42 trainacc 0.790526
+REPORT 42 trainauc 0.806997
+REPORT 42 trainloss_mean 0.454856
+REPORT 42 testacc 0.743421
+REPORT 42 testauc 0.746746
+REPORT 42 testloss_mean 0.531755
+REPORT 42 cache_size 216
+REPORT 42 gain_count 12205
+REPORT 42 bound_count 9463
+BEGIN_tree
+---* [3] -0.0019346
+--* (0) 1 (0f1)
+---* [15] -0.0129758
+-* (1) 1 (0f4)
+---* [1] -0.0281274
+--* (0) 1 (0f1)
+---* [39] -0.0143717
+* (0) 1 (0f0)
+---* [21] 0.0423429
+--* (1) 2 (0f2)
+---* [45] -0.03046
+-* (0) 1 (0f4)
+---* [55] -0.0141641
+--* (0) 1 (0f3)
+---* [1172] 0.000939443
+END_tree
+REPORT 43 FI (0) 1 (0f0) : 18.2232
+REPORT 43 FI (0) 1 (0f1) : 36.3464
+REPORT 43 FI (0) 1 (0f2) : 6.47178
+REPORT 43 FI (0) 1 (0f3) : 2.1816
+REPORT 43 FI (0) 1 (0f4) : 6.86781
+REPORT 43 FI (0) 1 (0f18) : 0.00377832
+REPORT 43 FI (0) 1 (0f22) : 0.259358
+REPORT 43 FI (0) 1 (0f24) : 0.259127
+REPORT 43 FI (0) 2 (0f1) : 14.6094
+REPORT 43 FI (0) 2 (0f2) : 35.4592
+REPORT 43 FI (0) 2 (0f3) : 1.04407
+REPORT 43 FI (0) 2 (0f6) : 0.0797702
+REPORT 43 FI (1) 1 (0f2) : 29.5837
+REPORT 43 FI (1) 1 (0f3) : 18.7896
+REPORT 43 FI (1) 1 (0f4) : 10.8188
+REPORT 43 FI (1) 1 (0f5) : 0.0531224
+REPORT 43 FI (1) 1 (0f6) : 28.9195
+REPORT 43 FI (1) 1 (0f8) : 1.48949
+REPORT 43 FI (1) 1 (0f13) : 0.959026
+REPORT 43 FI (1) 1 (0f15) : 1.15666
+REPORT 43 FI (1) 1 (0f18) : 3.23424
+REPORT 43 FI (1) 1 (0f20) : 0.708982
+REPORT 43 FI (1) 1 (0f25) : 0.398309
+REPORT 43 FI (1) 1 (0f26) : 0.319896
+REPORT 43 FI (1) 2 (0f2) : 25.79
+REPORT 43 FI (1) 2 (0f3) : 3.66304
+REPORT 43 FI (2) 1 (0f3) : 7.9222
+REPORT 43 FI (2) 1 (0f4) : 0.294432
+REPORT 43 FI (2) 1 (0f5) : 46.6821
+REPORT 43 FI (2) 2 (0f2) : 0.67155
+REPORT 43 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 43 used_features 31
+REPORT 43 trainacc 0.789785
+REPORT 43 trainauc 0.807133
+REPORT 43 trainloss_mean 0.45479
+REPORT 43 testacc 0.743421
+REPORT 43 testauc 0.746106
+REPORT 43 testloss_mean 0.531623
+REPORT 43 cache_size 216
+REPORT 43 gain_count 12478
+REPORT 43 bound_count 9666
+BEGIN_tree
+---* [3] -0.000591592
+--* (0) 1 (0f1)
+---* [15] -0.0126457
+-* (1) 1 (0f4)
+---* [1] -0.0266092
+--* (0) 1 (0f1)
+---* [39] -0.0139676
+* (0) 1 (0f0)
+---* [37] 0.0186549
+--* (0) 1 (0f3)
+---* [29] -0.0458341
+-* (0) 1 (0f4)
+---* [1] -0.104388
+--* (1) 1 (0f5)
+---* [1226] 7.77628e-05
+END_tree
+REPORT 44 FI (0) 1 (0f0) : 18.232
+REPORT 44 FI (0) 1 (0f1) : 36.347
+REPORT 44 FI (0) 1 (0f2) : 6.47178
+REPORT 44 FI (0) 1 (0f3) : 2.24921
+REPORT 44 FI (0) 1 (0f4) : 6.87367
+REPORT 44 FI (0) 1 (0f18) : 0.00377832
+REPORT 44 FI (0) 1 (0f22) : 0.259358
+REPORT 44 FI (0) 1 (0f24) : 0.259127
+REPORT 44 FI (0) 2 (0f1) : 14.6094
+REPORT 44 FI (0) 2 (0f2) : 35.4592
+REPORT 44 FI (0) 2 (0f3) : 1.04407
+REPORT 44 FI (0) 2 (0f6) : 0.0797702
+REPORT 44 FI (1) 1 (0f2) : 29.5837
+REPORT 44 FI (1) 1 (0f3) : 18.7896
+REPORT 44 FI (1) 1 (0f4) : 10.819
+REPORT 44 FI (1) 1 (0f5) : 0.0640266
+REPORT 44 FI (1) 1 (0f6) : 28.9195
+REPORT 44 FI (1) 1 (0f8) : 1.48949
+REPORT 44 FI (1) 1 (0f13) : 0.959026
+REPORT 44 FI (1) 1 (0f15) : 1.15666
+REPORT 44 FI (1) 1 (0f18) : 3.23424
+REPORT 44 FI (1) 1 (0f20) : 0.708982
+REPORT 44 FI (1) 1 (0f25) : 0.398309
+REPORT 44 FI (1) 1 (0f26) : 0.319896
+REPORT 44 FI (1) 2 (0f2) : 25.79
+REPORT 44 FI (1) 2 (0f3) : 3.66304
+REPORT 44 FI (2) 1 (0f3) : 7.9222
+REPORT 44 FI (2) 1 (0f4) : 0.294432
+REPORT 44 FI (2) 1 (0f5) : 46.6821
+REPORT 44 FI (2) 2 (0f2) : 0.67155
+REPORT 44 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 44 used_features 31
+REPORT 44 trainacc 0.789785
+REPORT 44 trainauc 0.807146
+REPORT 44 trainloss_mean 0.454725
+REPORT 44 testacc 0.743421
+REPORT 44 testauc 0.746106
+REPORT 44 testloss_mean 0.532533
+REPORT 44 cache_size 216
+REPORT 44 gain_count 12752
+REPORT 44 bound_count 9870
+BEGIN_tree
+---* [3] 0.00555691
+--* (2) 2 (0f2)
+---* [1] -0.0424612
+-* (0) 1 (0f1)
+---* [15] -0.0158876
+--* (0) 2 (0f1)
+---* [39] -0.0122182
+* (0) 1 (0f0)
+---* [5] 0.0919765
+--* (1) 1 (0f4)
+---* [61] -0.0172492
+-* (0) 1 (0f4)
+---* [598] -0.002911
+--* (1) 1 (0f4)
+---* [629] 0.00267919
+END_tree
+REPORT 45 FI (0) 1 (0f0) : 18.2404
+REPORT 45 FI (0) 1 (0f1) : 36.3471
+REPORT 45 FI (0) 1 (0f2) : 6.47178
+REPORT 45 FI (0) 1 (0f3) : 2.24921
+REPORT 45 FI (0) 1 (0f4) : 6.87866
+REPORT 45 FI (0) 1 (0f18) : 0.00377832
+REPORT 45 FI (0) 1 (0f22) : 0.259358
+REPORT 45 FI (0) 1 (0f24) : 0.259127
+REPORT 45 FI (0) 2 (0f1) : 14.6096
+REPORT 45 FI (0) 2 (0f2) : 35.4592
+REPORT 45 FI (0) 2 (0f3) : 1.04407
+REPORT 45 FI (0) 2 (0f6) : 0.0797702
+REPORT 45 FI (1) 1 (0f2) : 29.5837
+REPORT 45 FI (1) 1 (0f3) : 18.7896
+REPORT 45 FI (1) 1 (0f4) : 10.8837
+REPORT 45 FI (1) 1 (0f5) : 0.0640266
+REPORT 45 FI (1) 1 (0f6) : 28.9195
+REPORT 45 FI (1) 1 (0f8) : 1.48949
+REPORT 45 FI (1) 1 (0f13) : 0.959026
+REPORT 45 FI (1) 1 (0f15) : 1.15666
+REPORT 45 FI (1) 1 (0f18) : 3.23424
+REPORT 45 FI (1) 1 (0f20) : 0.708982
+REPORT 45 FI (1) 1 (0f25) : 0.398309
+REPORT 45 FI (1) 1 (0f26) : 0.319896
+REPORT 45 FI (1) 2 (0f2) : 25.79
+REPORT 45 FI (1) 2 (0f3) : 3.66304
+REPORT 45 FI (2) 1 (0f3) : 7.9222
+REPORT 45 FI (2) 1 (0f4) : 0.294432
+REPORT 45 FI (2) 1 (0f5) : 46.6821
+REPORT 45 FI (2) 2 (0f2) : 0.673279
+REPORT 45 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 45 used_features 31
+REPORT 45 trainacc 0.789785
+REPORT 45 trainauc 0.807184
+REPORT 45 trainloss_mean 0.454674
+REPORT 45 testacc 0.743421
+REPORT 45 testauc 0.74696
+REPORT 45 testloss_mean 0.531695
+REPORT 45 cache_size 216
+REPORT 45 gain_count 13027
+REPORT 45 bound_count 10075
+BEGIN_tree
+---* [3] -0.00275451
+--* (0) 1 (0f1)
+---* [15] -0.0120087
+-* (1) 1 (0f4)
+---* [1] -0.0255261
+--* (0) 1 (0f1)
+---* [39] -0.0132275
+* (0) 1 (0f0)
+---* [302] 0.00824749
+--* (0) 1 (0f2)
+---* [9] -0.14823
+-* (0) 2 (0f1)
+---* [13] -0.120122
+--* (0) 1 (0f3)
+---* [969] 0.00013061
+END_tree
+REPORT 46 FI (0) 1 (0f0) : 18.2489
+REPORT 46 FI (0) 1 (0f1) : 36.3475
+REPORT 46 FI (0) 1 (0f2) : 6.68577
+REPORT 46 FI (0) 1 (0f3) : 2.43471
+REPORT 46 FI (0) 1 (0f4) : 6.87866
+REPORT 46 FI (0) 1 (0f18) : 0.00377832
+REPORT 46 FI (0) 1 (0f22) : 0.259358
+REPORT 46 FI (0) 1 (0f24) : 0.259127
+REPORT 46 FI (0) 2 (0f1) : 14.6159
+REPORT 46 FI (0) 2 (0f2) : 35.4592
+REPORT 46 FI (0) 2 (0f3) : 1.04407
+REPORT 46 FI (0) 2 (0f6) : 0.0797702
+REPORT 46 FI (1) 1 (0f2) : 29.5837
+REPORT 46 FI (1) 1 (0f3) : 18.7896
+REPORT 46 FI (1) 1 (0f4) : 10.8838
+REPORT 46 FI (1) 1 (0f5) : 0.0640266
+REPORT 46 FI (1) 1 (0f6) : 28.9195
+REPORT 46 FI (1) 1 (0f8) : 1.48949
+REPORT 46 FI (1) 1 (0f13) : 0.959026
+REPORT 46 FI (1) 1 (0f15) : 1.15666
+REPORT 46 FI (1) 1 (0f18) : 3.23424
+REPORT 46 FI (1) 1 (0f20) : 0.708982
+REPORT 46 FI (1) 1 (0f25) : 0.398309
+REPORT 46 FI (1) 1 (0f26) : 0.319896
+REPORT 46 FI (1) 2 (0f2) : 25.79
+REPORT 46 FI (1) 2 (0f3) : 3.66304
+REPORT 46 FI (2) 1 (0f3) : 7.9222
+REPORT 46 FI (2) 1 (0f4) : 0.294432
+REPORT 46 FI (2) 1 (0f5) : 46.6821
+REPORT 46 FI (2) 2 (0f2) : 0.673279
+REPORT 46 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 46 used_features 31
+REPORT 46 trainacc 0.790526
+REPORT 46 trainauc 0.806905
+REPORT 46 trainloss_mean 0.454442
+REPORT 46 testacc 0.743421
+REPORT 46 testauc 0.746533
+REPORT 46 testloss_mean 0.531995
+REPORT 46 cache_size 216
+REPORT 46 gain_count 13305
+REPORT 46 bound_count 10283
+BEGIN_tree
+---* [12] 0.170067
+--* (2) 1 (0f5)
+---* [19] -0.192489
+-* (0) 2 (0f2)
+---* [263] -0.0194432
+--* (1) 1 (0f2)
+---* [271] 0.0166312
+* (0) 1 (0f2)
+---* [19] -0.0794991
+--* (1) 1 (0f3)
+---* [4] -0.340152
+-* (1) 2 (0f3)
+---* [608] 0.0128664
+--* (1) 2 (0f2)
+---* [155] -0.0278751
+END_tree
+REPORT 47 FI (0) 1 (0f0) : 18.2489
+REPORT 47 FI (0) 1 (0f1) : 36.3475
+REPORT 47 FI (0) 1 (0f2) : 6.69314
+REPORT 47 FI (0) 1 (0f3) : 2.43471
+REPORT 47 FI (0) 1 (0f4) : 6.87866
+REPORT 47 FI (0) 1 (0f18) : 0.00377832
+REPORT 47 FI (0) 1 (0f22) : 0.259358
+REPORT 47 FI (0) 1 (0f24) : 0.259127
+REPORT 47 FI (0) 2 (0f1) : 14.6159
+REPORT 47 FI (0) 2 (0f2) : 35.5355
+REPORT 47 FI (0) 2 (0f3) : 1.04407
+REPORT 47 FI (0) 2 (0f6) : 0.0797702
+REPORT 47 FI (1) 1 (0f2) : 29.7574
+REPORT 47 FI (1) 1 (0f3) : 19.0141
+REPORT 47 FI (1) 1 (0f4) : 10.8838
+REPORT 47 FI (1) 1 (0f5) : 0.0640266
+REPORT 47 FI (1) 1 (0f6) : 28.9195
+REPORT 47 FI (1) 1 (0f8) : 1.48949
+REPORT 47 FI (1) 1 (0f13) : 0.959026
+REPORT 47 FI (1) 1 (0f15) : 1.15666
+REPORT 47 FI (1) 1 (0f18) : 3.23424
+REPORT 47 FI (1) 1 (0f20) : 0.708982
+REPORT 47 FI (1) 1 (0f25) : 0.398309
+REPORT 47 FI (1) 1 (0f26) : 0.319896
+REPORT 47 FI (1) 2 (0f2) : 25.995
+REPORT 47 FI (1) 2 (0f3) : 4.037
+REPORT 47 FI (2) 1 (0f3) : 7.9222
+REPORT 47 FI (2) 1 (0f4) : 0.294432
+REPORT 47 FI (2) 1 (0f5) : 47.6489
+REPORT 47 FI (2) 2 (0f2) : 0.673279
+REPORT 47 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 47 used_features 31
+REPORT 47 trainacc 0.790526
+REPORT 47 trainauc 0.807407
+REPORT 47 trainloss_mean 0.453232
+REPORT 47 testacc 0.743421
+REPORT 47 testauc 0.746746
+REPORT 47 testloss_mean 0.530047
+REPORT 47 cache_size 255
+REPORT 47 gain_count 13637
+REPORT 47 bound_count 10545
+BEGIN_tree
+---* [3] 0.0979862
+--* (0) 2 (0f2) 1 (1f2)
+---* [1] 1.63418
+-* (2) 1 (0f7)
+---* [1] -0.845212
+--* (1) 1 (0f6)
+---* [89] -6.98753e-05
+* (0) 2 (0f2)
+---* [196] 0.014383
+--* (0) 2 (0f1)
+---* [413] -0.00433981
+-* (1) 1 (0f4)
+---* [30] -0.171607
+--* (1) 1 (0f6)
+---* [618] 0.000782035
+END_tree
+REPORT 48 FI (0) 1 (0f0) : 18.2489
+REPORT 48 FI (0) 1 (0f1) : 36.3475
+REPORT 48 FI (0) 1 (0f2) : 6.69314
+REPORT 48 FI (0) 1 (0f3) : 2.43471
+REPORT 48 FI (0) 1 (0f4) : 6.87866
+REPORT 48 FI (0) 1 (0f18) : 0.00377832
+REPORT 48 FI (0) 1 (0f22) : 0.259358
+REPORT 48 FI (0) 1 (0f24) : 0.259127
+REPORT 48 FI (0) 2 (0f1) : 14.6625
+REPORT 48 FI (0) 2 (0f2) : 35.5535
+REPORT 48 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 48 FI (0) 2 (0f3) : 1.04407
+REPORT 48 FI (0) 2 (0f6) : 0.0797702
+REPORT 48 FI (1) 1 (0f2) : 29.7574
+REPORT 48 FI (1) 1 (0f3) : 19.0141
+REPORT 48 FI (1) 1 (0f4) : 10.9086
+REPORT 48 FI (1) 1 (0f5) : 0.0640266
+REPORT 48 FI (1) 1 (0f6) : 30.4761
+REPORT 48 FI (1) 1 (0f8) : 1.48949
+REPORT 48 FI (1) 1 (0f13) : 0.959026
+REPORT 48 FI (1) 1 (0f15) : 1.15666
+REPORT 48 FI (1) 1 (0f18) : 3.23424
+REPORT 48 FI (1) 1 (0f20) : 0.708982
+REPORT 48 FI (1) 1 (0f25) : 0.398309
+REPORT 48 FI (1) 1 (0f26) : 0.319896
+REPORT 48 FI (1) 2 (0f2) : 25.995
+REPORT 48 FI (1) 2 (0f3) : 4.037
+REPORT 48 FI (2) 1 (0f3) : 7.9222
+REPORT 48 FI (2) 1 (0f4) : 0.294432
+REPORT 48 FI (2) 1 (0f5) : 47.6489
+REPORT 48 FI (2) 1 (0f7) : 0.925148
+REPORT 48 FI (2) 2 (0f2) : 0.673279
+REPORT 48 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 48 used_features 33
+REPORT 48 trainacc 0.791266
+REPORT 48 trainauc 0.809612
+REPORT 48 trainloss_mean 0.451285
+REPORT 48 testacc 0.743421
+REPORT 48 testauc 0.746106
+REPORT 48 testloss_mean 0.530417
+REPORT 48 cache_size 255
+REPORT 48 gain_count 13955
+REPORT 48 bound_count 10793
+BEGIN_tree
+---* [22] 0.00269254
+--* (0) 2 (0f1)
+---* [7] -0.250917
+-* (0) 1 (0f3)
+---* [543] -0.00450101
+--* (1) 1 (0f4)
+---* [325] 0.0207372
+* (1) 1 (0f2)
+---* [5] 0.572675
+--* (1) 2 (0f2)
+---* [1] -0.26312
+-* (1) 1 (0f6)
+---* [236] -0.0709108
+--* (1) 2 (0f2)
+---* [212] 0.0466297
+END_tree
+REPORT 49 FI (0) 1 (0f0) : 18.2489
+REPORT 49 FI (0) 1 (0f1) : 36.3475
+REPORT 49 FI (0) 1 (0f2) : 6.69314
+REPORT 49 FI (0) 1 (0f3) : 2.54777
+REPORT 49 FI (0) 1 (0f4) : 6.87866
+REPORT 49 FI (0) 1 (0f18) : 0.00377832
+REPORT 49 FI (0) 1 (0f22) : 0.259358
+REPORT 49 FI (0) 1 (0f24) : 0.259127
+REPORT 49 FI (0) 2 (0f1) : 15.004
+REPORT 49 FI (0) 2 (0f2) : 35.5535
+REPORT 49 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 49 FI (0) 2 (0f3) : 1.04407
+REPORT 49 FI (0) 2 (0f6) : 0.0797702
+REPORT 49 FI (1) 1 (0f2) : 29.8027
+REPORT 49 FI (1) 1 (0f3) : 19.0141
+REPORT 49 FI (1) 1 (0f4) : 11.0381
+REPORT 49 FI (1) 1 (0f5) : 0.0640266
+REPORT 49 FI (1) 1 (0f6) : 31.6679
+REPORT 49 FI (1) 1 (0f8) : 1.48949
+REPORT 49 FI (1) 1 (0f13) : 0.959026
+REPORT 49 FI (1) 1 (0f15) : 1.15666
+REPORT 49 FI (1) 1 (0f18) : 3.23424
+REPORT 49 FI (1) 1 (0f20) : 0.708982
+REPORT 49 FI (1) 1 (0f25) : 0.398309
+REPORT 49 FI (1) 1 (0f26) : 0.319896
+REPORT 49 FI (1) 2 (0f2) : 28.12
+REPORT 49 FI (1) 2 (0f3) : 4.037
+REPORT 49 FI (2) 1 (0f3) : 7.9222
+REPORT 49 FI (2) 1 (0f4) : 0.294432
+REPORT 49 FI (2) 1 (0f5) : 47.6489
+REPORT 49 FI (2) 1 (0f7) : 0.925148
+REPORT 49 FI (2) 2 (0f2) : 0.673279
+REPORT 49 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 49 used_features 33
+REPORT 49 trainacc 0.790526
+REPORT 49 trainauc 0.811648
+REPORT 49 trainloss_mean 0.44934
+REPORT 49 testacc 0.743421
+REPORT 49 testauc 0.746533
+REPORT 49 testloss_mean 0.528683
+REPORT 49 cache_size 255
+REPORT 49 gain_count 14213
+REPORT 49 bound_count 10981
+BEGIN_tree
+---* [43] 0.0948378
+--* (0) 2 (0f1)
+---* [13] -0.0114695
+-* (1) 2 (0f2)
+---* [7] -0.249903
+--* (1) 1 (0f2)
+---* [36] -0.0148121
+* (0) 1 (0f3)
+---* [64] -0.0284584
+--* (1) 1 (0f3)
+---* [804] 0.0041687
+-* (1) 1 (0f2)
+---* [41] 0.0103511
+--* (1) 1 (0f3)
+---* [343] -0.0184263
+END_tree
+REPORT 50 FI (0) 1 (0f0) : 18.2489
+REPORT 50 FI (0) 1 (0f1) : 36.3475
+REPORT 50 FI (0) 1 (0f2) : 6.69314
+REPORT 50 FI (0) 1 (0f3) : 2.58489
+REPORT 50 FI (0) 1 (0f4) : 6.87866
+REPORT 50 FI (0) 1 (0f18) : 0.00377832
+REPORT 50 FI (0) 1 (0f22) : 0.259358
+REPORT 50 FI (0) 1 (0f24) : 0.259127
+REPORT 50 FI (0) 2 (0f1) : 15.1168
+REPORT 50 FI (0) 2 (0f2) : 35.5535
+REPORT 50 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 50 FI (0) 2 (0f3) : 1.04407
+REPORT 50 FI (0) 2 (0f6) : 0.0797702
+REPORT 50 FI (1) 1 (0f2) : 30.2046
+REPORT 50 FI (1) 1 (0f3) : 19.1076
+REPORT 50 FI (1) 1 (0f4) : 11.0381
+REPORT 50 FI (1) 1 (0f5) : 0.0640266
+REPORT 50 FI (1) 1 (0f6) : 31.6679
+REPORT 50 FI (1) 1 (0f8) : 1.48949
+REPORT 50 FI (1) 1 (0f13) : 0.959026
+REPORT 50 FI (1) 1 (0f15) : 1.15666
+REPORT 50 FI (1) 1 (0f18) : 3.23424
+REPORT 50 FI (1) 1 (0f20) : 0.708982
+REPORT 50 FI (1) 1 (0f25) : 0.398309
+REPORT 50 FI (1) 1 (0f26) : 0.319896
+REPORT 50 FI (1) 2 (0f2) : 28.4895
+REPORT 50 FI (1) 2 (0f3) : 4.037
+REPORT 50 FI (2) 1 (0f3) : 7.9222
+REPORT 50 FI (2) 1 (0f4) : 0.294432
+REPORT 50 FI (2) 1 (0f5) : 47.6489
+REPORT 50 FI (2) 1 (0f7) : 0.925148
+REPORT 50 FI (2) 2 (0f2) : 0.673279
+REPORT 50 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 50 used_features 33
+REPORT 50 trainacc 0.791266
+REPORT 50 trainauc 0.812308
+REPORT 50 trainloss_mean 0.448749
+REPORT 50 testacc 0.743421
+REPORT 50 testauc 0.749093
+REPORT 50 testloss_mean 0.52709
+REPORT 50 cache_size 255
+REPORT 50 gain_count 14446
+REPORT 50 bound_count 11144
+BEGIN_tree
+---* [1] -0.0245724
+--* (1) 1 (0f2)
+---* [3] -0.0419034
+-* (0) 1 (0f1)
+---* [15] -0.0154794
+--* (0) 2 (0f1)
+---* [39] -0.0113547
+* (0) 1 (0f0)
+---* [61] -0.0187887
+--* (2) 1 (0f3)
+---* [5] 0.0759154
+-* (0) 1 (0f4)
+---* [598] -0.00424521
+--* (1) 1 (0f4)
+---* [629] 0.00115914
+END_tree
+REPORT 51 FI (0) 1 (0f0) : 18.2572
+REPORT 51 FI (0) 1 (0f1) : 36.3498
+REPORT 51 FI (0) 1 (0f2) : 6.69314
+REPORT 51 FI (0) 1 (0f3) : 2.58489
+REPORT 51 FI (0) 1 (0f4) : 6.8851
+REPORT 51 FI (0) 1 (0f18) : 0.00377832
+REPORT 51 FI (0) 1 (0f22) : 0.259358
+REPORT 51 FI (0) 1 (0f24) : 0.259127
+REPORT 51 FI (0) 2 (0f1) : 15.117
+REPORT 51 FI (0) 2 (0f2) : 35.5535
+REPORT 51 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 51 FI (0) 2 (0f3) : 1.04407
+REPORT 51 FI (0) 2 (0f6) : 0.0797702
+REPORT 51 FI (1) 1 (0f2) : 30.2048
+REPORT 51 FI (1) 1 (0f3) : 19.1076
+REPORT 51 FI (1) 1 (0f4) : 11.0471
+REPORT 51 FI (1) 1 (0f5) : 0.0640266
+REPORT 51 FI (1) 1 (0f6) : 31.6679
+REPORT 51 FI (1) 1 (0f8) : 1.48949
+REPORT 51 FI (1) 1 (0f13) : 0.959026
+REPORT 51 FI (1) 1 (0f15) : 1.15666
+REPORT 51 FI (1) 1 (0f18) : 3.23424
+REPORT 51 FI (1) 1 (0f20) : 0.708982
+REPORT 51 FI (1) 1 (0f25) : 0.398309
+REPORT 51 FI (1) 1 (0f26) : 0.319896
+REPORT 51 FI (1) 2 (0f2) : 28.4895
+REPORT 51 FI (1) 2 (0f3) : 4.037
+REPORT 51 FI (2) 1 (0f3) : 7.96364
+REPORT 51 FI (2) 1 (0f4) : 0.294432
+REPORT 51 FI (2) 1 (0f5) : 47.6489
+REPORT 51 FI (2) 1 (0f7) : 0.925148
+REPORT 51 FI (2) 2 (0f2) : 0.673279
+REPORT 51 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 51 used_features 33
+REPORT 51 trainacc 0.791266
+REPORT 51 trainauc 0.812452
+REPORT 51 trainloss_mean 0.448703
+REPORT 51 testacc 0.743421
+REPORT 51 testauc 0.745466
+REPORT 51 testloss_mean 0.527597
+REPORT 51 cache_size 255
+REPORT 51 gain_count 14734
+REPORT 51 bound_count 11362
+BEGIN_tree
+---* [2] -0.237636
+--* (1) 1 (0f18)
+---* [188] 0.0128871
+-* (1) 1 (0f4)
+---* [3] -0.0266618
+--* (1) 1 (0f3)
+---* [4] -0.240335
+* (0) 1 (0f1)
+---* [6] 0.167618
+--* (1) 1 (0f4)
+---* [89] 0.000275727
+-* (0) 1 (0f3)
+---* [3] -0.256625
+--* (1) 1 (0f15)
+---* [1056] -0.00271279
+END_tree
+REPORT 52 FI (0) 1 (0f0) : 18.2572
+REPORT 52 FI (0) 1 (0f1) : 36.3577
+REPORT 52 FI (0) 1 (0f2) : 6.69314
+REPORT 52 FI (0) 1 (0f3) : 2.60266
+REPORT 52 FI (0) 1 (0f4) : 6.8851
+REPORT 52 FI (0) 1 (0f18) : 0.00377832
+REPORT 52 FI (0) 1 (0f22) : 0.259358
+REPORT 52 FI (0) 1 (0f24) : 0.259127
+REPORT 52 FI (0) 2 (0f1) : 15.117
+REPORT 52 FI (0) 2 (0f2) : 35.5535
+REPORT 52 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 52 FI (0) 2 (0f3) : 1.04407
+REPORT 52 FI (0) 2 (0f6) : 0.0797702
+REPORT 52 FI (1) 1 (0f2) : 30.2048
+REPORT 52 FI (1) 1 (0f3) : 19.1858
+REPORT 52 FI (1) 1 (0f4) : 11.3752
+REPORT 52 FI (1) 1 (0f5) : 0.0640266
+REPORT 52 FI (1) 1 (0f6) : 31.6679
+REPORT 52 FI (1) 1 (0f8) : 1.48949
+REPORT 52 FI (1) 1 (0f13) : 0.959026
+REPORT 52 FI (1) 1 (0f15) : 1.34953
+REPORT 52 FI (1) 1 (0f18) : 3.35845
+REPORT 52 FI (1) 1 (0f20) : 0.708982
+REPORT 52 FI (1) 1 (0f25) : 0.398309
+REPORT 52 FI (1) 1 (0f26) : 0.319896
+REPORT 52 FI (1) 2 (0f2) : 28.4895
+REPORT 52 FI (1) 2 (0f3) : 4.037
+REPORT 52 FI (2) 1 (0f3) : 7.96364
+REPORT 52 FI (2) 1 (0f4) : 0.294432
+REPORT 52 FI (2) 1 (0f5) : 47.6489
+REPORT 52 FI (2) 1 (0f7) : 0.925148
+REPORT 52 FI (2) 2 (0f2) : 0.673279
+REPORT 52 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 52 used_features 33
+REPORT 52 trainacc 0.791266
+REPORT 52 trainauc 0.812764
+REPORT 52 trainloss_mean 0.448287
+REPORT 52 testacc 0.743421
+REPORT 52 testauc 0.74568
+REPORT 52 testloss_mean 0.527966
+REPORT 52 cache_size 255
+REPORT 52 gain_count 15045
+REPORT 52 bound_count 11603
+BEGIN_tree
+---* [1] -0.168725
+--* (1) 1 (0f2)
+---* [5] -0.0885391
+-* (0) 2 (0f2)
+---* [316] -0.00543307
+--* (0) 1 (0f2)
+---* [8] -0.0752768
+* (0) 2 (0f1)
+--* [3] -0.225862
+-* (1) 1 (0f13)
+---* [4] -0.172429
+--* (1) 1 (0f8)
+---* [1014] 0.00206209
+END_tree
+REPORT 53 FI (0) 1 (0f0) : 18.2572
+REPORT 53 FI (0) 1 (0f1) : 36.3577
+REPORT 53 FI (0) 1 (0f2) : 6.7312
+REPORT 53 FI (0) 1 (0f3) : 2.60266
+REPORT 53 FI (0) 1 (0f4) : 6.8851
+REPORT 53 FI (0) 1 (0f18) : 0.00377832
+REPORT 53 FI (0) 1 (0f22) : 0.259358
+REPORT 53 FI (0) 1 (0f24) : 0.259127
+REPORT 53 FI (0) 2 (0f1) : 15.14
+REPORT 53 FI (0) 2 (0f2) : 35.6064
+REPORT 53 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 53 FI (0) 2 (0f3) : 1.04407
+REPORT 53 FI (0) 2 (0f6) : 0.0797702
+REPORT 53 FI (1) 1 (0f2) : 30.2101
+REPORT 53 FI (1) 1 (0f3) : 19.1858
+REPORT 53 FI (1) 1 (0f4) : 11.3752
+REPORT 53 FI (1) 1 (0f5) : 0.0640266
+REPORT 53 FI (1) 1 (0f6) : 31.6679
+REPORT 53 FI (1) 1 (0f8) : 1.6108
+REPORT 53 FI (1) 1 (0f13) : 1.11348
+REPORT 53 FI (1) 1 (0f15) : 1.34953
+REPORT 53 FI (1) 1 (0f18) : 3.35845
+REPORT 53 FI (1) 1 (0f20) : 0.708982
+REPORT 53 FI (1) 1 (0f25) : 0.398309
+REPORT 53 FI (1) 1 (0f26) : 0.319896
+REPORT 53 FI (1) 2 (0f2) : 28.4895
+REPORT 53 FI (1) 2 (0f3) : 4.037
+REPORT 53 FI (2) 1 (0f3) : 7.96364
+REPORT 53 FI (2) 1 (0f4) : 0.294432
+REPORT 53 FI (2) 1 (0f5) : 47.6489
+REPORT 53 FI (2) 1 (0f7) : 0.925148
+REPORT 53 FI (2) 2 (0f2) : 0.673279
+REPORT 53 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 53 used_features 33
+REPORT 53 trainacc 0.791266
+REPORT 53 trainauc 0.812824
+REPORT 53 trainloss_mean 0.448042
+REPORT 53 testacc 0.743421
+REPORT 53 testauc 0.749307
+REPORT 53 testloss_mean 0.527705
+REPORT 53 cache_size 255
+REPORT 53 gain_count 15320
+REPORT 53 bound_count 11820
+BEGIN_tree
+---* [6] -0.0177382
+--* (1) 1 (0f4)
+---* [13] -0.0141553
+-* (0) 2 (0f1)
+---* [13] -0.00758623
+--* (1) 1 (0f2)
+---* [26] -0.0128401
+* (0) 1 (0f0)
+---* [37] 0.0160369
+--* (0) 1 (0f3)
+---* [29] -0.0416929
+-* (0) 1 (0f4)
+---* [274] -0.00572785
+--* (0) 2 (0f1)
+---* [953] 0.00159983
+END_tree
+REPORT 54 FI (0) 1 (0f0) : 18.2651
+REPORT 54 FI (0) 1 (0f1) : 36.3577
+REPORT 54 FI (0) 1 (0f2) : 6.7312
+REPORT 54 FI (0) 1 (0f3) : 2.65685
+REPORT 54 FI (0) 1 (0f4) : 6.89051
+REPORT 54 FI (0) 1 (0f18) : 0.00377832
+REPORT 54 FI (0) 1 (0f22) : 0.259358
+REPORT 54 FI (0) 1 (0f24) : 0.259127
+REPORT 54 FI (0) 2 (0f1) : 15.1516
+REPORT 54 FI (0) 2 (0f2) : 35.6064
+REPORT 54 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 54 FI (0) 2 (0f3) : 1.04407
+REPORT 54 FI (0) 2 (0f6) : 0.0797702
+REPORT 54 FI (1) 1 (0f2) : 30.2104
+REPORT 54 FI (1) 1 (0f3) : 19.1858
+REPORT 54 FI (1) 1 (0f4) : 11.3752
+REPORT 54 FI (1) 1 (0f5) : 0.0640266
+REPORT 54 FI (1) 1 (0f6) : 31.6679
+REPORT 54 FI (1) 1 (0f8) : 1.6108
+REPORT 54 FI (1) 1 (0f13) : 1.11348
+REPORT 54 FI (1) 1 (0f15) : 1.34953
+REPORT 54 FI (1) 1 (0f18) : 3.35845
+REPORT 54 FI (1) 1 (0f20) : 0.708982
+REPORT 54 FI (1) 1 (0f25) : 0.398309
+REPORT 54 FI (1) 1 (0f26) : 0.319896
+REPORT 54 FI (1) 2 (0f2) : 28.4895
+REPORT 54 FI (1) 2 (0f3) : 4.037
+REPORT 54 FI (2) 1 (0f3) : 7.96364
+REPORT 54 FI (2) 1 (0f4) : 0.294432
+REPORT 54 FI (2) 1 (0f5) : 47.6489
+REPORT 54 FI (2) 1 (0f7) : 0.925148
+REPORT 54 FI (2) 2 (0f2) : 0.673279
+REPORT 54 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 54 used_features 33
+REPORT 54 trainacc 0.791266
+REPORT 54 trainauc 0.812661
+REPORT 54 trainloss_mean 0.44799
+REPORT 54 testacc 0.743421
+REPORT 54 testauc 0.750373
+REPORT 54 testloss_mean 0.528364
+REPORT 54 cache_size 255
+REPORT 54 gain_count 15642
+REPORT 54 bound_count 12072
+BEGIN_tree
+---* [1] -0.0130338
+--* (1) 1 (0f3)
+---* [3] -0.196259
+-* (0) 1 (0f3)
+---* [186] 0.0151992
+--* (1) 1 (0f4)
+---* [7] -0.0995275
+* (0) 1 (0f1)
+---* [60] -0.094848
+--* (0) 1 (0f2)
+---* [371] 0.00663272
+-* (1) 1 (0f4)
+---* [31] -0.0880226
+--* (1) 1 (0f6)
+---* [692] 0.00495529
+END_tree
+REPORT 55 FI (0) 1 (0f0) : 18.2651
+REPORT 55 FI (0) 1 (0f1) : 36.3744
+REPORT 55 FI (0) 1 (0f2) : 7.26309
+REPORT 55 FI (0) 1 (0f3) : 2.75904
+REPORT 55 FI (0) 1 (0f4) : 6.89051
+REPORT 55 FI (0) 1 (0f18) : 0.00377832
+REPORT 55 FI (0) 1 (0f22) : 0.259358
+REPORT 55 FI (0) 1 (0f24) : 0.259127
+REPORT 55 FI (0) 2 (0f1) : 15.1516
+REPORT 55 FI (0) 2 (0f2) : 35.6064
+REPORT 55 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 55 FI (0) 2 (0f3) : 1.04407
+REPORT 55 FI (0) 2 (0f6) : 0.0797702
+REPORT 55 FI (1) 1 (0f2) : 30.2104
+REPORT 55 FI (1) 1 (0f3) : 19.211
+REPORT 55 FI (1) 1 (0f4) : 11.4834
+REPORT 55 FI (1) 1 (0f5) : 0.0640266
+REPORT 55 FI (1) 1 (0f6) : 31.9244
+REPORT 55 FI (1) 1 (0f8) : 1.6108
+REPORT 55 FI (1) 1 (0f13) : 1.11348
+REPORT 55 FI (1) 1 (0f15) : 1.34953
+REPORT 55 FI (1) 1 (0f18) : 3.35845
+REPORT 55 FI (1) 1 (0f20) : 0.708982
+REPORT 55 FI (1) 1 (0f25) : 0.398309
+REPORT 55 FI (1) 1 (0f26) : 0.319896
+REPORT 55 FI (1) 2 (0f2) : 28.4895
+REPORT 55 FI (1) 2 (0f3) : 4.037
+REPORT 55 FI (2) 1 (0f3) : 7.96364
+REPORT 55 FI (2) 1 (0f4) : 0.294432
+REPORT 55 FI (2) 1 (0f5) : 47.6489
+REPORT 55 FI (2) 1 (0f7) : 0.925148
+REPORT 55 FI (2) 2 (0f2) : 0.673279
+REPORT 55 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 55 used_features 33
+REPORT 55 trainacc 0.791266
+REPORT 55 trainauc 0.813101
+REPORT 55 trainloss_mean 0.447403
+REPORT 55 testacc 0.743421
+REPORT 55 testauc 0.752507
+REPORT 55 testloss_mean 0.530443
+REPORT 55 cache_size 255
+REPORT 55 gain_count 15896
+REPORT 55 bound_count 12256
+BEGIN_tree
+---* [4] -0.0979952
+--* (0) 1 (0f1)
+---* [2] -0.0559452
+-* (0) 2 (0f2)
+---* [196] 0.00214727
+--* (1) 1 (0f4)
+---* [128] -0.015135
+* (0) 2 (0f1)
+--* [1] -0.336435
+-* (1) 1 (0f10)
+---* [77] 0.0313242
+--* (1) 1 (0f6)
+---* [943] -0.0027998
+END_tree
+REPORT 56 FI (0) 1 (0f0) : 18.2651
+REPORT 56 FI (0) 1 (0f1) : 36.3768
+REPORT 56 FI (0) 1 (0f2) : 7.26309
+REPORT 56 FI (0) 1 (0f3) : 2.75904
+REPORT 56 FI (0) 1 (0f4) : 6.89051
+REPORT 56 FI (0) 1 (0f18) : 0.00377832
+REPORT 56 FI (0) 1 (0f22) : 0.259358
+REPORT 56 FI (0) 1 (0f24) : 0.259127
+REPORT 56 FI (0) 2 (0f1) : 15.1593
+REPORT 56 FI (0) 2 (0f2) : 35.6434
+REPORT 56 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 56 FI (0) 2 (0f3) : 1.04407
+REPORT 56 FI (0) 2 (0f6) : 0.0797702
+REPORT 56 FI (1) 1 (0f2) : 30.2104
+REPORT 56 FI (1) 1 (0f3) : 19.211
+REPORT 56 FI (1) 1 (0f4) : 11.5065
+REPORT 56 FI (1) 1 (0f5) : 0.0640266
+REPORT 56 FI (1) 1 (0f6) : 32.0073
+REPORT 56 FI (1) 1 (0f8) : 1.6108
+REPORT 56 FI (1) 1 (0f10) : 0.112927
+REPORT 56 FI (1) 1 (0f13) : 1.11348
+REPORT 56 FI (1) 1 (0f15) : 1.34953
+REPORT 56 FI (1) 1 (0f18) : 3.35845
+REPORT 56 FI (1) 1 (0f20) : 0.708982
+REPORT 56 FI (1) 1 (0f25) : 0.398309
+REPORT 56 FI (1) 1 (0f26) : 0.319896
+REPORT 56 FI (1) 2 (0f2) : 28.4895
+REPORT 56 FI (1) 2 (0f3) : 4.037
+REPORT 56 FI (2) 1 (0f3) : 7.96364
+REPORT 56 FI (2) 1 (0f4) : 0.294432
+REPORT 56 FI (2) 1 (0f5) : 47.6489
+REPORT 56 FI (2) 1 (0f7) : 0.925148
+REPORT 56 FI (2) 2 (0f2) : 0.673279
+REPORT 56 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 56 used_features 34
+REPORT 56 trainacc 0.791266
+REPORT 56 trainauc 0.813272
+REPORT 56 trainloss_mean 0.447252
+REPORT 56 testacc 0.743421
+REPORT 56 testauc 0.752507
+REPORT 56 testloss_mean 0.53069
+REPORT 56 cache_size 255
+REPORT 56 gain_count 16121
+REPORT 56 bound_count 12431
+BEGIN_tree
+---* [22] -0.0113401
+--* (0) 2 (0f1)
+---* [7] -0.162214
+-* (1) 1 (0f2)
+---* [34] 0.0683621
+--* (1) 2 (0f2)
+---* [36] -0.00677961
+* (0) 1 (0f3)
+---* [64] -0.0218776
+--* (1) 1 (0f3)
+---* [804] 0.00270402
+-* (1) 1 (0f2)
+---* [218] -0.00165784
+--* (0) 1 (0f2)
+---* [166] -0.0181784
+END_tree
+REPORT 57 FI (0) 1 (0f0) : 18.2651
+REPORT 57 FI (0) 1 (0f1) : 36.3768
+REPORT 57 FI (0) 1 (0f2) : 7.28881
+REPORT 57 FI (0) 1 (0f3) : 2.76665
+REPORT 57 FI (0) 1 (0f4) : 6.89051
+REPORT 57 FI (0) 1 (0f18) : 0.00377832
+REPORT 57 FI (0) 1 (0f22) : 0.259358
+REPORT 57 FI (0) 1 (0f24) : 0.259127
+REPORT 57 FI (0) 2 (0f1) : 15.2802
+REPORT 57 FI (0) 2 (0f2) : 35.6434
+REPORT 57 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 57 FI (0) 2 (0f3) : 1.04407
+REPORT 57 FI (0) 2 (0f6) : 0.0797702
+REPORT 57 FI (1) 1 (0f2) : 30.3585
+REPORT 57 FI (1) 1 (0f3) : 19.2468
+REPORT 57 FI (1) 1 (0f4) : 11.5065
+REPORT 57 FI (1) 1 (0f5) : 0.0640266
+REPORT 57 FI (1) 1 (0f6) : 32.0073
+REPORT 57 FI (1) 1 (0f8) : 1.6108
+REPORT 57 FI (1) 1 (0f10) : 0.112927
+REPORT 57 FI (1) 1 (0f13) : 1.11348
+REPORT 57 FI (1) 1 (0f15) : 1.34953
+REPORT 57 FI (1) 1 (0f18) : 3.35845
+REPORT 57 FI (1) 1 (0f20) : 0.708982
+REPORT 57 FI (1) 1 (0f25) : 0.398309
+REPORT 57 FI (1) 1 (0f26) : 0.319896
+REPORT 57 FI (1) 2 (0f2) : 28.5882
+REPORT 57 FI (1) 2 (0f3) : 4.037
+REPORT 57 FI (2) 1 (0f3) : 7.96364
+REPORT 57 FI (2) 1 (0f4) : 0.294432
+REPORT 57 FI (2) 1 (0f5) : 47.6489
+REPORT 57 FI (2) 1 (0f7) : 0.925148
+REPORT 57 FI (2) 2 (0f2) : 0.673279
+REPORT 57 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 57 used_features 34
+REPORT 57 trainacc 0.791266
+REPORT 57 trainauc 0.81319
+REPORT 57 trainloss_mean 0.446985
+REPORT 57 testacc 0.743421
+REPORT 57 testauc 0.752934
+REPORT 57 testloss_mean 0.528868
+REPORT 57 cache_size 255
+REPORT 57 gain_count 16361
+REPORT 57 bound_count 12601
+BEGIN_tree
+---* [1] -0.104943
+--* (1) 1 (0f2)
+---* [5] -0.0654422
+-* (0) 2 (0f2)
+---* [44] 0.0115791
+--* (1) 1 (0f3)
+---* [280] -0.00855311
+* (0) 2 (0f1)
+--* [3] -0.164499
+-* (1) 1 (0f15)
+---* [3] -0.152194
+--* (1) 1 (0f13)
+---* [1015] 0.00080013
+END_tree
+REPORT 58 FI (0) 1 (0f0) : 18.2651
+REPORT 58 FI (0) 1 (0f1) : 36.3768
+REPORT 58 FI (0) 1 (0f2) : 7.28881
+REPORT 58 FI (0) 1 (0f3) : 2.76665
+REPORT 58 FI (0) 1 (0f4) : 6.89051
+REPORT 58 FI (0) 1 (0f18) : 0.00377832
+REPORT 58 FI (0) 1 (0f22) : 0.259358
+REPORT 58 FI (0) 1 (0f24) : 0.259127
+REPORT 58 FI (0) 2 (0f1) : 15.2921
+REPORT 58 FI (0) 2 (0f2) : 35.6692
+REPORT 58 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 58 FI (0) 2 (0f3) : 1.04407
+REPORT 58 FI (0) 2 (0f6) : 0.0797702
+REPORT 58 FI (1) 1 (0f2) : 30.3598
+REPORT 58 FI (1) 1 (0f3) : 19.2622
+REPORT 58 FI (1) 1 (0f4) : 11.5065
+REPORT 58 FI (1) 1 (0f5) : 0.0640266
+REPORT 58 FI (1) 1 (0f6) : 32.0073
+REPORT 58 FI (1) 1 (0f8) : 1.6108
+REPORT 58 FI (1) 1 (0f10) : 0.112927
+REPORT 58 FI (1) 1 (0f13) : 1.1835
+REPORT 58 FI (1) 1 (0f15) : 1.43081
+REPORT 58 FI (1) 1 (0f18) : 3.35845
+REPORT 58 FI (1) 1 (0f20) : 0.708982
+REPORT 58 FI (1) 1 (0f25) : 0.398309
+REPORT 58 FI (1) 1 (0f26) : 0.319896
+REPORT 58 FI (1) 2 (0f2) : 28.5882
+REPORT 58 FI (1) 2 (0f3) : 4.037
+REPORT 58 FI (2) 1 (0f3) : 7.96364
+REPORT 58 FI (2) 1 (0f4) : 0.294432
+REPORT 58 FI (2) 1 (0f5) : 47.6489
+REPORT 58 FI (2) 1 (0f7) : 0.925148
+REPORT 58 FI (2) 2 (0f2) : 0.673279
+REPORT 58 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 58 used_features 34
+REPORT 58 trainacc 0.791266
+REPORT 58 trainauc 0.813223
+REPORT 58 trainloss_mean 0.446854
+REPORT 58 testacc 0.743421
+REPORT 58 testauc 0.753147
+REPORT 58 testloss_mean 0.528672
+REPORT 58 cache_size 255
+REPORT 58 gain_count 16636
+REPORT 58 bound_count 12818
+BEGIN_tree
+---* [5] -0.0127732
+--* (0) 2 (0f1)
+---* [13] -0.00630826
+-* (1) 1 (0f2)
+---* [3] -0.0170446
+--* (0) 2 (0f2)
+---* [37] -0.0123588
+* (0) 1 (0f0)
+---* [11] -0.14472
+--* (0) 2 (0f2)
+---* [592] -0.001262
+-* (1) 1 (0f4)
+---* [31] -0.0530427
+--* (1) 1 (0f6)
+---* [659] 0.00522276
+END_tree
+REPORT 59 FI (0) 1 (0f0) : 18.2717
+REPORT 59 FI (0) 1 (0f1) : 36.3768
+REPORT 59 FI (0) 1 (0f2) : 7.28881
+REPORT 59 FI (0) 1 (0f3) : 2.76665
+REPORT 59 FI (0) 1 (0f4) : 6.89051
+REPORT 59 FI (0) 1 (0f18) : 0.00377832
+REPORT 59 FI (0) 1 (0f22) : 0.259358
+REPORT 59 FI (0) 1 (0f24) : 0.259127
+REPORT 59 FI (0) 2 (0f1) : 15.2922
+REPORT 59 FI (0) 2 (0f2) : 35.8915
+REPORT 59 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 59 FI (0) 2 (0f3) : 1.04407
+REPORT 59 FI (0) 2 (0f6) : 0.0797702
+REPORT 59 FI (1) 1 (0f2) : 30.36
+REPORT 59 FI (1) 1 (0f3) : 19.2622
+REPORT 59 FI (1) 1 (0f4) : 11.52
+REPORT 59 FI (1) 1 (0f5) : 0.0640266
+REPORT 59 FI (1) 1 (0f6) : 32.1078
+REPORT 59 FI (1) 1 (0f8) : 1.6108
+REPORT 59 FI (1) 1 (0f10) : 0.112927
+REPORT 59 FI (1) 1 (0f13) : 1.1835
+REPORT 59 FI (1) 1 (0f15) : 1.43081
+REPORT 59 FI (1) 1 (0f18) : 3.35845
+REPORT 59 FI (1) 1 (0f20) : 0.708982
+REPORT 59 FI (1) 1 (0f25) : 0.398309
+REPORT 59 FI (1) 1 (0f26) : 0.319896
+REPORT 59 FI (1) 2 (0f2) : 28.5882
+REPORT 59 FI (1) 2 (0f3) : 4.037
+REPORT 59 FI (2) 1 (0f3) : 7.96364
+REPORT 59 FI (2) 1 (0f4) : 0.294432
+REPORT 59 FI (2) 1 (0f5) : 47.6489
+REPORT 59 FI (2) 1 (0f7) : 0.925148
+REPORT 59 FI (2) 2 (0f2) : 0.673279
+REPORT 59 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 59 used_features 34
+REPORT 59 trainacc 0.791266
+REPORT 59 trainauc 0.813337
+REPORT 59 trainloss_mean 0.446644
+REPORT 59 testacc 0.743421
+REPORT 59 testauc 0.75336
+REPORT 59 testloss_mean 0.528698
+REPORT 59 cache_size 255
+REPORT 59 gain_count 16934
+REPORT 59 bound_count 13046
+BEGIN_tree
+---* [5] -0.0124531
+--* (0) 2 (0f1)
+---* [13] -0.00622944
+-* (1) 1 (0f2)
+---* [3] -0.00209861
+--* (0) 1 (0f1)
+---* [37] -0.0125522
+* (0) 1 (0f0)
+---* [37] 0.119119
+--* (2) 1 (0f5)
+---* [52] -0.0716933
+-* (0) 2 (0f2)
+---* [77] 0.0238454
+--* (1) 1 (0f6)
+---* [1127] -0.00263004
+END_tree
+REPORT 60 FI (0) 1 (0f0) : 18.2775
+REPORT 60 FI (0) 1 (0f1) : 36.3771
+REPORT 60 FI (0) 1 (0f2) : 7.28881
+REPORT 60 FI (0) 1 (0f3) : 2.76665
+REPORT 60 FI (0) 1 (0f4) : 6.89051
+REPORT 60 FI (0) 1 (0f18) : 0.00377832
+REPORT 60 FI (0) 1 (0f22) : 0.259358
+REPORT 60 FI (0) 1 (0f24) : 0.259127
+REPORT 60 FI (0) 2 (0f1) : 15.2923
+REPORT 60 FI (0) 2 (0f2) : 35.8976
+REPORT 60 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 60 FI (0) 2 (0f3) : 1.04407
+REPORT 60 FI (0) 2 (0f6) : 0.0797702
+REPORT 60 FI (1) 1 (0f2) : 30.3602
+REPORT 60 FI (1) 1 (0f3) : 19.2622
+REPORT 60 FI (1) 1 (0f4) : 11.52
+REPORT 60 FI (1) 1 (0f5) : 0.0640266
+REPORT 60 FI (1) 1 (0f6) : 32.1583
+REPORT 60 FI (1) 1 (0f8) : 1.6108
+REPORT 60 FI (1) 1 (0f10) : 0.112927
+REPORT 60 FI (1) 1 (0f13) : 1.1835
+REPORT 60 FI (1) 1 (0f15) : 1.43081
+REPORT 60 FI (1) 1 (0f18) : 3.35845
+REPORT 60 FI (1) 1 (0f20) : 0.708982
+REPORT 60 FI (1) 1 (0f25) : 0.398309
+REPORT 60 FI (1) 1 (0f26) : 0.319896
+REPORT 60 FI (1) 2 (0f2) : 28.5882
+REPORT 60 FI (1) 2 (0f3) : 4.037
+REPORT 60 FI (2) 1 (0f3) : 7.96364
+REPORT 60 FI (2) 1 (0f4) : 0.294432
+REPORT 60 FI (2) 1 (0f5) : 48.436
+REPORT 60 FI (2) 1 (0f7) : 0.925148
+REPORT 60 FI (2) 2 (0f2) : 0.673279
+REPORT 60 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 60 used_features 34
+REPORT 60 trainacc 0.791266
+REPORT 60 trainauc 0.813434
+REPORT 60 trainloss_mean 0.446124
+REPORT 60 testacc 0.743421
+REPORT 60 testauc 0.75208
+REPORT 60 testloss_mean 0.529609
+REPORT 60 cache_size 255
+REPORT 60 gain_count 17260
+REPORT 60 bound_count 13308
+BEGIN_tree
+--* [1] 1.66394
+-* (2) 1 (0f14)
+---* [41] -0.0655077
+--* (1) 2 (0f2)
+---* [52] 0.0392584
+* (0) 2 (0f2)
+---* [12] -0.0704725
+--* (0) 1 (0f1)
+---* [96] -0.00360022
+-* (1) 1 (0f3)
+---* [4] -0.127407
+--* (1) 1 (0f8)
+---* [1145] 0.000661469
+END_tree
+REPORT 61 FI (0) 1 (0f0) : 18.2775
+REPORT 61 FI (0) 1 (0f1) : 36.4248
+REPORT 61 FI (0) 1 (0f2) : 7.28881
+REPORT 61 FI (0) 1 (0f3) : 2.76665
+REPORT 61 FI (0) 1 (0f4) : 6.89051
+REPORT 61 FI (0) 1 (0f18) : 0.00377832
+REPORT 61 FI (0) 1 (0f22) : 0.259358
+REPORT 61 FI (0) 1 (0f24) : 0.259127
+REPORT 61 FI (0) 2 (0f1) : 15.2923
+REPORT 61 FI (0) 2 (0f2) : 35.9094
+REPORT 61 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 61 FI (0) 2 (0f3) : 1.04407
+REPORT 61 FI (0) 2 (0f6) : 0.0797702
+REPORT 61 FI (1) 1 (0f2) : 30.3602
+REPORT 61 FI (1) 1 (0f3) : 19.2747
+REPORT 61 FI (1) 1 (0f4) : 11.52
+REPORT 61 FI (1) 1 (0f5) : 0.0640266
+REPORT 61 FI (1) 1 (0f6) : 32.1583
+REPORT 61 FI (1) 1 (0f8) : 1.67618
+REPORT 61 FI (1) 1 (0f10) : 0.112927
+REPORT 61 FI (1) 1 (0f13) : 1.1835
+REPORT 61 FI (1) 1 (0f15) : 1.43081
+REPORT 61 FI (1) 1 (0f18) : 3.35845
+REPORT 61 FI (1) 1 (0f20) : 0.708982
+REPORT 61 FI (1) 1 (0f25) : 0.398309
+REPORT 61 FI (1) 1 (0f26) : 0.319896
+REPORT 61 FI (1) 2 (0f2) : 28.8398
+REPORT 61 FI (1) 2 (0f3) : 4.037
+REPORT 61 FI (2) 1 (0f3) : 7.96364
+REPORT 61 FI (2) 1 (0f4) : 0.294432
+REPORT 61 FI (2) 1 (0f5) : 48.436
+REPORT 61 FI (2) 1 (0f7) : 0.925148
+REPORT 61 FI (2) 1 (0f14) : 2.7621
+REPORT 61 FI (2) 2 (0f2) : 0.673279
+REPORT 61 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 61 used_features 35
+REPORT 61 trainacc 0.792006
+REPORT 61 trainauc 0.814894
+REPORT 61 trainloss_mean 0.444686
+REPORT 61 testacc 0.75
+REPORT 61 testauc 0.764028
+REPORT 61 testloss_mean 0.518215
+REPORT 61 cache_size 255
+REPORT 61 gain_count 17480
+REPORT 61 bound_count 13468
+BEGIN_tree
+---* [2] -0.154708
+--* (1) 1 (0f18)
+---* [188] 0.0110154
+-* (1) 1 (0f4)
+---* [3] -0.016892
+--* (1) 1 (0f3)
+---* [4] -0.125824
+* (0) 1 (0f1)
+---* [60] -0.0542651
+--* (0) 1 (0f2)
+---* [371] 0.00116798
+-* (1) 1 (0f4)
+---* [3] -0.121918
+--* (1) 1 (0f15)
+---* [720] 0.00131358
+END_tree
+REPORT 62 FI (0) 1 (0f0) : 18.2775
+REPORT 62 FI (0) 1 (0f1) : 36.4357
+REPORT 62 FI (0) 1 (0f2) : 7.44751
+REPORT 62 FI (0) 1 (0f3) : 2.76665
+REPORT 62 FI (0) 1 (0f4) : 6.89051
+REPORT 62 FI (0) 1 (0f18) : 0.00377832
+REPORT 62 FI (0) 1 (0f22) : 0.259358
+REPORT 62 FI (0) 1 (0f24) : 0.259127
+REPORT 62 FI (0) 2 (0f1) : 15.2923
+REPORT 62 FI (0) 2 (0f2) : 35.9094
+REPORT 62 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 62 FI (0) 2 (0f3) : 1.04407
+REPORT 62 FI (0) 2 (0f6) : 0.0797702
+REPORT 62 FI (1) 1 (0f2) : 30.3602
+REPORT 62 FI (1) 1 (0f3) : 19.2951
+REPORT 62 FI (1) 1 (0f4) : 11.5874
+REPORT 62 FI (1) 1 (0f5) : 0.0640266
+REPORT 62 FI (1) 1 (0f6) : 32.1583
+REPORT 62 FI (1) 1 (0f8) : 1.67618
+REPORT 62 FI (1) 1 (0f10) : 0.112927
+REPORT 62 FI (1) 1 (0f13) : 1.1835
+REPORT 62 FI (1) 1 (0f15) : 1.47618
+REPORT 62 FI (1) 1 (0f18) : 3.4128
+REPORT 62 FI (1) 1 (0f20) : 0.708982
+REPORT 62 FI (1) 1 (0f25) : 0.398309
+REPORT 62 FI (1) 1 (0f26) : 0.319896
+REPORT 62 FI (1) 2 (0f2) : 28.8398
+REPORT 62 FI (1) 2 (0f3) : 4.037
+REPORT 62 FI (2) 1 (0f3) : 7.96364
+REPORT 62 FI (2) 1 (0f4) : 0.294432
+REPORT 62 FI (2) 1 (0f5) : 48.436
+REPORT 62 FI (2) 1 (0f7) : 0.925148
+REPORT 62 FI (2) 1 (0f14) : 2.7621
+REPORT 62 FI (2) 2 (0f2) : 0.673279
+REPORT 62 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 62 used_features 35
+REPORT 62 trainacc 0.792006
+REPORT 62 trainauc 0.815233
+REPORT 62 trainloss_mean 0.444468
+REPORT 62 testacc 0.75
+REPORT 62 testauc 0.763601
+REPORT 62 testloss_mean 0.519616
+REPORT 62 cache_size 255
+REPORT 62 gain_count 17768
+REPORT 62 bound_count 13686
+BEGIN_tree
+---* [22] 0.0161809
+--* (1) 2 (0f2)
+---* [7] -0.149411
+-* (0) 1 (0f3)
+---* [64] -0.019206
+--* (1) 1 (0f3)
+---* [804] 0.00263162
+* (1) 1 (0f2)
+---* [17] -0.070566
+--* (0) 2 (0f2)
+---* [271] 0.00859144
+-* (0) 1 (0f2)
+---* [2] 0.770827
+--* (1) 2 (0f16)
+---* [164] -0.0303285
+END_tree
+REPORT 63 FI (0) 1 (0f0) : 18.2775
+REPORT 63 FI (0) 1 (0f1) : 36.4357
+REPORT 63 FI (0) 1 (0f2) : 7.51121
+REPORT 63 FI (0) 1 (0f3) : 2.78392
+REPORT 63 FI (0) 1 (0f4) : 6.89051
+REPORT 63 FI (0) 1 (0f18) : 0.00377832
+REPORT 63 FI (0) 1 (0f22) : 0.259358
+REPORT 63 FI (0) 1 (0f24) : 0.259127
+REPORT 63 FI (0) 2 (0f1) : 15.2923
+REPORT 63 FI (0) 2 (0f2) : 36.0096
+REPORT 63 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 63 FI (0) 2 (0f3) : 1.04407
+REPORT 63 FI (0) 2 (0f6) : 0.0797702
+REPORT 63 FI (1) 1 (0f2) : 30.3686
+REPORT 63 FI (1) 1 (0f3) : 19.3233
+REPORT 63 FI (1) 1 (0f4) : 11.5874
+REPORT 63 FI (1) 1 (0f5) : 0.0640266
+REPORT 63 FI (1) 1 (0f6) : 32.1583
+REPORT 63 FI (1) 1 (0f8) : 1.67618
+REPORT 63 FI (1) 1 (0f10) : 0.112927
+REPORT 63 FI (1) 1 (0f13) : 1.1835
+REPORT 63 FI (1) 1 (0f15) : 1.47618
+REPORT 63 FI (1) 1 (0f18) : 3.4128
+REPORT 63 FI (1) 1 (0f20) : 0.708982
+REPORT 63 FI (1) 1 (0f25) : 0.398309
+REPORT 63 FI (1) 1 (0f26) : 0.319896
+REPORT 63 FI (1) 2 (0f2) : 28.9854
+REPORT 63 FI (1) 2 (0f3) : 4.037
+REPORT 63 FI (1) 2 (0f16) : 1.26823
+REPORT 63 FI (2) 1 (0f3) : 7.96364
+REPORT 63 FI (2) 1 (0f4) : 0.294432
+REPORT 63 FI (2) 1 (0f5) : 48.436
+REPORT 63 FI (2) 1 (0f7) : 0.925148
+REPORT 63 FI (2) 1 (0f14) : 2.7621
+REPORT 63 FI (2) 2 (0f2) : 0.673279
+REPORT 63 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 63 used_features 36
+REPORT 63 trainacc 0.792006
+REPORT 63 trainauc 0.815719
+REPORT 63 trainloss_mean 0.443566
+REPORT 63 testacc 0.75
+REPORT 63 testauc 0.762961
+REPORT 63 testloss_mean 0.51896
+REPORT 63 cache_size 255
+REPORT 63 gain_count 17992
+REPORT 63 bound_count 13840
+BEGIN_tree
+---* [10] 0.0671198
+--* (0) 1 (0f3)
+---* [190] -0.00393597
+-* (1) 1 (0f4)
+---* [26] -0.0906519
+--* (1) 1 (0f2)
+---* [104] 0.00120081
+* (0) 2 (0f1)
+---* [1] -0.0832961
+--* (1) 1 (0f4)
+---* [3] -0.106829
+-* (1) 1 (0f8)
+---* [3] -0.114665
+--* (1) 1 (0f13)
+---* [1014] -0.000419944
+END_tree
+REPORT 64 FI (0) 1 (0f0) : 18.2775
+REPORT 64 FI (0) 1 (0f1) : 36.4357
+REPORT 64 FI (0) 1 (0f2) : 7.51121
+REPORT 64 FI (0) 1 (0f3) : 2.83189
+REPORT 64 FI (0) 1 (0f4) : 6.89051
+REPORT 64 FI (0) 1 (0f18) : 0.00377832
+REPORT 64 FI (0) 1 (0f22) : 0.259358
+REPORT 64 FI (0) 1 (0f24) : 0.259127
+REPORT 64 FI (0) 2 (0f1) : 15.3009
+REPORT 64 FI (0) 2 (0f2) : 36.0096
+REPORT 64 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 64 FI (0) 2 (0f3) : 1.04407
+REPORT 64 FI (0) 2 (0f6) : 0.0797702
+REPORT 64 FI (1) 1 (0f2) : 30.5441
+REPORT 64 FI (1) 1 (0f3) : 19.3233
+REPORT 64 FI (1) 1 (0f4) : 11.61
+REPORT 64 FI (1) 1 (0f5) : 0.0640266
+REPORT 64 FI (1) 1 (0f6) : 32.1583
+REPORT 64 FI (1) 1 (0f8) : 1.71618
+REPORT 64 FI (1) 1 (0f10) : 0.112927
+REPORT 64 FI (1) 1 (0f13) : 1.22254
+REPORT 64 FI (1) 1 (0f15) : 1.47618
+REPORT 64 FI (1) 1 (0f18) : 3.4128
+REPORT 64 FI (1) 1 (0f20) : 0.708982
+REPORT 64 FI (1) 1 (0f25) : 0.398309
+REPORT 64 FI (1) 1 (0f26) : 0.319896
+REPORT 64 FI (1) 2 (0f2) : 28.9854
+REPORT 64 FI (1) 2 (0f3) : 4.037
+REPORT 64 FI (1) 2 (0f16) : 1.26823
+REPORT 64 FI (2) 1 (0f3) : 7.96364
+REPORT 64 FI (2) 1 (0f4) : 0.294432
+REPORT 64 FI (2) 1 (0f5) : 48.436
+REPORT 64 FI (2) 1 (0f7) : 0.925148
+REPORT 64 FI (2) 1 (0f14) : 2.7621
+REPORT 64 FI (2) 2 (0f2) : 0.673279
+REPORT 64 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 64 used_features 36
+REPORT 64 trainacc 0.792006
+REPORT 64 trainauc 0.815664
+REPORT 64 trainloss_mean 0.443358
+REPORT 64 testacc 0.75
+REPORT 64 testauc 0.763388
+REPORT 64 testloss_mean 0.518106
+REPORT 64 cache_size 255
+REPORT 64 gain_count 18302
+REPORT 64 bound_count 14088
+BEGIN_tree
+---* [8] -0.125327
+--* (0) 2 (0f2)
+---* [543] -0.00124254
+-* (1) 1 (0f4)
+---* [255] 0.0381884
+--* (1) 2 (0f2)
+---* [91] -0.0861458
+* (1) 1 (0f2)
+---* [17] -0.0569135
+--* (0) 2 (0f2)
+---* [271] 0.00442984
+-* (0) 1 (0f2)
+---* [159] -0.00778239
+--* (2) 1 (0f3)
+---* [7] -0.180002
+END_tree
+REPORT 65 FI (0) 1 (0f0) : 18.2775
+REPORT 65 FI (0) 1 (0f1) : 36.4357
+REPORT 65 FI (0) 1 (0f2) : 7.53768
+REPORT 65 FI (0) 1 (0f3) : 2.83189
+REPORT 65 FI (0) 1 (0f4) : 6.89051
+REPORT 65 FI (0) 1 (0f18) : 0.00377832
+REPORT 65 FI (0) 1 (0f22) : 0.259358
+REPORT 65 FI (0) 1 (0f24) : 0.259127
+REPORT 65 FI (0) 2 (0f1) : 15.3009
+REPORT 65 FI (0) 2 (0f2) : 36.1912
+REPORT 65 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 65 FI (0) 2 (0f3) : 1.04407
+REPORT 65 FI (0) 2 (0f6) : 0.0797702
+REPORT 65 FI (1) 1 (0f2) : 30.5524
+REPORT 65 FI (1) 1 (0f3) : 19.3233
+REPORT 65 FI (1) 1 (0f4) : 11.6255
+REPORT 65 FI (1) 1 (0f5) : 0.0640266
+REPORT 65 FI (1) 1 (0f6) : 32.1583
+REPORT 65 FI (1) 1 (0f8) : 1.71618
+REPORT 65 FI (1) 1 (0f10) : 0.112927
+REPORT 65 FI (1) 1 (0f13) : 1.22254
+REPORT 65 FI (1) 1 (0f15) : 1.47618
+REPORT 65 FI (1) 1 (0f18) : 3.4128
+REPORT 65 FI (1) 1 (0f20) : 0.708982
+REPORT 65 FI (1) 1 (0f25) : 0.398309
+REPORT 65 FI (1) 1 (0f26) : 0.319896
+REPORT 65 FI (1) 2 (0f2) : 30.0222
+REPORT 65 FI (1) 2 (0f3) : 4.037
+REPORT 65 FI (1) 2 (0f16) : 1.26823
+REPORT 65 FI (2) 1 (0f3) : 8.1625
+REPORT 65 FI (2) 1 (0f4) : 0.294432
+REPORT 65 FI (2) 1 (0f5) : 48.436
+REPORT 65 FI (2) 1 (0f7) : 0.925148
+REPORT 65 FI (2) 1 (0f14) : 2.7621
+REPORT 65 FI (2) 2 (0f2) : 0.673279
+REPORT 65 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 65 used_features 36
+REPORT 65 trainacc 0.792006
+REPORT 65 trainauc 0.815966
+REPORT 65 trainloss_mean 0.442516
+REPORT 65 testacc 0.75
+REPORT 65 testauc 0.762961
+REPORT 65 testloss_mean 0.518161
+REPORT 65 cache_size 255
+REPORT 65 gain_count 18515
+REPORT 65 bound_count 14231
+BEGIN_tree
+---* [1] -1.23642
+--* (3) 1 (0f3)
+---* [38] 0.126645
+-* (2) 1 (0f5)
+---* [24] -0.179773
+--* (2) 2 (0f3)
+---* [31] 0.0571283
+* (0) 2 (0f2)
+---* [235] -0.00748828
+--* (1) 1 (0f4)
+---* [299] 0.00532464
+-* (0) 1 (0f2)
+---* [1] 1.66378
+--* (1) 2 (0f11)
+---* [722] -0.0104531
+END_tree
+REPORT 66 FI (0) 1 (0f0) : 18.2775
+REPORT 66 FI (0) 1 (0f1) : 36.4357
+REPORT 66 FI (0) 1 (0f2) : 7.55648
+REPORT 66 FI (0) 1 (0f3) : 2.83189
+REPORT 66 FI (0) 1 (0f4) : 6.89051
+REPORT 66 FI (0) 1 (0f18) : 0.00377832
+REPORT 66 FI (0) 1 (0f22) : 0.259358
+REPORT 66 FI (0) 1 (0f24) : 0.259127
+REPORT 66 FI (0) 2 (0f1) : 15.3009
+REPORT 66 FI (0) 2 (0f2) : 36.213
+REPORT 66 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 66 FI (0) 2 (0f3) : 1.04407
+REPORT 66 FI (0) 2 (0f6) : 0.0797702
+REPORT 66 FI (1) 1 (0f2) : 30.5524
+REPORT 66 FI (1) 1 (0f3) : 19.3233
+REPORT 66 FI (1) 1 (0f4) : 11.6471
+REPORT 66 FI (1) 1 (0f5) : 0.0640266
+REPORT 66 FI (1) 1 (0f6) : 32.1583
+REPORT 66 FI (1) 1 (0f8) : 1.71618
+REPORT 66 FI (1) 1 (0f10) : 0.112927
+REPORT 66 FI (1) 1 (0f13) : 1.22254
+REPORT 66 FI (1) 1 (0f15) : 1.47618
+REPORT 66 FI (1) 1 (0f18) : 3.4128
+REPORT 66 FI (1) 1 (0f20) : 0.708982
+REPORT 66 FI (1) 1 (0f25) : 0.398309
+REPORT 66 FI (1) 1 (0f26) : 0.319896
+REPORT 66 FI (1) 2 (0f2) : 30.0222
+REPORT 66 FI (1) 2 (0f3) : 4.037
+REPORT 66 FI (1) 2 (0f11) : 2.79919
+REPORT 66 FI (1) 2 (0f16) : 1.26823
+REPORT 66 FI (2) 1 (0f3) : 8.1625
+REPORT 66 FI (2) 1 (0f4) : 0.294432
+REPORT 66 FI (2) 1 (0f5) : 48.8702
+REPORT 66 FI (2) 1 (0f7) : 0.925148
+REPORT 66 FI (2) 1 (0f14) : 2.7621
+REPORT 66 FI (2) 2 (0f2) : 0.673279
+REPORT 66 FI (2) 2 (0f3) : 0.75918
+REPORT 66 FI (3) 1 (0f3) : 1.81031
+REPORT 66 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 66 used_features 39
+REPORT 66 trainacc 0.793486
+REPORT 66 trainauc 0.819155
+REPORT 66 trainloss_mean 0.439693
+REPORT 66 testacc 0.75
+REPORT 66 testauc 0.763601
+REPORT 66 testloss_mean 0.517028
+REPORT 66 cache_size 255
+REPORT 66 gain_count 18815
+REPORT 66 bound_count 14461
+BEGIN_tree
+---* [1] -0.240327
+--* (3) 1 (0f3)
+---* [38] 0.100174
+-* (2) 1 (0f5)
+---* [24] -0.13194
+--* (2) 2 (0f3)
+---* [31] 0.0334675
+* (0) 2 (0f2)
+---* [5] 0.120101
+--* (0) 1 (0f4)
+---* [604] 0.00190207
+-* (1) 1 (0f4)
+---* [30] -0.0404627
+--* (1) 1 (0f6)
+---* [618] -0.00371327
+END_tree
+REPORT 67 FI (0) 1 (0f0) : 18.2775
+REPORT 67 FI (0) 1 (0f1) : 36.4357
+REPORT 67 FI (0) 1 (0f2) : 7.55648
+REPORT 67 FI (0) 1 (0f3) : 2.83189
+REPORT 67 FI (0) 1 (0f4) : 6.95979
+REPORT 67 FI (0) 1 (0f18) : 0.00377832
+REPORT 67 FI (0) 1 (0f22) : 0.259358
+REPORT 67 FI (0) 1 (0f24) : 0.259127
+REPORT 67 FI (0) 2 (0f1) : 15.3009
+REPORT 67 FI (0) 2 (0f2) : 36.2374
+REPORT 67 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 67 FI (0) 2 (0f3) : 1.04407
+REPORT 67 FI (0) 2 (0f6) : 0.0797702
+REPORT 67 FI (1) 1 (0f2) : 30.5524
+REPORT 67 FI (1) 1 (0f3) : 19.3233
+REPORT 67 FI (1) 1 (0f4) : 11.6686
+REPORT 67 FI (1) 1 (0f5) : 0.0640266
+REPORT 67 FI (1) 1 (0f6) : 32.197
+REPORT 67 FI (1) 1 (0f8) : 1.71618
+REPORT 67 FI (1) 1 (0f10) : 0.112927
+REPORT 67 FI (1) 1 (0f13) : 1.22254
+REPORT 67 FI (1) 1 (0f15) : 1.47618
+REPORT 67 FI (1) 1 (0f18) : 3.4128
+REPORT 67 FI (1) 1 (0f20) : 0.708982
+REPORT 67 FI (1) 1 (0f25) : 0.398309
+REPORT 67 FI (1) 1 (0f26) : 0.319896
+REPORT 67 FI (1) 2 (0f2) : 30.0222
+REPORT 67 FI (1) 2 (0f3) : 4.037
+REPORT 67 FI (1) 2 (0f11) : 2.79919
+REPORT 67 FI (1) 2 (0f16) : 1.26823
+REPORT 67 FI (2) 1 (0f3) : 8.1625
+REPORT 67 FI (2) 1 (0f4) : 0.294432
+REPORT 67 FI (2) 1 (0f5) : 49.2567
+REPORT 67 FI (2) 1 (0f7) : 0.925148
+REPORT 67 FI (2) 1 (0f14) : 2.7621
+REPORT 67 FI (2) 2 (0f2) : 0.673279
+REPORT 67 FI (2) 2 (0f3) : 1.12928
+REPORT 67 FI (3) 1 (0f3) : 1.92328
+REPORT 67 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 67 used_features 39
+REPORT 67 trainacc 0.793486
+REPORT 67 trainauc 0.819253
+REPORT 67 trainloss_mean 0.439031
+REPORT 67 testacc 0.75
+REPORT 67 testauc 0.764668
+REPORT 67 testloss_mean 0.514743
+REPORT 67 cache_size 255
+REPORT 67 gain_count 19113
+REPORT 67 bound_count 14689
+BEGIN_tree
+---* [1] -0.155756
+--* (3) 1 (0f3)
+---* [38] 0.0828248
+-* (2) 1 (0f5)
+---* [24] -0.120522
+--* (1) 2 (0f2)
+---* [31] 0.0315124
+* (0) 2 (0f2)
+---* [5] 0.0789065
+--* (1) 1 (0f4)
+---* [60] -0.0190641
+-* (0) 1 (0f4)
+---* [77] 0.0210543
+--* (1) 1 (0f6)
+---* [1115] -0.00149111
+END_tree
+REPORT 68 FI (0) 1 (0f0) : 18.2775
+REPORT 68 FI (0) 1 (0f1) : 36.4357
+REPORT 68 FI (0) 1 (0f2) : 7.55648
+REPORT 68 FI (0) 1 (0f3) : 2.83189
+REPORT 68 FI (0) 1 (0f4) : 6.96793
+REPORT 68 FI (0) 1 (0f18) : 0.00377832
+REPORT 68 FI (0) 1 (0f22) : 0.259358
+REPORT 68 FI (0) 1 (0f24) : 0.259127
+REPORT 68 FI (0) 2 (0f1) : 15.3009
+REPORT 68 FI (0) 2 (0f2) : 36.2501
+REPORT 68 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 68 FI (0) 2 (0f3) : 1.04407
+REPORT 68 FI (0) 2 (0f6) : 0.0797702
+REPORT 68 FI (1) 1 (0f2) : 30.5524
+REPORT 68 FI (1) 1 (0f3) : 19.3233
+REPORT 68 FI (1) 1 (0f4) : 11.7129
+REPORT 68 FI (1) 1 (0f5) : 0.0640266
+REPORT 68 FI (1) 1 (0f6) : 32.2336
+REPORT 68 FI (1) 1 (0f8) : 1.71618
+REPORT 68 FI (1) 1 (0f10) : 0.112927
+REPORT 68 FI (1) 1 (0f13) : 1.22254
+REPORT 68 FI (1) 1 (0f15) : 1.47618
+REPORT 68 FI (1) 1 (0f18) : 3.4128
+REPORT 68 FI (1) 1 (0f20) : 0.708982
+REPORT 68 FI (1) 1 (0f25) : 0.398309
+REPORT 68 FI (1) 1 (0f26) : 0.319896
+REPORT 68 FI (1) 2 (0f2) : 30.3349
+REPORT 68 FI (1) 2 (0f3) : 4.037
+REPORT 68 FI (1) 2 (0f11) : 2.79919
+REPORT 68 FI (1) 2 (0f16) : 1.26823
+REPORT 68 FI (2) 1 (0f3) : 8.1625
+REPORT 68 FI (2) 1 (0f4) : 0.294432
+REPORT 68 FI (2) 1 (0f5) : 49.5406
+REPORT 68 FI (2) 1 (0f7) : 0.925148
+REPORT 68 FI (2) 1 (0f14) : 2.7621
+REPORT 68 FI (2) 2 (0f2) : 0.673279
+REPORT 68 FI (2) 2 (0f3) : 1.12928
+REPORT 68 FI (3) 1 (0f3) : 1.97874
+REPORT 68 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 68 used_features 39
+REPORT 68 trainacc 0.793486
+REPORT 68 trainauc 0.819275
+REPORT 68 trainloss_mean 0.438549
+REPORT 68 testacc 0.75
+REPORT 68 testauc 0.765522
+REPORT 68 testloss_mean 0.512784
+REPORT 68 cache_size 255
+REPORT 68 gain_count 19428
+REPORT 68 bound_count 14934
+BEGIN_tree
+---* [1] -0.116494
+--* (3) 1 (0f3)
+---* [38] 0.0705317
+-* (2) 1 (0f5)
+---* [24] -0.105272
+--* (2) 2 (0f3)
+---* [31] 0.0375945
+* (0) 2 (0f2)
+---* [37] 0.0107329
+--* (0) 1 (0f3)
+---* [28] -0.0376072
+-* (0) 1 (0f4)
+---* [469] 0.00330153
+--* (0) 1 (0f2)
+---* [723] -0.00219048
+END_tree
+REPORT 69 FI (0) 1 (0f0) : 18.2775
+REPORT 69 FI (0) 1 (0f1) : 36.4357
+REPORT 69 FI (0) 1 (0f2) : 7.56506
+REPORT 69 FI (0) 1 (0f3) : 2.86913
+REPORT 69 FI (0) 1 (0f4) : 6.97417
+REPORT 69 FI (0) 1 (0f18) : 0.00377832
+REPORT 69 FI (0) 1 (0f22) : 0.259358
+REPORT 69 FI (0) 1 (0f24) : 0.259127
+REPORT 69 FI (0) 2 (0f1) : 15.3009
+REPORT 69 FI (0) 2 (0f2) : 36.2657
+REPORT 69 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 69 FI (0) 2 (0f3) : 1.04407
+REPORT 69 FI (0) 2 (0f6) : 0.0797702
+REPORT 69 FI (1) 1 (0f2) : 30.5524
+REPORT 69 FI (1) 1 (0f3) : 19.3233
+REPORT 69 FI (1) 1 (0f4) : 11.7129
+REPORT 69 FI (1) 1 (0f5) : 0.0640266
+REPORT 69 FI (1) 1 (0f6) : 32.2336
+REPORT 69 FI (1) 1 (0f8) : 1.71618
+REPORT 69 FI (1) 1 (0f10) : 0.112927
+REPORT 69 FI (1) 1 (0f13) : 1.22254
+REPORT 69 FI (1) 1 (0f15) : 1.47618
+REPORT 69 FI (1) 1 (0f18) : 3.4128
+REPORT 69 FI (1) 1 (0f20) : 0.708982
+REPORT 69 FI (1) 1 (0f25) : 0.398309
+REPORT 69 FI (1) 1 (0f26) : 0.319896
+REPORT 69 FI (1) 2 (0f2) : 30.3349
+REPORT 69 FI (1) 2 (0f3) : 4.037
+REPORT 69 FI (1) 2 (0f11) : 2.79919
+REPORT 69 FI (1) 2 (0f16) : 1.26823
+REPORT 69 FI (2) 1 (0f3) : 8.1625
+REPORT 69 FI (2) 1 (0f4) : 0.294432
+REPORT 69 FI (2) 1 (0f5) : 49.7274
+REPORT 69 FI (2) 1 (0f7) : 0.925148
+REPORT 69 FI (2) 1 (0f14) : 2.7621
+REPORT 69 FI (2) 2 (0f2) : 0.673279
+REPORT 69 FI (2) 2 (0f3) : 1.40538
+REPORT 69 FI (3) 1 (0f3) : 2.01282
+REPORT 69 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 69 used_features 39
+REPORT 69 trainacc 0.793486
+REPORT 69 trainauc 0.819829
+REPORT 69 trainloss_mean 0.43817
+REPORT 69 testacc 0.75
+REPORT 69 testauc 0.767869
+REPORT 69 testloss_mean 0.512855
+REPORT 69 cache_size 255
+REPORT 69 gain_count 19743
+REPORT 69 bound_count 15179
+BEGIN_tree
+---* [5] -0.010473
+--* (0) 2 (0f1)
+---* [13] -0.00550019
+-* (1) 1 (0f2)
+---* [3] -0.0251713
+--* (0) 2 (0f2)
+---* [37] -0.0123068
+* (0) 1 (0f0)
+---* [84] 0.0213832
+--* (2) 2 (0f2)
+---* [5] -0.179015
+-* (0) 2 (0f2)
+---* [64] -0.00931861
+--* (0) 1 (0f4)
+---* [1140] 0.000491986
+END_tree
+REPORT 70 FI (0) 1 (0f0) : 18.2854
+REPORT 70 FI (0) 1 (0f1) : 36.4357
+REPORT 70 FI (0) 1 (0f2) : 7.56506
+REPORT 70 FI (0) 1 (0f3) : 2.86913
+REPORT 70 FI (0) 1 (0f4) : 6.98
+REPORT 70 FI (0) 1 (0f18) : 0.00377832
+REPORT 70 FI (0) 1 (0f22) : 0.259358
+REPORT 70 FI (0) 1 (0f24) : 0.259127
+REPORT 70 FI (0) 2 (0f1) : 15.301
+REPORT 70 FI (0) 2 (0f2) : 36.2747
+REPORT 70 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 70 FI (0) 2 (0f3) : 1.04407
+REPORT 70 FI (0) 2 (0f6) : 0.0797702
+REPORT 70 FI (1) 1 (0f2) : 30.5529
+REPORT 70 FI (1) 1 (0f3) : 19.3233
+REPORT 70 FI (1) 1 (0f4) : 11.7129
+REPORT 70 FI (1) 1 (0f5) : 0.0640266
+REPORT 70 FI (1) 1 (0f6) : 32.2336
+REPORT 70 FI (1) 1 (0f8) : 1.71618
+REPORT 70 FI (1) 1 (0f10) : 0.112927
+REPORT 70 FI (1) 1 (0f13) : 1.22254
+REPORT 70 FI (1) 1 (0f15) : 1.47618
+REPORT 70 FI (1) 1 (0f18) : 3.4128
+REPORT 70 FI (1) 1 (0f20) : 0.708982
+REPORT 70 FI (1) 1 (0f25) : 0.398309
+REPORT 70 FI (1) 1 (0f26) : 0.319896
+REPORT 70 FI (1) 2 (0f2) : 30.3349
+REPORT 70 FI (1) 2 (0f3) : 4.037
+REPORT 70 FI (1) 2 (0f11) : 2.79919
+REPORT 70 FI (1) 2 (0f16) : 1.26823
+REPORT 70 FI (2) 1 (0f3) : 8.1625
+REPORT 70 FI (2) 1 (0f4) : 0.294432
+REPORT 70 FI (2) 1 (0f5) : 49.7274
+REPORT 70 FI (2) 1 (0f7) : 0.925148
+REPORT 70 FI (2) 1 (0f14) : 2.7621
+REPORT 70 FI (2) 2 (0f2) : 0.862797
+REPORT 70 FI (2) 2 (0f3) : 1.40538
+REPORT 70 FI (3) 1 (0f3) : 2.01282
+REPORT 70 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 70 used_features 39
+REPORT 70 trainacc 0.793486
+REPORT 70 trainauc 0.819877
+REPORT 70 trainloss_mean 0.438033
+REPORT 70 testacc 0.75
+REPORT 70 testauc 0.767869
+REPORT 70 testloss_mean 0.513
+REPORT 70 cache_size 255
+REPORT 70 gain_count 20078
+REPORT 70 bound_count 15444
+BEGIN_tree
+---* [5] -0.0102571
+--* (0) 2 (0f1)
+---* [13] -0.00544019
+-* (1) 1 (0f2)
+---* [3] -0.0239523
+--* (0) 2 (0f2)
+---* [37] -0.0113428
+* (0) 1 (0f0)
+---* [37] 0.0594651
+--* (2) 1 (0f5)
+---* [52] -0.0288066
+-* (0) 2 (0f2)
+---* [1] -0.0761786
+--* (1) 1 (0f5)
+---* [1203] -0.000177722
+END_tree
+REPORT 71 FI (0) 1 (0f0) : 18.292
+REPORT 71 FI (0) 1 (0f1) : 36.4357
+REPORT 71 FI (0) 1 (0f2) : 7.56506
+REPORT 71 FI (0) 1 (0f3) : 2.86913
+REPORT 71 FI (0) 1 (0f4) : 6.98
+REPORT 71 FI (0) 1 (0f18) : 0.00377832
+REPORT 71 FI (0) 1 (0f22) : 0.259358
+REPORT 71 FI (0) 1 (0f24) : 0.259127
+REPORT 71 FI (0) 2 (0f1) : 15.301
+REPORT 71 FI (0) 2 (0f2) : 36.2806
+REPORT 71 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 71 FI (0) 2 (0f3) : 1.04407
+REPORT 71 FI (0) 2 (0f6) : 0.0797702
+REPORT 71 FI (1) 1 (0f2) : 30.5533
+REPORT 71 FI (1) 1 (0f3) : 19.3233
+REPORT 71 FI (1) 1 (0f4) : 11.7129
+REPORT 71 FI (1) 1 (0f5) : 0.0697979
+REPORT 71 FI (1) 1 (0f6) : 32.2336
+REPORT 71 FI (1) 1 (0f8) : 1.71618
+REPORT 71 FI (1) 1 (0f10) : 0.112927
+REPORT 71 FI (1) 1 (0f13) : 1.22254
+REPORT 71 FI (1) 1 (0f15) : 1.47618
+REPORT 71 FI (1) 1 (0f18) : 3.4128
+REPORT 71 FI (1) 1 (0f20) : 0.708982
+REPORT 71 FI (1) 1 (0f25) : 0.398309
+REPORT 71 FI (1) 1 (0f26) : 0.319896
+REPORT 71 FI (1) 2 (0f2) : 30.3349
+REPORT 71 FI (1) 2 (0f3) : 4.037
+REPORT 71 FI (1) 2 (0f11) : 2.79919
+REPORT 71 FI (1) 2 (0f16) : 1.26823
+REPORT 71 FI (2) 1 (0f3) : 8.1625
+REPORT 71 FI (2) 1 (0f4) : 0.294432
+REPORT 71 FI (2) 1 (0f5) : 49.8959
+REPORT 71 FI (2) 1 (0f7) : 0.925148
+REPORT 71 FI (2) 1 (0f14) : 2.7621
+REPORT 71 FI (2) 2 (0f2) : 0.862797
+REPORT 71 FI (2) 2 (0f3) : 1.40538
+REPORT 71 FI (3) 1 (0f3) : 2.01282
+REPORT 71 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 71 used_features 39
+REPORT 71 trainacc 0.793486
+REPORT 71 trainauc 0.819953
+REPORT 71 trainloss_mean 0.437906
+REPORT 71 testacc 0.75
+REPORT 71 testauc 0.767869
+REPORT 71 testloss_mean 0.513362
+REPORT 71 cache_size 255
+REPORT 71 gain_count 20417
+REPORT 71 bound_count 15713
+BEGIN_tree
+---* [4] -0.420753
+--* (2) 3 (0f3)
+---* [37] 0.00741188
+-* (1) 2 (0f2)
+---* [28] -0.0504121
+--* (2) 2 (0f3)
+---* [25] 0.147191
+* (0) 2 (0f2)
+---* [4] 0.00118684
+--* (0) 1 (0f1)
+---* [49] -0.0103558
+-* (0) 1 (0f0)
+---* [77] 0.00783661
+--* (1) 1 (0f6)
+---* [1127] -0.000658035
+END_tree
+REPORT 72 FI (0) 1 (0f0) : 18.2965
+REPORT 72 FI (0) 1 (0f1) : 36.4362
+REPORT 72 FI (0) 1 (0f2) : 7.56506
+REPORT 72 FI (0) 1 (0f3) : 2.86913
+REPORT 72 FI (0) 1 (0f4) : 6.98
+REPORT 72 FI (0) 1 (0f18) : 0.00377832
+REPORT 72 FI (0) 1 (0f22) : 0.259358
+REPORT 72 FI (0) 1 (0f24) : 0.259127
+REPORT 72 FI (0) 2 (0f1) : 15.301
+REPORT 72 FI (0) 2 (0f2) : 36.2888
+REPORT 72 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 72 FI (0) 2 (0f3) : 1.04407
+REPORT 72 FI (0) 2 (0f6) : 0.0797702
+REPORT 72 FI (1) 1 (0f2) : 30.5533
+REPORT 72 FI (1) 1 (0f3) : 19.3233
+REPORT 72 FI (1) 1 (0f4) : 11.7129
+REPORT 72 FI (1) 1 (0f5) : 0.0697979
+REPORT 72 FI (1) 1 (0f6) : 32.2388
+REPORT 72 FI (1) 1 (0f8) : 1.71618
+REPORT 72 FI (1) 1 (0f10) : 0.112927
+REPORT 72 FI (1) 1 (0f13) : 1.22254
+REPORT 72 FI (1) 1 (0f15) : 1.47618
+REPORT 72 FI (1) 1 (0f18) : 3.4128
+REPORT 72 FI (1) 1 (0f20) : 0.708982
+REPORT 72 FI (1) 1 (0f25) : 0.398309
+REPORT 72 FI (1) 1 (0f26) : 0.319896
+REPORT 72 FI (1) 2 (0f2) : 30.4725
+REPORT 72 FI (1) 2 (0f3) : 4.037
+REPORT 72 FI (1) 2 (0f11) : 2.79919
+REPORT 72 FI (1) 2 (0f16) : 1.26823
+REPORT 72 FI (2) 1 (0f3) : 8.1625
+REPORT 72 FI (2) 1 (0f4) : 0.294432
+REPORT 72 FI (2) 1 (0f5) : 49.8959
+REPORT 72 FI (2) 1 (0f7) : 0.925148
+REPORT 72 FI (2) 1 (0f14) : 2.7621
+REPORT 72 FI (2) 2 (0f2) : 0.862797
+REPORT 72 FI (2) 2 (0f3) : 1.9211
+REPORT 72 FI (2) 3 (0f3) : 0.661758
+REPORT 72 FI (3) 1 (0f3) : 2.01282
+REPORT 72 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 72 used_features 40
+REPORT 72 trainacc 0.793486
+REPORT 72 trainauc 0.820423
+REPORT 72 trainloss_mean 0.43714
+REPORT 72 testacc 0.75
+REPORT 72 testauc 0.768082
+REPORT 72 testloss_mean 0.512113
+REPORT 72 cache_size 255
+REPORT 72 gain_count 20750
+REPORT 72 bound_count 15976
+BEGIN_tree
+---* [2] -0.0373838
+--* (0) 2 (0f2)
+---* [3] -0.0112493
+-* (2) 1 (0f5)
+---* [4] 0.000567212
+--* (0) 1 (0f1)
+---* [49] -0.00989416
+* (0) 1 (0f0)
+---* [36] -0.0451781
+--* (2) 2 (0f3)
+---* [53] 0.0435472
+-* (0) 2 (0f2)
+---* [1] -0.0656835
+--* (1) 1 (0f5)
+---* [1203] 1.23967e-05
+END_tree
+REPORT 73 FI (0) 1 (0f0) : 18.3028
+REPORT 73 FI (0) 1 (0f1) : 36.4366
+REPORT 73 FI (0) 1 (0f2) : 7.56506
+REPORT 73 FI (0) 1 (0f3) : 2.86913
+REPORT 73 FI (0) 1 (0f4) : 6.98
+REPORT 73 FI (0) 1 (0f18) : 0.00377832
+REPORT 73 FI (0) 1 (0f22) : 0.259358
+REPORT 73 FI (0) 1 (0f24) : 0.259127
+REPORT 73 FI (0) 2 (0f1) : 15.301
+REPORT 73 FI (0) 2 (0f2) : 36.2945
+REPORT 73 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 73 FI (0) 2 (0f3) : 1.04407
+REPORT 73 FI (0) 2 (0f6) : 0.0797702
+REPORT 73 FI (1) 1 (0f2) : 30.5533
+REPORT 73 FI (1) 1 (0f3) : 19.3233
+REPORT 73 FI (1) 1 (0f4) : 11.7129
+REPORT 73 FI (1) 1 (0f5) : 0.0741103
+REPORT 73 FI (1) 1 (0f6) : 32.2388
+REPORT 73 FI (1) 1 (0f8) : 1.71618
+REPORT 73 FI (1) 1 (0f10) : 0.112927
+REPORT 73 FI (1) 1 (0f13) : 1.22254
+REPORT 73 FI (1) 1 (0f15) : 1.47618
+REPORT 73 FI (1) 1 (0f18) : 3.4128
+REPORT 73 FI (1) 1 (0f20) : 0.708982
+REPORT 73 FI (1) 1 (0f25) : 0.398309
+REPORT 73 FI (1) 1 (0f26) : 0.319896
+REPORT 73 FI (1) 2 (0f2) : 30.4725
+REPORT 73 FI (1) 2 (0f3) : 4.037
+REPORT 73 FI (1) 2 (0f11) : 2.79919
+REPORT 73 FI (1) 2 (0f16) : 1.26823
+REPORT 73 FI (2) 1 (0f3) : 8.1625
+REPORT 73 FI (2) 1 (0f4) : 0.294432
+REPORT 73 FI (2) 1 (0f5) : 49.8966
+REPORT 73 FI (2) 1 (0f7) : 0.925148
+REPORT 73 FI (2) 1 (0f14) : 2.7621
+REPORT 73 FI (2) 2 (0f2) : 0.862797
+REPORT 73 FI (2) 2 (0f3) : 2.08986
+REPORT 73 FI (2) 3 (0f3) : 0.661758
+REPORT 73 FI (3) 1 (0f3) : 2.01282
+REPORT 73 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 73 used_features 40
+REPORT 73 trainacc 0.793486
+REPORT 73 trainauc 0.821075
+REPORT 73 trainloss_mean 0.437017
+REPORT 73 testacc 0.75
+REPORT 73 testauc 0.770856
+REPORT 73 testloss_mean 0.511932
+REPORT 73 cache_size 255
+REPORT 73 gain_count 21112
+REPORT 73 bound_count 16274
+BEGIN_tree
+---* [2] -0.0347389
+--* (0) 2 (0f2)
+---* [3] -0.0110005
+-* (2) 1 (0f5)
+---* [4] 0.000271048
+--* (0) 1 (0f1)
+---* [49] -0.00970141
+* (0) 1 (0f0)
+---* [61] -0.0136244
+--* (2) 1 (0f3)
+---* [5] 0.0725994
+-* (0) 1 (0f4)
+---* [274] -0.00321812
+--* (0) 2 (0f1)
+---* [953] 0.00156432
+END_tree
+REPORT 74 FI (0) 1 (0f0) : 18.3084
+REPORT 74 FI (0) 1 (0f1) : 36.437
+REPORT 74 FI (0) 1 (0f2) : 7.56506
+REPORT 74 FI (0) 1 (0f3) : 2.86913
+REPORT 74 FI (0) 1 (0f4) : 6.98361
+REPORT 74 FI (0) 1 (0f18) : 0.00377832
+REPORT 74 FI (0) 1 (0f22) : 0.259358
+REPORT 74 FI (0) 1 (0f24) : 0.259127
+REPORT 74 FI (0) 2 (0f1) : 15.3059
+REPORT 74 FI (0) 2 (0f2) : 36.2952
+REPORT 74 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 74 FI (0) 2 (0f3) : 1.04407
+REPORT 74 FI (0) 2 (0f6) : 0.0797702
+REPORT 74 FI (1) 1 (0f2) : 30.5533
+REPORT 74 FI (1) 1 (0f3) : 19.3233
+REPORT 74 FI (1) 1 (0f4) : 11.7129
+REPORT 74 FI (1) 1 (0f5) : 0.0741103
+REPORT 74 FI (1) 1 (0f6) : 32.2388
+REPORT 74 FI (1) 1 (0f8) : 1.71618
+REPORT 74 FI (1) 1 (0f10) : 0.112927
+REPORT 74 FI (1) 1 (0f13) : 1.22254
+REPORT 74 FI (1) 1 (0f15) : 1.47618
+REPORT 74 FI (1) 1 (0f18) : 3.4128
+REPORT 74 FI (1) 1 (0f20) : 0.708982
+REPORT 74 FI (1) 1 (0f25) : 0.398309
+REPORT 74 FI (1) 1 (0f26) : 0.319896
+REPORT 74 FI (1) 2 (0f2) : 30.4725
+REPORT 74 FI (1) 2 (0f3) : 4.037
+REPORT 74 FI (1) 2 (0f11) : 2.79919
+REPORT 74 FI (1) 2 (0f16) : 1.26823
+REPORT 74 FI (2) 1 (0f3) : 8.19686
+REPORT 74 FI (2) 1 (0f4) : 0.294432
+REPORT 74 FI (2) 1 (0f5) : 49.8972
+REPORT 74 FI (2) 1 (0f7) : 0.925148
+REPORT 74 FI (2) 1 (0f14) : 2.7621
+REPORT 74 FI (2) 2 (0f2) : 0.862797
+REPORT 74 FI (2) 2 (0f3) : 2.08986
+REPORT 74 FI (2) 3 (0f3) : 0.661758
+REPORT 74 FI (3) 1 (0f3) : 2.01282
+REPORT 74 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 74 used_features 40
+REPORT 74 trainacc 0.793486
+REPORT 74 trainauc 0.821039
+REPORT 74 trainloss_mean 0.436985
+REPORT 74 testacc 0.75
+REPORT 74 testauc 0.770856
+REPORT 74 testloss_mean 0.51208
+REPORT 74 cache_size 255
+REPORT 74 gain_count 21461
+REPORT 74 bound_count 16559
+BEGIN_tree
+---* [1] -0.0130529
+--* (1) 1 (0f3)
+---* [3] -0.142538
+-* (0) 1 (0f3)
+---* [134] 0.0172555
+--* (1) 1 (0f2)
+---* [59] -0.0167023
+* (0) 1 (0f1)
+---* [6] 0.128307
+--* (1) 1 (0f4)
+---* [89] 0.00163465
+-* (0) 1 (0f3)
+---* [52] -0.0340546
+--* (0) 2 (0f1)
+---* [1007] -0.000625517
+END_tree
+REPORT 75 FI (0) 1 (0f0) : 18.3084
+REPORT 75 FI (0) 1 (0f1) : 36.4426
+REPORT 75 FI (0) 1 (0f2) : 7.56506
+REPORT 75 FI (0) 1 (0f3) : 2.93516
+REPORT 75 FI (0) 1 (0f4) : 6.98361
+REPORT 75 FI (0) 1 (0f18) : 0.00377832
+REPORT 75 FI (0) 1 (0f22) : 0.259358
+REPORT 75 FI (0) 1 (0f24) : 0.259127
+REPORT 75 FI (0) 2 (0f1) : 15.3612
+REPORT 75 FI (0) 2 (0f2) : 36.2952
+REPORT 75 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 75 FI (0) 2 (0f3) : 1.04407
+REPORT 75 FI (0) 2 (0f6) : 0.0797702
+REPORT 75 FI (1) 1 (0f2) : 30.6005
+REPORT 75 FI (1) 1 (0f3) : 19.3359
+REPORT 75 FI (1) 1 (0f4) : 11.8031
+REPORT 75 FI (1) 1 (0f5) : 0.0741103
+REPORT 75 FI (1) 1 (0f6) : 32.2388
+REPORT 75 FI (1) 1 (0f8) : 1.71618
+REPORT 75 FI (1) 1 (0f10) : 0.112927
+REPORT 75 FI (1) 1 (0f13) : 1.22254
+REPORT 75 FI (1) 1 (0f15) : 1.47618
+REPORT 75 FI (1) 1 (0f18) : 3.4128
+REPORT 75 FI (1) 1 (0f20) : 0.708982
+REPORT 75 FI (1) 1 (0f25) : 0.398309
+REPORT 75 FI (1) 1 (0f26) : 0.319896
+REPORT 75 FI (1) 2 (0f2) : 30.4725
+REPORT 75 FI (1) 2 (0f3) : 4.037
+REPORT 75 FI (1) 2 (0f11) : 2.79919
+REPORT 75 FI (1) 2 (0f16) : 1.26823
+REPORT 75 FI (2) 1 (0f3) : 8.19686
+REPORT 75 FI (2) 1 (0f4) : 0.294432
+REPORT 75 FI (2) 1 (0f5) : 49.8972
+REPORT 75 FI (2) 1 (0f7) : 0.925148
+REPORT 75 FI (2) 1 (0f14) : 2.7621
+REPORT 75 FI (2) 2 (0f2) : 0.862797
+REPORT 75 FI (2) 2 (0f3) : 2.08986
+REPORT 75 FI (2) 3 (0f3) : 0.661758
+REPORT 75 FI (3) 1 (0f3) : 2.01282
+REPORT 75 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 75 used_features 40
+REPORT 75 trainacc 0.793486
+REPORT 75 trainauc 0.821275
+REPORT 75 trainloss_mean 0.436847
+REPORT 75 testacc 0.75
+REPORT 75 testauc 0.771069
+REPORT 75 testloss_mean 0.512998
+REPORT 75 cache_size 255
+REPORT 75 gain_count 21721
+REPORT 75 bound_count 16749
+BEGIN_tree
+---* [28] -0.0260868
+--* (2) 1 (0f3)
+---* [1] -0.345431
+-* (0) 1 (0f3)
+---* [143] -0.0110652
+--* (0) 2 (0f1)
+---* [725] 0.00111409
+* (1) 1 (0f2)
+---* [17] -0.0514811
+--* (0) 2 (0f2)
+---* [271] 0.0108107
+-* (0) 1 (0f2)
+---* [2] 0.270106
+--* (1) 2 (0f16)
+---* [164] -0.0100298
+END_tree
+REPORT 76 FI (0) 1 (0f0) : 18.3084
+REPORT 76 FI (0) 1 (0f1) : 36.4426
+REPORT 76 FI (0) 1 (0f2) : 7.58508
+REPORT 76 FI (0) 1 (0f3) : 2.97195
+REPORT 76 FI (0) 1 (0f4) : 6.98361
+REPORT 76 FI (0) 1 (0f18) : 0.00377832
+REPORT 76 FI (0) 1 (0f22) : 0.259358
+REPORT 76 FI (0) 1 (0f24) : 0.259127
+REPORT 76 FI (0) 2 (0f1) : 15.3789
+REPORT 76 FI (0) 2 (0f2) : 36.3573
+REPORT 76 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 76 FI (0) 2 (0f3) : 1.04407
+REPORT 76 FI (0) 2 (0f6) : 0.0797702
+REPORT 76 FI (1) 1 (0f2) : 30.6057
+REPORT 76 FI (1) 1 (0f3) : 19.3359
+REPORT 76 FI (1) 1 (0f4) : 11.8031
+REPORT 76 FI (1) 1 (0f5) : 0.0741103
+REPORT 76 FI (1) 1 (0f6) : 32.2388
+REPORT 76 FI (1) 1 (0f8) : 1.71618
+REPORT 76 FI (1) 1 (0f10) : 0.112927
+REPORT 76 FI (1) 1 (0f13) : 1.22254
+REPORT 76 FI (1) 1 (0f15) : 1.47618
+REPORT 76 FI (1) 1 (0f18) : 3.4128
+REPORT 76 FI (1) 1 (0f20) : 0.708982
+REPORT 76 FI (1) 1 (0f25) : 0.398309
+REPORT 76 FI (1) 1 (0f26) : 0.319896
+REPORT 76 FI (1) 2 (0f2) : 30.4725
+REPORT 76 FI (1) 2 (0f3) : 4.037
+REPORT 76 FI (1) 2 (0f11) : 2.79919
+REPORT 76 FI (1) 2 (0f16) : 1.4233
+REPORT 76 FI (2) 1 (0f3) : 8.29532
+REPORT 76 FI (2) 1 (0f4) : 0.294432
+REPORT 76 FI (2) 1 (0f5) : 49.8972
+REPORT 76 FI (2) 1 (0f7) : 0.925148
+REPORT 76 FI (2) 1 (0f14) : 2.7621
+REPORT 76 FI (2) 2 (0f2) : 0.862797
+REPORT 76 FI (2) 2 (0f3) : 2.08986
+REPORT 76 FI (2) 3 (0f3) : 0.661758
+REPORT 76 FI (3) 1 (0f3) : 2.01282
+REPORT 76 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 76 used_features 40
+REPORT 76 trainacc 0.793486
+REPORT 76 trainauc 0.821313
+REPORT 76 trainloss_mean 0.436647
+REPORT 76 testacc 0.75
+REPORT 76 testauc 0.771282
+REPORT 76 testloss_mean 0.512247
+REPORT 76 cache_size 255
+REPORT 76 gain_count 21945
+REPORT 76 bound_count 16903
+BEGIN_tree
+---* [3] 0.0168972
+--* (2) 2 (0f2)
+---* [1] -0.038045
+-* (0) 1 (0f1)
+---* [17] -0.00607371
+--* (1) 1 (0f2)
+---* [37] -0.0122405
+* (0) 1 (0f0)
+---* [37] 0.0111213
+--* (0) 1 (0f3)
+---* [29] -0.0335307
+-* (0) 1 (0f4)
+---* [598] -0.00203387
+--* (1) 1 (0f4)
+---* [629] 0.00199593
+END_tree
+REPORT 77 FI (0) 1 (0f0) : 18.3129
+REPORT 77 FI (0) 1 (0f1) : 36.4433
+REPORT 77 FI (0) 1 (0f2) : 7.58508
+REPORT 77 FI (0) 1 (0f3) : 3.00437
+REPORT 77 FI (0) 1 (0f4) : 6.98817
+REPORT 77 FI (0) 1 (0f18) : 0.00377832
+REPORT 77 FI (0) 1 (0f22) : 0.259358
+REPORT 77 FI (0) 1 (0f24) : 0.259127
+REPORT 77 FI (0) 2 (0f1) : 15.3789
+REPORT 77 FI (0) 2 (0f2) : 36.3573
+REPORT 77 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 77 FI (0) 2 (0f3) : 1.04407
+REPORT 77 FI (0) 2 (0f6) : 0.0797702
+REPORT 77 FI (1) 1 (0f2) : 30.6062
+REPORT 77 FI (1) 1 (0f3) : 19.3359
+REPORT 77 FI (1) 1 (0f4) : 11.8081
+REPORT 77 FI (1) 1 (0f5) : 0.0741103
+REPORT 77 FI (1) 1 (0f6) : 32.2388
+REPORT 77 FI (1) 1 (0f8) : 1.71618
+REPORT 77 FI (1) 1 (0f10) : 0.112927
+REPORT 77 FI (1) 1 (0f13) : 1.22254
+REPORT 77 FI (1) 1 (0f15) : 1.47618
+REPORT 77 FI (1) 1 (0f18) : 3.4128
+REPORT 77 FI (1) 1 (0f20) : 0.708982
+REPORT 77 FI (1) 1 (0f25) : 0.398309
+REPORT 77 FI (1) 1 (0f26) : 0.319896
+REPORT 77 FI (1) 2 (0f2) : 30.4725
+REPORT 77 FI (1) 2 (0f3) : 4.037
+REPORT 77 FI (1) 2 (0f11) : 2.79919
+REPORT 77 FI (1) 2 (0f16) : 1.4233
+REPORT 77 FI (2) 1 (0f3) : 8.29532
+REPORT 77 FI (2) 1 (0f4) : 0.294432
+REPORT 77 FI (2) 1 (0f5) : 49.8972
+REPORT 77 FI (2) 1 (0f7) : 0.925148
+REPORT 77 FI (2) 1 (0f14) : 2.7621
+REPORT 77 FI (2) 2 (0f2) : 0.865061
+REPORT 77 FI (2) 2 (0f3) : 2.08986
+REPORT 77 FI (2) 3 (0f3) : 0.661758
+REPORT 77 FI (3) 1 (0f3) : 2.01282
+REPORT 77 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 77 used_features 40
+REPORT 77 trainacc 0.793486
+REPORT 77 trainauc 0.821357
+REPORT 77 trainloss_mean 0.436613
+REPORT 77 testacc 0.75
+REPORT 77 testauc 0.771069
+REPORT 77 testloss_mean 0.512962
+REPORT 77 cache_size 255
+REPORT 77 gain_count 22232
+REPORT 77 bound_count 17120
+BEGIN_tree
+---* [1] -0.0120273
+--* (1) 1 (0f3)
+---* [3] -0.105538
+-* (0) 1 (0f3)
+---* [11] -0.0450432
+--* (1) 1 (0f3)
+---* [182] 0.00950022
+* (0) 1 (0f1)
+---* [1] -0.13051
+--* (1) 1 (0f3)
+---* [2] -0.0233042
+-* (0) 2 (0f3)
+---* [109] 0.00579515
+--* (1) 1 (0f3)
+---* [1042] -0.00213388
+END_tree
+REPORT 78 FI (0) 1 (0f0) : 18.3129
+REPORT 78 FI (0) 1 (0f1) : 36.4496
+REPORT 78 FI (0) 1 (0f2) : 7.58508
+REPORT 78 FI (0) 1 (0f3) : 3.03509
+REPORT 78 FI (0) 1 (0f4) : 6.98817
+REPORT 78 FI (0) 1 (0f18) : 0.00377832
+REPORT 78 FI (0) 1 (0f22) : 0.259358
+REPORT 78 FI (0) 1 (0f24) : 0.259127
+REPORT 78 FI (0) 2 (0f1) : 15.3789
+REPORT 78 FI (0) 2 (0f2) : 36.3573
+REPORT 78 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 78 FI (0) 2 (0f3) : 1.05402
+REPORT 78 FI (0) 2 (0f6) : 0.0797702
+REPORT 78 FI (1) 1 (0f2) : 30.6062
+REPORT 78 FI (1) 1 (0f3) : 19.3872
+REPORT 78 FI (1) 1 (0f4) : 11.8081
+REPORT 78 FI (1) 1 (0f5) : 0.0741103
+REPORT 78 FI (1) 1 (0f6) : 32.2388
+REPORT 78 FI (1) 1 (0f8) : 1.71618
+REPORT 78 FI (1) 1 (0f10) : 0.112927
+REPORT 78 FI (1) 1 (0f13) : 1.22254
+REPORT 78 FI (1) 1 (0f15) : 1.47618
+REPORT 78 FI (1) 1 (0f18) : 3.4128
+REPORT 78 FI (1) 1 (0f20) : 0.708982
+REPORT 78 FI (1) 1 (0f25) : 0.398309
+REPORT 78 FI (1) 1 (0f26) : 0.319896
+REPORT 78 FI (1) 2 (0f2) : 30.4725
+REPORT 78 FI (1) 2 (0f3) : 4.037
+REPORT 78 FI (1) 2 (0f11) : 2.79919
+REPORT 78 FI (1) 2 (0f16) : 1.4233
+REPORT 78 FI (2) 1 (0f3) : 8.29532
+REPORT 78 FI (2) 1 (0f4) : 0.294432
+REPORT 78 FI (2) 1 (0f5) : 49.8972
+REPORT 78 FI (2) 1 (0f7) : 0.925148
+REPORT 78 FI (2) 1 (0f14) : 2.7621
+REPORT 78 FI (2) 2 (0f2) : 0.865061
+REPORT 78 FI (2) 2 (0f3) : 2.08986
+REPORT 78 FI (2) 3 (0f3) : 0.661758
+REPORT 78 FI (3) 1 (0f3) : 2.01282
+REPORT 78 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 78 used_features 40
+REPORT 78 trainacc 0.793486
+REPORT 78 trainauc 0.82136
+REPORT 78 trainloss_mean 0.436554
+REPORT 78 testacc 0.75
+REPORT 78 testauc 0.771069
+REPORT 78 testloss_mean 0.513496
+REPORT 78 cache_size 255
+REPORT 78 gain_count 22560
+REPORT 78 bound_count 17382
+BEGIN_tree
+---* [5] -0.00883504
+--* (0) 2 (0f1)
+---* [13] -0.0050075
+-* (1) 1 (0f2)
+---* [3] -0.0237054
+--* (0) 2 (0f2)
+---* [37] -0.0108129
+* (0) 1 (0f0)
+---* [5] 0.0629176
+--* (1) 1 (0f4)
+---* [61] -0.0134179
+-* (0) 1 (0f4)
+---* [274] -0.00423462
+--* (0) 2 (0f1)
+---* [953] 0.00130245
+END_tree
+REPORT 79 FI (0) 1 (0f0) : 18.3181
+REPORT 79 FI (0) 1 (0f1) : 36.4496
+REPORT 79 FI (0) 1 (0f2) : 7.58508
+REPORT 79 FI (0) 1 (0f3) : 3.03509
+REPORT 79 FI (0) 1 (0f4) : 6.99188
+REPORT 79 FI (0) 1 (0f18) : 0.00377832
+REPORT 79 FI (0) 1 (0f22) : 0.259358
+REPORT 79 FI (0) 1 (0f24) : 0.259127
+REPORT 79 FI (0) 2 (0f1) : 15.3855
+REPORT 79 FI (0) 2 (0f2) : 36.3577
+REPORT 79 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 79 FI (0) 2 (0f3) : 1.05402
+REPORT 79 FI (0) 2 (0f6) : 0.0797702
+REPORT 79 FI (1) 1 (0f2) : 30.6066
+REPORT 79 FI (1) 1 (0f3) : 19.3872
+REPORT 79 FI (1) 1 (0f4) : 11.835
+REPORT 79 FI (1) 1 (0f5) : 0.0741103
+REPORT 79 FI (1) 1 (0f6) : 32.2388
+REPORT 79 FI (1) 1 (0f8) : 1.71618
+REPORT 79 FI (1) 1 (0f10) : 0.112927
+REPORT 79 FI (1) 1 (0f13) : 1.22254
+REPORT 79 FI (1) 1 (0f15) : 1.47618
+REPORT 79 FI (1) 1 (0f18) : 3.4128
+REPORT 79 FI (1) 1 (0f20) : 0.708982
+REPORT 79 FI (1) 1 (0f25) : 0.398309
+REPORT 79 FI (1) 1 (0f26) : 0.319896
+REPORT 79 FI (1) 2 (0f2) : 30.4725
+REPORT 79 FI (1) 2 (0f3) : 4.037
+REPORT 79 FI (1) 2 (0f11) : 2.79919
+REPORT 79 FI (1) 2 (0f16) : 1.4233
+REPORT 79 FI (2) 1 (0f3) : 8.29532
+REPORT 79 FI (2) 1 (0f4) : 0.294432
+REPORT 79 FI (2) 1 (0f5) : 49.8972
+REPORT 79 FI (2) 1 (0f7) : 0.925148
+REPORT 79 FI (2) 1 (0f14) : 2.7621
+REPORT 79 FI (2) 2 (0f2) : 0.865061
+REPORT 79 FI (2) 2 (0f3) : 2.08986
+REPORT 79 FI (2) 3 (0f3) : 0.661758
+REPORT 79 FI (3) 1 (0f3) : 2.01282
+REPORT 79 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 79 used_features 40
+REPORT 79 trainacc 0.793486
+REPORT 79 trainauc 0.82133
+REPORT 79 trainloss_mean 0.436527
+REPORT 79 testacc 0.75
+REPORT 79 testauc 0.771496
+REPORT 79 testloss_mean 0.512638
+REPORT 79 cache_size 255
+REPORT 79 gain_count 22889
+REPORT 79 bound_count 17641
+BEGIN_tree
+---* [5] -0.00868098
+--* (0) 2 (0f1)
+---* [13] -0.00495774
+-* (1) 1 (0f2)
+---* [3] -0.0226216
+--* (0) 2 (0f2)
+---* [37] -0.00999577
+* (0) 1 (0f0)
+---* [37] 0.0122823
+--* (0) 1 (0f3)
+---* [29] -0.0314405
+-* (0) 1 (0f4)
+---* [1] -0.0569477
+--* (1) 1 (0f5)
+---* [1226] 0.000243725
+END_tree
+REPORT 80 FI (0) 1 (0f0) : 18.3228
+REPORT 80 FI (0) 1 (0f1) : 36.4496
+REPORT 80 FI (0) 1 (0f2) : 7.58508
+REPORT 80 FI (0) 1 (0f3) : 3.06617
+REPORT 80 FI (0) 1 (0f4) : 6.99506
+REPORT 80 FI (0) 1 (0f18) : 0.00377832
+REPORT 80 FI (0) 1 (0f22) : 0.259358
+REPORT 80 FI (0) 1 (0f24) : 0.259127
+REPORT 80 FI (0) 2 (0f1) : 15.3855
+REPORT 80 FI (0) 2 (0f2) : 36.3582
+REPORT 80 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 80 FI (0) 2 (0f3) : 1.05402
+REPORT 80 FI (0) 2 (0f6) : 0.0797702
+REPORT 80 FI (1) 1 (0f2) : 30.6069
+REPORT 80 FI (1) 1 (0f3) : 19.3872
+REPORT 80 FI (1) 1 (0f4) : 11.835
+REPORT 80 FI (1) 1 (0f5) : 0.0773785
+REPORT 80 FI (1) 1 (0f6) : 32.2388
+REPORT 80 FI (1) 1 (0f8) : 1.71618
+REPORT 80 FI (1) 1 (0f10) : 0.112927
+REPORT 80 FI (1) 1 (0f13) : 1.22254
+REPORT 80 FI (1) 1 (0f15) : 1.47618
+REPORT 80 FI (1) 1 (0f18) : 3.4128
+REPORT 80 FI (1) 1 (0f20) : 0.708982
+REPORT 80 FI (1) 1 (0f25) : 0.398309
+REPORT 80 FI (1) 1 (0f26) : 0.319896
+REPORT 80 FI (1) 2 (0f2) : 30.4725
+REPORT 80 FI (1) 2 (0f3) : 4.037
+REPORT 80 FI (1) 2 (0f11) : 2.79919
+REPORT 80 FI (1) 2 (0f16) : 1.4233
+REPORT 80 FI (2) 1 (0f3) : 8.29532
+REPORT 80 FI (2) 1 (0f4) : 0.294432
+REPORT 80 FI (2) 1 (0f5) : 49.8972
+REPORT 80 FI (2) 1 (0f7) : 0.925148
+REPORT 80 FI (2) 1 (0f14) : 2.7621
+REPORT 80 FI (2) 2 (0f2) : 0.865061
+REPORT 80 FI (2) 2 (0f3) : 2.08986
+REPORT 80 FI (2) 3 (0f3) : 0.661758
+REPORT 80 FI (3) 1 (0f3) : 2.01282
+REPORT 80 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 80 used_features 40
+REPORT 80 trainacc 0.793486
+REPORT 80 trainauc 0.821338
+REPORT 80 trainloss_mean 0.436497
+REPORT 80 testacc 0.75
+REPORT 80 testauc 0.771069
+REPORT 80 testloss_mean 0.513303
+REPORT 80 cache_size 255
+REPORT 80 gain_count 23217
+REPORT 80 bound_count 17899
+BEGIN_tree
+---* [3] 0.0131307
+--* (2) 2 (0f2)
+---* [1] -0.0345308
+-* (0) 1 (0f1)
+---* [17] -0.00582899
+--* (1) 1 (0f2)
+---* [37] -0.0113299
+* (0) 1 (0f0)
+---* [62] -0.00217508
+--* (2) 1 (0f4)
+---* [4] -0.0798704
+-* (0) 1 (0f4)
+---* [1] -0.0509736
+--* (1) 1 (0f5)
+---* [1226] 8.46145e-05
+END_tree
+REPORT 81 FI (0) 1 (0f0) : 18.3269
+REPORT 81 FI (0) 1 (0f1) : 36.4501
+REPORT 81 FI (0) 1 (0f2) : 7.58508
+REPORT 81 FI (0) 1 (0f3) : 3.06617
+REPORT 81 FI (0) 1 (0f4) : 6.99807
+REPORT 81 FI (0) 1 (0f18) : 0.00377832
+REPORT 81 FI (0) 1 (0f22) : 0.259358
+REPORT 81 FI (0) 1 (0f24) : 0.259127
+REPORT 81 FI (0) 2 (0f1) : 15.3855
+REPORT 81 FI (0) 2 (0f2) : 36.3582
+REPORT 81 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 81 FI (0) 2 (0f3) : 1.05402
+REPORT 81 FI (0) 2 (0f6) : 0.0797702
+REPORT 81 FI (1) 1 (0f2) : 30.6072
+REPORT 81 FI (1) 1 (0f3) : 19.3872
+REPORT 81 FI (1) 1 (0f4) : 11.835
+REPORT 81 FI (1) 1 (0f5) : 0.0799833
+REPORT 81 FI (1) 1 (0f6) : 32.2388
+REPORT 81 FI (1) 1 (0f8) : 1.71618
+REPORT 81 FI (1) 1 (0f10) : 0.112927
+REPORT 81 FI (1) 1 (0f13) : 1.22254
+REPORT 81 FI (1) 1 (0f15) : 1.47618
+REPORT 81 FI (1) 1 (0f18) : 3.4128
+REPORT 81 FI (1) 1 (0f20) : 0.708982
+REPORT 81 FI (1) 1 (0f25) : 0.398309
+REPORT 81 FI (1) 1 (0f26) : 0.319896
+REPORT 81 FI (1) 2 (0f2) : 30.4725
+REPORT 81 FI (1) 2 (0f3) : 4.037
+REPORT 81 FI (1) 2 (0f11) : 2.79919
+REPORT 81 FI (1) 2 (0f16) : 1.4233
+REPORT 81 FI (2) 1 (0f3) : 8.29532
+REPORT 81 FI (2) 1 (0f4) : 0.317115
+REPORT 81 FI (2) 1 (0f5) : 49.8972
+REPORT 81 FI (2) 1 (0f7) : 0.925148
+REPORT 81 FI (2) 1 (0f14) : 2.7621
+REPORT 81 FI (2) 2 (0f2) : 0.866764
+REPORT 81 FI (2) 2 (0f3) : 2.08986
+REPORT 81 FI (2) 3 (0f3) : 0.661758
+REPORT 81 FI (3) 1 (0f3) : 2.01282
+REPORT 81 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 81 used_features 40
+REPORT 81 trainacc 0.793486
+REPORT 81 trainauc 0.82136
+REPORT 81 trainloss_mean 0.436472
+REPORT 81 testacc 0.75
+REPORT 81 testauc 0.771069
+REPORT 81 testloss_mean 0.513517
+REPORT 81 cache_size 255
+REPORT 81 gain_count 23503
+REPORT 81 bound_count 18115
+BEGIN_tree
+---* [5] -0.00848995
+--* (0) 2 (0f1)
+---* [13] -0.00485221
+-* (1) 1 (0f2)
+---* [3] -0.021154
+--* (0) 2 (0f2)
+---* [37] -0.00967986
+* (0) 1 (0f0)
+---* [61] -0.0113697
+--* (2) 1 (0f3)
+---* [5] 0.0623551
+-* (0) 1 (0f4)
+---* [1] -0.0461471
+--* (1) 1 (0f5)
+---* [1226] 2.937e-05
+END_tree
+REPORT 82 FI (0) 1 (0f0) : 18.3312
+REPORT 82 FI (0) 1 (0f1) : 36.4501
+REPORT 82 FI (0) 1 (0f2) : 7.58508
+REPORT 82 FI (0) 1 (0f3) : 3.06617
+REPORT 82 FI (0) 1 (0f4) : 7.00016
+REPORT 82 FI (0) 1 (0f18) : 0.00377832
+REPORT 82 FI (0) 1 (0f22) : 0.259358
+REPORT 82 FI (0) 1 (0f24) : 0.259127
+REPORT 82 FI (0) 2 (0f1) : 15.3856
+REPORT 82 FI (0) 2 (0f2) : 36.3585
+REPORT 82 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 82 FI (0) 2 (0f3) : 1.05402
+REPORT 82 FI (0) 2 (0f6) : 0.0797702
+REPORT 82 FI (1) 1 (0f2) : 30.6075
+REPORT 82 FI (1) 1 (0f3) : 19.3872
+REPORT 82 FI (1) 1 (0f4) : 11.835
+REPORT 82 FI (1) 1 (0f5) : 0.0821138
+REPORT 82 FI (1) 1 (0f6) : 32.2388
+REPORT 82 FI (1) 1 (0f8) : 1.71618
+REPORT 82 FI (1) 1 (0f10) : 0.112927
+REPORT 82 FI (1) 1 (0f13) : 1.22254
+REPORT 82 FI (1) 1 (0f15) : 1.47618
+REPORT 82 FI (1) 1 (0f18) : 3.4128
+REPORT 82 FI (1) 1 (0f20) : 0.708982
+REPORT 82 FI (1) 1 (0f25) : 0.398309
+REPORT 82 FI (1) 1 (0f26) : 0.319896
+REPORT 82 FI (1) 2 (0f2) : 30.4725
+REPORT 82 FI (1) 2 (0f3) : 4.037
+REPORT 82 FI (1) 2 (0f11) : 2.79919
+REPORT 82 FI (1) 2 (0f16) : 1.4233
+REPORT 82 FI (2) 1 (0f3) : 8.32044
+REPORT 82 FI (2) 1 (0f4) : 0.317115
+REPORT 82 FI (2) 1 (0f5) : 49.8972
+REPORT 82 FI (2) 1 (0f7) : 0.925148
+REPORT 82 FI (2) 1 (0f14) : 2.7621
+REPORT 82 FI (2) 2 (0f2) : 0.866764
+REPORT 82 FI (2) 2 (0f3) : 2.08986
+REPORT 82 FI (2) 3 (0f3) : 0.661758
+REPORT 82 FI (3) 1 (0f3) : 2.01282
+REPORT 82 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 82 used_features 40
+REPORT 82 trainacc 0.793486
+REPORT 82 trainauc 0.821346
+REPORT 82 trainloss_mean 0.436449
+REPORT 82 testacc 0.75
+REPORT 82 testauc 0.771496
+REPORT 82 testloss_mean 0.513826
+REPORT 82 cache_size 255
+REPORT 82 gain_count 23824
+REPORT 82 bound_count 18366
+BEGIN_tree
+---* [3] 0.0108084
+--* (2) 2 (0f2)
+---* [1] -0.0316549
+-* (0) 1 (0f1)
+---* [17] -0.00569153
+--* (1) 1 (0f2)
+---* [37] -0.010829
+* (0) 1 (0f0)
+---* [37] 0.0126117
+--* (0) 1 (0f3)
+---* [29] -0.0284052
+-* (0) 1 (0f4)
+---* [598] -0.001373
+--* (1) 1 (0f4)
+---* [629] 0.00125817
+END_tree
+REPORT 83 FI (0) 1 (0f0) : 18.335
+REPORT 83 FI (0) 1 (0f1) : 36.4504
+REPORT 83 FI (0) 1 (0f2) : 7.58508
+REPORT 83 FI (0) 1 (0f3) : 3.09353
+REPORT 83 FI (0) 1 (0f4) : 7.00198
+REPORT 83 FI (0) 1 (0f18) : 0.00377832
+REPORT 83 FI (0) 1 (0f22) : 0.259358
+REPORT 83 FI (0) 1 (0f24) : 0.259127
+REPORT 83 FI (0) 2 (0f1) : 15.3856
+REPORT 83 FI (0) 2 (0f2) : 36.3585
+REPORT 83 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 83 FI (0) 2 (0f3) : 1.05402
+REPORT 83 FI (0) 2 (0f6) : 0.0797702
+REPORT 83 FI (1) 1 (0f2) : 30.6078
+REPORT 83 FI (1) 1 (0f3) : 19.3872
+REPORT 83 FI (1) 1 (0f4) : 11.8372
+REPORT 83 FI (1) 1 (0f5) : 0.0821138
+REPORT 83 FI (1) 1 (0f6) : 32.2388
+REPORT 83 FI (1) 1 (0f8) : 1.71618
+REPORT 83 FI (1) 1 (0f10) : 0.112927
+REPORT 83 FI (1) 1 (0f13) : 1.22254
+REPORT 83 FI (1) 1 (0f15) : 1.47618
+REPORT 83 FI (1) 1 (0f18) : 3.4128
+REPORT 83 FI (1) 1 (0f20) : 0.708982
+REPORT 83 FI (1) 1 (0f25) : 0.398309
+REPORT 83 FI (1) 1 (0f26) : 0.319896
+REPORT 83 FI (1) 2 (0f2) : 30.4725
+REPORT 83 FI (1) 2 (0f3) : 4.037
+REPORT 83 FI (1) 2 (0f11) : 2.79919
+REPORT 83 FI (1) 2 (0f16) : 1.4233
+REPORT 83 FI (2) 1 (0f3) : 8.32044
+REPORT 83 FI (2) 1 (0f4) : 0.317115
+REPORT 83 FI (2) 1 (0f5) : 49.8972
+REPORT 83 FI (2) 1 (0f7) : 0.925148
+REPORT 83 FI (2) 1 (0f14) : 2.7621
+REPORT 83 FI (2) 2 (0f2) : 0.868117
+REPORT 83 FI (2) 2 (0f3) : 2.08986
+REPORT 83 FI (2) 3 (0f3) : 0.661758
+REPORT 83 FI (3) 1 (0f3) : 2.01282
+REPORT 83 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 83 used_features 40
+REPORT 83 trainacc 0.793486
+REPORT 83 trainauc 0.82136
+REPORT 83 trainloss_mean 0.436424
+REPORT 83 testacc 0.75
+REPORT 83 testauc 0.771069
+REPORT 83 testloss_mean 0.514463
+REPORT 83 cache_size 255
+REPORT 83 gain_count 24110
+REPORT 83 bound_count 18582
+BEGIN_tree
+---* [5] -0.00830279
+--* (0) 2 (0f1)
+---* [13] -0.00475122
+-* (1) 1 (0f2)
+---* [3] -0.0198577
+--* (0) 2 (0f2)
+---* [37] -0.00929847
+* (0) 1 (0f0)
+---* [37] 0.00929278
+--* (0) 1 (0f3)
+---* [29] -0.0247884
+-* (0) 1 (0f4)
+---* [1] -0.0422684
+--* (1) 1 (0f5)
+---* [1226] 0.000141597
+END_tree
+REPORT 84 FI (0) 1 (0f0) : 18.339
+REPORT 84 FI (0) 1 (0f1) : 36.4504
+REPORT 84 FI (0) 1 (0f2) : 7.58508
+REPORT 84 FI (0) 1 (0f3) : 3.11241
+REPORT 84 FI (0) 1 (0f4) : 7.00407
+REPORT 84 FI (0) 1 (0f18) : 0.00377832
+REPORT 84 FI (0) 1 (0f22) : 0.259358
+REPORT 84 FI (0) 1 (0f24) : 0.259127
+REPORT 84 FI (0) 2 (0f1) : 15.3856
+REPORT 84 FI (0) 2 (0f2) : 36.3589
+REPORT 84 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 84 FI (0) 2 (0f3) : 1.05402
+REPORT 84 FI (0) 2 (0f6) : 0.0797702
+REPORT 84 FI (1) 1 (0f2) : 30.608
+REPORT 84 FI (1) 1 (0f3) : 19.3872
+REPORT 84 FI (1) 1 (0f4) : 11.8372
+REPORT 84 FI (1) 1 (0f5) : 0.0839109
+REPORT 84 FI (1) 1 (0f6) : 32.2388
+REPORT 84 FI (1) 1 (0f8) : 1.71618
+REPORT 84 FI (1) 1 (0f10) : 0.112927
+REPORT 84 FI (1) 1 (0f13) : 1.22254
+REPORT 84 FI (1) 1 (0f15) : 1.47618
+REPORT 84 FI (1) 1 (0f18) : 3.4128
+REPORT 84 FI (1) 1 (0f20) : 0.708982
+REPORT 84 FI (1) 1 (0f25) : 0.398309
+REPORT 84 FI (1) 1 (0f26) : 0.319896
+REPORT 84 FI (1) 2 (0f2) : 30.4725
+REPORT 84 FI (1) 2 (0f3) : 4.037
+REPORT 84 FI (1) 2 (0f11) : 2.79919
+REPORT 84 FI (1) 2 (0f16) : 1.4233
+REPORT 84 FI (2) 1 (0f3) : 8.32044
+REPORT 84 FI (2) 1 (0f4) : 0.317115
+REPORT 84 FI (2) 1 (0f5) : 49.8972
+REPORT 84 FI (2) 1 (0f7) : 0.925148
+REPORT 84 FI (2) 1 (0f14) : 2.7621
+REPORT 84 FI (2) 2 (0f2) : 0.868117
+REPORT 84 FI (2) 2 (0f3) : 2.08986
+REPORT 84 FI (2) 3 (0f3) : 0.661758
+REPORT 84 FI (3) 1 (0f3) : 2.01282
+REPORT 84 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 84 used_features 40
+REPORT 84 trainacc 0.793486
+REPORT 84 trainauc 0.821376
+REPORT 84 trainloss_mean 0.436405
+REPORT 84 testacc 0.75
+REPORT 84 testauc 0.770642
+REPORT 84 testloss_mean 0.51503
+REPORT 84 cache_size 255
+REPORT 84 gain_count 24431
+REPORT 84 bound_count 18833
+BEGIN_tree
+---* [3] 0.00978971
+--* (2) 2 (0f2)
+---* [1] -0.0292018
+-* (0) 1 (0f1)
+---* [17] -0.00556034
+--* (1) 1 (0f2)
+---* [37] -0.0103717
+* (0) 1 (0f0)
+---* [5] 0.0616774
+--* (1) 1 (0f4)
+---* [61] -0.0112588
+-* (0) 1 (0f4)
+---* [1] -0.0389087
+--* (1) 1 (0f5)
+---* [1226] 4.91344e-05
+END_tree
+REPORT 85 FI (0) 1 (0f0) : 18.3425
+REPORT 85 FI (0) 1 (0f1) : 36.4507
+REPORT 85 FI (0) 1 (0f2) : 7.58508
+REPORT 85 FI (0) 1 (0f3) : 3.11241
+REPORT 85 FI (0) 1 (0f4) : 7.00615
+REPORT 85 FI (0) 1 (0f18) : 0.00377832
+REPORT 85 FI (0) 1 (0f22) : 0.259358
+REPORT 85 FI (0) 1 (0f24) : 0.259127
+REPORT 85 FI (0) 2 (0f1) : 15.3856
+REPORT 85 FI (0) 2 (0f2) : 36.3589
+REPORT 85 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 85 FI (0) 2 (0f3) : 1.05402
+REPORT 85 FI (0) 2 (0f6) : 0.0797702
+REPORT 85 FI (1) 1 (0f2) : 30.6083
+REPORT 85 FI (1) 1 (0f3) : 19.3872
+REPORT 85 FI (1) 1 (0f4) : 11.8618
+REPORT 85 FI (1) 1 (0f5) : 0.0854274
+REPORT 85 FI (1) 1 (0f6) : 32.2388
+REPORT 85 FI (1) 1 (0f8) : 1.71618
+REPORT 85 FI (1) 1 (0f10) : 0.112927
+REPORT 85 FI (1) 1 (0f13) : 1.22254
+REPORT 85 FI (1) 1 (0f15) : 1.47618
+REPORT 85 FI (1) 1 (0f18) : 3.4128
+REPORT 85 FI (1) 1 (0f20) : 0.708982
+REPORT 85 FI (1) 1 (0f25) : 0.398309
+REPORT 85 FI (1) 1 (0f26) : 0.319896
+REPORT 85 FI (1) 2 (0f2) : 30.4725
+REPORT 85 FI (1) 2 (0f3) : 4.037
+REPORT 85 FI (1) 2 (0f11) : 2.79919
+REPORT 85 FI (1) 2 (0f16) : 1.4233
+REPORT 85 FI (2) 1 (0f3) : 8.32044
+REPORT 85 FI (2) 1 (0f4) : 0.317115
+REPORT 85 FI (2) 1 (0f5) : 49.8972
+REPORT 85 FI (2) 1 (0f7) : 0.925148
+REPORT 85 FI (2) 1 (0f14) : 2.7621
+REPORT 85 FI (2) 2 (0f2) : 0.869257
+REPORT 85 FI (2) 2 (0f3) : 2.08986
+REPORT 85 FI (2) 3 (0f3) : 0.661758
+REPORT 85 FI (3) 1 (0f3) : 2.01282
+REPORT 85 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 85 used_features 40
+REPORT 85 trainacc 0.793486
+REPORT 85 trainauc 0.82136
+REPORT 85 trainloss_mean 0.436383
+REPORT 85 testacc 0.75
+REPORT 85 testauc 0.771069
+REPORT 85 testloss_mean 0.514388
+REPORT 85 cache_size 255
+REPORT 85 gain_count 24717
+REPORT 85 bound_count 19049
+BEGIN_tree
+---* [5] -0.00812269
+--* (0) 2 (0f1)
+---* [13] -0.00465449
+-* (1) 1 (0f2)
+---* [3] -0.0187048
+--* (0) 2 (0f2)
+---* [37] -0.00892134
+* (0) 1 (0f0)
+---* [2] -0.116051
+--* (1) 1 (0f18)
+---* [191] 0.00377674
+-* (0) 1 (0f1)
+---* [2] -0.069874
+--* (0) 2 (0f3)
+---* [1098] -0.000654164
+END_tree
+REPORT 86 FI (0) 1 (0f0) : 18.3462
+REPORT 86 FI (0) 1 (0f1) : 36.4525
+REPORT 86 FI (0) 1 (0f2) : 7.58508
+REPORT 86 FI (0) 1 (0f3) : 3.11241
+REPORT 86 FI (0) 1 (0f4) : 7.00615
+REPORT 86 FI (0) 1 (0f18) : 0.00377832
+REPORT 86 FI (0) 1 (0f22) : 0.259358
+REPORT 86 FI (0) 1 (0f24) : 0.259127
+REPORT 86 FI (0) 2 (0f1) : 15.3857
+REPORT 86 FI (0) 2 (0f2) : 36.3591
+REPORT 86 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 86 FI (0) 2 (0f3) : 1.06358
+REPORT 86 FI (0) 2 (0f6) : 0.0797702
+REPORT 86 FI (1) 1 (0f2) : 30.6085
+REPORT 86 FI (1) 1 (0f3) : 19.3872
+REPORT 86 FI (1) 1 (0f4) : 11.8618
+REPORT 86 FI (1) 1 (0f5) : 0.0854274
+REPORT 86 FI (1) 1 (0f6) : 32.2388
+REPORT 86 FI (1) 1 (0f8) : 1.71618
+REPORT 86 FI (1) 1 (0f10) : 0.112927
+REPORT 86 FI (1) 1 (0f13) : 1.22254
+REPORT 86 FI (1) 1 (0f15) : 1.47618
+REPORT 86 FI (1) 1 (0f18) : 3.44122
+REPORT 86 FI (1) 1 (0f20) : 0.708982
+REPORT 86 FI (1) 1 (0f25) : 0.398309
+REPORT 86 FI (1) 1 (0f26) : 0.319896
+REPORT 86 FI (1) 2 (0f2) : 30.4725
+REPORT 86 FI (1) 2 (0f3) : 4.037
+REPORT 86 FI (1) 2 (0f11) : 2.79919
+REPORT 86 FI (1) 2 (0f16) : 1.4233
+REPORT 86 FI (2) 1 (0f3) : 8.32044
+REPORT 86 FI (2) 1 (0f4) : 0.317115
+REPORT 86 FI (2) 1 (0f5) : 49.8972
+REPORT 86 FI (2) 1 (0f7) : 0.925148
+REPORT 86 FI (2) 1 (0f14) : 2.7621
+REPORT 86 FI (2) 2 (0f2) : 0.869257
+REPORT 86 FI (2) 2 (0f3) : 2.08986
+REPORT 86 FI (2) 3 (0f3) : 0.661758
+REPORT 86 FI (3) 1 (0f3) : 2.01282
+REPORT 86 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 86 used_features 40
+REPORT 86 trainacc 0.793486
+REPORT 86 trainauc 0.82136
+REPORT 86 trainloss_mean 0.436353
+REPORT 86 testacc 0.75
+REPORT 86 testauc 0.771069
+REPORT 86 testloss_mean 0.514759
+REPORT 86 cache_size 255
+REPORT 86 gain_count 25030
+REPORT 86 bound_count 19292
+BEGIN_tree
+---* [3] 0.00920268
+--* (2) 2 (0f2)
+---* [1] -0.0270871
+-* (0) 1 (0f1)
+---* [17] -0.00543501
+--* (1) 1 (0f2)
+---* [37] -0.0099528
+* (0) 1 (0f0)
+---* [2] 0.135519
+--* (1) 1 (0f3)
+---* [2] -0.0946597
+-* (0) 2 (0f3)
+---* [66] -0.00522572
+--* (0) 1 (0f4)
+---* [1223] -0.000189601
+END_tree
+REPORT 87 FI (0) 1 (0f0) : 18.3494
+REPORT 87 FI (0) 1 (0f1) : 36.4528
+REPORT 87 FI (0) 1 (0f2) : 7.58508
+REPORT 87 FI (0) 1 (0f3) : 3.11241
+REPORT 87 FI (0) 1 (0f4) : 7.00773
+REPORT 87 FI (0) 1 (0f18) : 0.00377832
+REPORT 87 FI (0) 1 (0f22) : 0.259358
+REPORT 87 FI (0) 1 (0f24) : 0.259127
+REPORT 87 FI (0) 2 (0f1) : 15.3857
+REPORT 87 FI (0) 2 (0f2) : 36.3591
+REPORT 87 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 87 FI (0) 2 (0f3) : 1.06532
+REPORT 87 FI (0) 2 (0f6) : 0.0797702
+REPORT 87 FI (1) 1 (0f2) : 30.6087
+REPORT 87 FI (1) 1 (0f3) : 19.4402
+REPORT 87 FI (1) 1 (0f4) : 11.8618
+REPORT 87 FI (1) 1 (0f5) : 0.0854274
+REPORT 87 FI (1) 1 (0f6) : 32.2388
+REPORT 87 FI (1) 1 (0f8) : 1.71618
+REPORT 87 FI (1) 1 (0f10) : 0.112927
+REPORT 87 FI (1) 1 (0f13) : 1.22254
+REPORT 87 FI (1) 1 (0f15) : 1.47618
+REPORT 87 FI (1) 1 (0f18) : 3.44122
+REPORT 87 FI (1) 1 (0f20) : 0.708982
+REPORT 87 FI (1) 1 (0f25) : 0.398309
+REPORT 87 FI (1) 1 (0f26) : 0.319896
+REPORT 87 FI (1) 2 (0f2) : 30.4725
+REPORT 87 FI (1) 2 (0f3) : 4.037
+REPORT 87 FI (1) 2 (0f11) : 2.79919
+REPORT 87 FI (1) 2 (0f16) : 1.4233
+REPORT 87 FI (2) 1 (0f3) : 8.32044
+REPORT 87 FI (2) 1 (0f4) : 0.317115
+REPORT 87 FI (2) 1 (0f5) : 49.8972
+REPORT 87 FI (2) 1 (0f7) : 0.925148
+REPORT 87 FI (2) 1 (0f14) : 2.7621
+REPORT 87 FI (2) 2 (0f2) : 0.870245
+REPORT 87 FI (2) 2 (0f3) : 2.08986
+REPORT 87 FI (2) 3 (0f3) : 0.661758
+REPORT 87 FI (3) 1 (0f3) : 2.01282
+REPORT 87 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 87 used_features 40
+REPORT 87 trainacc 0.793486
+REPORT 87 trainauc 0.821362
+REPORT 87 trainloss_mean 0.436314
+REPORT 87 testacc 0.75
+REPORT 87 testauc 0.771496
+REPORT 87 testloss_mean 0.514981
+REPORT 87 cache_size 255
+REPORT 87 gain_count 25316
+REPORT 87 bound_count 19508
+BEGIN_tree
+---* [5] -0.00795027
+--* (0) 2 (0f1)
+---* [13] -0.00456174
+-* (1) 1 (0f2)
+---* [3] -0.0176731
+--* (0) 2 (0f2)
+---* [37] -0.00856685
+* (0) 1 (0f0)
+---* [87] 0.00971509
+--* (2) 1 (0f3)
+---* [2] -0.268593
+-* (0) 2 (0f2)
+---* [592] 0.000633193
+--* (1) 1 (0f4)
+---* [612] -0.00167571
+END_tree
+REPORT 88 FI (0) 1 (0f0) : 18.3528
+REPORT 88 FI (0) 1 (0f1) : 36.4528
+REPORT 88 FI (0) 1 (0f2) : 7.58508
+REPORT 88 FI (0) 1 (0f3) : 3.11241
+REPORT 88 FI (0) 1 (0f4) : 7.00773
+REPORT 88 FI (0) 1 (0f18) : 0.00377832
+REPORT 88 FI (0) 1 (0f22) : 0.259358
+REPORT 88 FI (0) 1 (0f24) : 0.259127
+REPORT 88 FI (0) 2 (0f1) : 15.3857
+REPORT 88 FI (0) 2 (0f2) : 36.3607
+REPORT 88 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 88 FI (0) 2 (0f3) : 1.06532
+REPORT 88 FI (0) 2 (0f6) : 0.0797702
+REPORT 88 FI (1) 1 (0f2) : 30.6089
+REPORT 88 FI (1) 1 (0f3) : 19.4402
+REPORT 88 FI (1) 1 (0f4) : 11.8634
+REPORT 88 FI (1) 1 (0f5) : 0.0854274
+REPORT 88 FI (1) 1 (0f6) : 32.2388
+REPORT 88 FI (1) 1 (0f8) : 1.71618
+REPORT 88 FI (1) 1 (0f10) : 0.112927
+REPORT 88 FI (1) 1 (0f13) : 1.22254
+REPORT 88 FI (1) 1 (0f15) : 1.47618
+REPORT 88 FI (1) 1 (0f18) : 3.44122
+REPORT 88 FI (1) 1 (0f20) : 0.708982
+REPORT 88 FI (1) 1 (0f25) : 0.398309
+REPORT 88 FI (1) 1 (0f26) : 0.319896
+REPORT 88 FI (1) 2 (0f2) : 30.4725
+REPORT 88 FI (1) 2 (0f3) : 4.037
+REPORT 88 FI (1) 2 (0f11) : 2.79919
+REPORT 88 FI (1) 2 (0f16) : 1.4233
+REPORT 88 FI (2) 1 (0f3) : 8.47187
+REPORT 88 FI (2) 1 (0f4) : 0.317115
+REPORT 88 FI (2) 1 (0f5) : 49.8972
+REPORT 88 FI (2) 1 (0f7) : 0.925148
+REPORT 88 FI (2) 1 (0f14) : 2.7621
+REPORT 88 FI (2) 2 (0f2) : 0.870245
+REPORT 88 FI (2) 2 (0f3) : 2.08986
+REPORT 88 FI (2) 3 (0f3) : 0.661758
+REPORT 88 FI (3) 1 (0f3) : 2.01282
+REPORT 88 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 88 used_features 40
+REPORT 88 trainacc 0.793486
+REPORT 88 trainauc 0.82144
+REPORT 88 trainloss_mean 0.436218
+REPORT 88 testacc 0.75
+REPORT 88 testauc 0.771496
+REPORT 88 testloss_mean 0.515066
+REPORT 88 cache_size 255
+REPORT 88 gain_count 25650
+REPORT 88 bound_count 19772
+BEGIN_tree
+---* [3] 0.00877266
+--* (2) 2 (0f2)
+---* [1] -0.0252464
+-* (0) 1 (0f1)
+---* [17] -0.00531517
+--* (1) 1 (0f2)
+---* [37] -0.00956775
+* (0) 1 (0f0)
+---* [11] -0.0714495
+--* (0) 2 (0f2)
+---* [592] 0.000158321
+-* (1) 1 (0f4)
+---* [31] -0.0340143
+--* (1) 1 (0f6)
+---* [659] 0.00260584
+END_tree
+REPORT 89 FI (0) 1 (0f0) : 18.356
+REPORT 89 FI (0) 1 (0f1) : 36.453
+REPORT 89 FI (0) 1 (0f2) : 7.58508
+REPORT 89 FI (0) 1 (0f3) : 3.11241
+REPORT 89 FI (0) 1 (0f4) : 7.00773
+REPORT 89 FI (0) 1 (0f18) : 0.00377832
+REPORT 89 FI (0) 1 (0f22) : 0.259358
+REPORT 89 FI (0) 1 (0f24) : 0.259127
+REPORT 89 FI (0) 2 (0f1) : 15.3857
+REPORT 89 FI (0) 2 (0f2) : 36.4161
+REPORT 89 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 89 FI (0) 2 (0f3) : 1.06532
+REPORT 89 FI (0) 2 (0f6) : 0.0797702
+REPORT 89 FI (1) 1 (0f2) : 30.6091
+REPORT 89 FI (1) 1 (0f3) : 19.4402
+REPORT 89 FI (1) 1 (0f4) : 11.8648
+REPORT 89 FI (1) 1 (0f5) : 0.0854274
+REPORT 89 FI (1) 1 (0f6) : 32.2785
+REPORT 89 FI (1) 1 (0f8) : 1.71618
+REPORT 89 FI (1) 1 (0f10) : 0.112927
+REPORT 89 FI (1) 1 (0f13) : 1.22254
+REPORT 89 FI (1) 1 (0f15) : 1.47618
+REPORT 89 FI (1) 1 (0f18) : 3.44122
+REPORT 89 FI (1) 1 (0f20) : 0.708982
+REPORT 89 FI (1) 1 (0f25) : 0.398309
+REPORT 89 FI (1) 1 (0f26) : 0.319896
+REPORT 89 FI (1) 2 (0f2) : 30.4725
+REPORT 89 FI (1) 2 (0f3) : 4.037
+REPORT 89 FI (1) 2 (0f11) : 2.79919
+REPORT 89 FI (1) 2 (0f16) : 1.4233
+REPORT 89 FI (2) 1 (0f3) : 8.47187
+REPORT 89 FI (2) 1 (0f4) : 0.317115
+REPORT 89 FI (2) 1 (0f5) : 49.8972
+REPORT 89 FI (2) 1 (0f7) : 0.925148
+REPORT 89 FI (2) 1 (0f14) : 2.7621
+REPORT 89 FI (2) 2 (0f2) : 0.871113
+REPORT 89 FI (2) 2 (0f3) : 2.08986
+REPORT 89 FI (2) 3 (0f3) : 0.661758
+REPORT 89 FI (3) 1 (0f3) : 2.01282
+REPORT 89 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 89 used_features 40
+REPORT 89 trainacc 0.793486
+REPORT 89 trainauc 0.82135
+REPORT 89 trainloss_mean 0.436155
+REPORT 89 testacc 0.75
+REPORT 89 testauc 0.771496
+REPORT 89 testloss_mean 0.515357
+REPORT 89 cache_size 255
+REPORT 89 gain_count 25919
+REPORT 89 bound_count 19971
+BEGIN_tree
+---* [5] -0.00778538
+--* (0) 2 (0f1)
+---* [13] -0.00447273
+-* (1) 1 (0f2)
+---* [3] -0.0167447
+--* (0) 2 (0f2)
+---* [37] -0.00823806
+* (0) 1 (0f0)
+---* [84] 0.0135672
+--* (2) 2 (0f2)
+---* [5] -0.155333
+-* (0) 2 (0f2)
+---* [77] 0.011922
+--* (1) 1 (0f6)
+---* [1127] -0.00135694
+END_tree
+REPORT 90 FI (0) 1 (0f0) : 18.3592
+REPORT 90 FI (0) 1 (0f1) : 36.453
+REPORT 90 FI (0) 1 (0f2) : 7.58508
+REPORT 90 FI (0) 1 (0f3) : 3.11241
+REPORT 90 FI (0) 1 (0f4) : 7.00773
+REPORT 90 FI (0) 1 (0f18) : 0.00377832
+REPORT 90 FI (0) 1 (0f22) : 0.259358
+REPORT 90 FI (0) 1 (0f24) : 0.259127
+REPORT 90 FI (0) 2 (0f1) : 15.3857
+REPORT 90 FI (0) 2 (0f2) : 36.418
+REPORT 90 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 90 FI (0) 2 (0f3) : 1.06532
+REPORT 90 FI (0) 2 (0f6) : 0.0797702
+REPORT 90 FI (1) 1 (0f2) : 30.6093
+REPORT 90 FI (1) 1 (0f3) : 19.4402
+REPORT 90 FI (1) 1 (0f4) : 11.8648
+REPORT 90 FI (1) 1 (0f5) : 0.0854274
+REPORT 90 FI (1) 1 (0f6) : 32.2912
+REPORT 90 FI (1) 1 (0f8) : 1.71618
+REPORT 90 FI (1) 1 (0f10) : 0.112927
+REPORT 90 FI (1) 1 (0f13) : 1.22254
+REPORT 90 FI (1) 1 (0f15) : 1.47618
+REPORT 90 FI (1) 1 (0f18) : 3.44122
+REPORT 90 FI (1) 1 (0f20) : 0.708982
+REPORT 90 FI (1) 1 (0f25) : 0.398309
+REPORT 90 FI (1) 1 (0f26) : 0.319896
+REPORT 90 FI (1) 2 (0f2) : 30.4725
+REPORT 90 FI (1) 2 (0f3) : 4.037
+REPORT 90 FI (1) 2 (0f11) : 2.79919
+REPORT 90 FI (1) 2 (0f16) : 1.4233
+REPORT 90 FI (2) 1 (0f3) : 8.47187
+REPORT 90 FI (2) 1 (0f4) : 0.317115
+REPORT 90 FI (2) 1 (0f5) : 49.8972
+REPORT 90 FI (2) 1 (0f7) : 0.925148
+REPORT 90 FI (2) 1 (0f14) : 2.7621
+REPORT 90 FI (2) 2 (0f2) : 1.00574
+REPORT 90 FI (2) 2 (0f3) : 2.08986
+REPORT 90 FI (2) 3 (0f3) : 0.661758
+REPORT 90 FI (3) 1 (0f3) : 2.01282
+REPORT 90 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 90 used_features 40
+REPORT 90 trainacc 0.793486
+REPORT 90 trainauc 0.821331
+REPORT 90 trainloss_mean 0.436057
+REPORT 90 testacc 0.75
+REPORT 90 testauc 0.771496
+REPORT 90 testloss_mean 0.515514
+REPORT 90 cache_size 255
+REPORT 90 gain_count 26252
+REPORT 90 bound_count 20234
+BEGIN_tree
+---* [3] 0.00841141
+--* (2) 2 (0f2)
+---* [1] -0.0236303
+-* (0) 1 (0f1)
+---* [17] -0.00520045
+--* (1) 1 (0f2)
+---* [37] -0.0092125
+* (0) 1 (0f0)
+--* [1] -0.0348647
+-* (0) 2 (0f6)
+---* [66] -0.00409223
+--* (0) 1 (0f4)
+---* [1226] 0.000314224
+END_tree
+REPORT 91 FI (0) 1 (0f0) : 18.3623
+REPORT 91 FI (0) 1 (0f1) : 36.4533
+REPORT 91 FI (0) 1 (0f2) : 7.58508
+REPORT 91 FI (0) 1 (0f3) : 3.11241
+REPORT 91 FI (0) 1 (0f4) : 7.00895
+REPORT 91 FI (0) 1 (0f18) : 0.00377832
+REPORT 91 FI (0) 1 (0f22) : 0.259358
+REPORT 91 FI (0) 1 (0f24) : 0.259127
+REPORT 91 FI (0) 2 (0f1) : 15.3857
+REPORT 91 FI (0) 2 (0f2) : 36.418
+REPORT 91 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 91 FI (0) 2 (0f3) : 1.06532
+REPORT 91 FI (0) 2 (0f6) : 0.080991
+REPORT 91 FI (1) 1 (0f2) : 30.6095
+REPORT 91 FI (1) 1 (0f3) : 19.4402
+REPORT 91 FI (1) 1 (0f4) : 11.8648
+REPORT 91 FI (1) 1 (0f5) : 0.0854274
+REPORT 91 FI (1) 1 (0f6) : 32.2912
+REPORT 91 FI (1) 1 (0f8) : 1.71618
+REPORT 91 FI (1) 1 (0f10) : 0.112927
+REPORT 91 FI (1) 1 (0f13) : 1.22254
+REPORT 91 FI (1) 1 (0f15) : 1.47618
+REPORT 91 FI (1) 1 (0f18) : 3.44122
+REPORT 91 FI (1) 1 (0f20) : 0.708982
+REPORT 91 FI (1) 1 (0f25) : 0.398309
+REPORT 91 FI (1) 1 (0f26) : 0.319896
+REPORT 91 FI (1) 2 (0f2) : 30.4725
+REPORT 91 FI (1) 2 (0f3) : 4.037
+REPORT 91 FI (1) 2 (0f11) : 2.79919
+REPORT 91 FI (1) 2 (0f16) : 1.4233
+REPORT 91 FI (2) 1 (0f3) : 8.47187
+REPORT 91 FI (2) 1 (0f4) : 0.317115
+REPORT 91 FI (2) 1 (0f5) : 49.8972
+REPORT 91 FI (2) 1 (0f7) : 0.925148
+REPORT 91 FI (2) 1 (0f14) : 2.7621
+REPORT 91 FI (2) 2 (0f2) : 1.00651
+REPORT 91 FI (2) 2 (0f3) : 2.08986
+REPORT 91 FI (2) 3 (0f3) : 0.661758
+REPORT 91 FI (3) 1 (0f3) : 2.01282
+REPORT 91 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 91 used_features 40
+REPORT 91 trainacc 0.793486
+REPORT 91 trainauc 0.821315
+REPORT 91 trainloss_mean 0.436052
+REPORT 91 testacc 0.75
+REPORT 91 testauc 0.771496
+REPORT 91 testloss_mean 0.515724
+REPORT 91 cache_size 255
+REPORT 91 gain_count 26487
+REPORT 91 bound_count 20409
+BEGIN_tree
+---* [5] -0.00762763
+--* (0) 2 (0f1)
+---* [13] -0.00438723
+-* (1) 1 (0f2)
+---* [3] -0.0159051
+--* (0) 2 (0f2)
+---* [37] -0.00793367
+* (0) 1 (0f0)
+---* [53] 0.0217477
+--* (1) 2 (0f2)
+---* [39] -0.0211797
+-* (0) 1 (0f3)
+---* [29] -0.0234621
+--* (0) 1 (0f4)
+---* [1172] 0.000204033
+END_tree
+REPORT 92 FI (0) 1 (0f0) : 18.3653
+REPORT 92 FI (0) 1 (0f1) : 36.4533
+REPORT 92 FI (0) 1 (0f2) : 7.58508
+REPORT 92 FI (0) 1 (0f3) : 3.11372
+REPORT 92 FI (0) 1 (0f4) : 7.0248
+REPORT 92 FI (0) 1 (0f18) : 0.00377832
+REPORT 92 FI (0) 1 (0f22) : 0.259358
+REPORT 92 FI (0) 1 (0f24) : 0.259127
+REPORT 92 FI (0) 2 (0f1) : 15.3858
+REPORT 92 FI (0) 2 (0f2) : 36.4182
+REPORT 92 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 92 FI (0) 2 (0f3) : 1.06532
+REPORT 92 FI (0) 2 (0f6) : 0.080991
+REPORT 92 FI (1) 1 (0f2) : 30.6096
+REPORT 92 FI (1) 1 (0f3) : 19.4402
+REPORT 92 FI (1) 1 (0f4) : 11.8648
+REPORT 92 FI (1) 1 (0f5) : 0.0854274
+REPORT 92 FI (1) 1 (0f6) : 32.2912
+REPORT 92 FI (1) 1 (0f8) : 1.71618
+REPORT 92 FI (1) 1 (0f10) : 0.112927
+REPORT 92 FI (1) 1 (0f13) : 1.22254
+REPORT 92 FI (1) 1 (0f15) : 1.47618
+REPORT 92 FI (1) 1 (0f18) : 3.44122
+REPORT 92 FI (1) 1 (0f20) : 0.708982
+REPORT 92 FI (1) 1 (0f25) : 0.398309
+REPORT 92 FI (1) 1 (0f26) : 0.319896
+REPORT 92 FI (1) 2 (0f2) : 30.5139
+REPORT 92 FI (1) 2 (0f3) : 4.037
+REPORT 92 FI (1) 2 (0f11) : 2.79919
+REPORT 92 FI (1) 2 (0f16) : 1.4233
+REPORT 92 FI (2) 1 (0f3) : 8.47187
+REPORT 92 FI (2) 1 (0f4) : 0.317115
+REPORT 92 FI (2) 1 (0f5) : 49.8972
+REPORT 92 FI (2) 1 (0f7) : 0.925148
+REPORT 92 FI (2) 1 (0f14) : 2.7621
+REPORT 92 FI (2) 2 (0f2) : 1.00651
+REPORT 92 FI (2) 2 (0f3) : 2.08986
+REPORT 92 FI (2) 3 (0f3) : 0.661758
+REPORT 92 FI (3) 1 (0f3) : 2.01282
+REPORT 92 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 92 used_features 40
+REPORT 92 trainacc 0.793486
+REPORT 92 trainauc 0.821328
+REPORT 92 trainloss_mean 0.436014
+REPORT 92 testacc 0.75
+REPORT 92 testauc 0.771282
+REPORT 92 testloss_mean 0.516267
+REPORT 92 cache_size 255
+REPORT 92 gain_count 26800
+REPORT 92 bound_count 20652
+BEGIN_tree
+---* [3] 0.00808907
+--* (2) 2 (0f2)
+---* [1] -0.0222008
+-* (0) 1 (0f1)
+---* [17] -0.00509053
+--* (1) 1 (0f2)
+---* [37] -0.00888364
+* (0) 1 (0f0)
+---* [37] 0.0426582
+--* (2) 1 (0f5)
+---* [52] -0.0248431
+-* (0) 2 (0f2)
+---* [77] 0.00356065
+--* (1) 1 (0f6)
+---* [1127] -0.00103783
+END_tree
+REPORT 93 FI (0) 1 (0f0) : 18.3678
+REPORT 93 FI (0) 1 (0f1) : 36.4535
+REPORT 93 FI (0) 1 (0f2) : 7.58508
+REPORT 93 FI (0) 1 (0f3) : 3.11372
+REPORT 93 FI (0) 1 (0f4) : 7.0248
+REPORT 93 FI (0) 1 (0f18) : 0.00377832
+REPORT 93 FI (0) 1 (0f22) : 0.259358
+REPORT 93 FI (0) 1 (0f24) : 0.259127
+REPORT 93 FI (0) 2 (0f1) : 15.3858
+REPORT 93 FI (0) 2 (0f2) : 36.4195
+REPORT 93 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 93 FI (0) 2 (0f3) : 1.06532
+REPORT 93 FI (0) 2 (0f6) : 0.080991
+REPORT 93 FI (1) 1 (0f2) : 30.6098
+REPORT 93 FI (1) 1 (0f3) : 19.4402
+REPORT 93 FI (1) 1 (0f4) : 11.8648
+REPORT 93 FI (1) 1 (0f5) : 0.0854274
+REPORT 93 FI (1) 1 (0f6) : 32.2927
+REPORT 93 FI (1) 1 (0f8) : 1.71618
+REPORT 93 FI (1) 1 (0f10) : 0.112927
+REPORT 93 FI (1) 1 (0f13) : 1.22254
+REPORT 93 FI (1) 1 (0f15) : 1.47618
+REPORT 93 FI (1) 1 (0f18) : 3.44122
+REPORT 93 FI (1) 1 (0f20) : 0.708982
+REPORT 93 FI (1) 1 (0f25) : 0.398309
+REPORT 93 FI (1) 1 (0f26) : 0.319896
+REPORT 93 FI (1) 2 (0f2) : 30.5139
+REPORT 93 FI (1) 2 (0f3) : 4.037
+REPORT 93 FI (1) 2 (0f11) : 2.79919
+REPORT 93 FI (1) 2 (0f16) : 1.4233
+REPORT 93 FI (2) 1 (0f3) : 8.47187
+REPORT 93 FI (2) 1 (0f4) : 0.317115
+REPORT 93 FI (2) 1 (0f5) : 49.9957
+REPORT 93 FI (2) 1 (0f7) : 0.925148
+REPORT 93 FI (2) 1 (0f14) : 2.7621
+REPORT 93 FI (2) 2 (0f2) : 1.00719
+REPORT 93 FI (2) 2 (0f3) : 2.08986
+REPORT 93 FI (2) 3 (0f3) : 0.661758
+REPORT 93 FI (3) 1 (0f3) : 2.01282
+REPORT 93 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 93 used_features 40
+REPORT 93 trainacc 0.793486
+REPORT 93 trainauc 0.82145
+REPORT 93 trainloss_mean 0.435942
+REPORT 93 testacc 0.75
+REPORT 93 testauc 0.771282
+REPORT 93 testloss_mean 0.516553
+REPORT 93 cache_size 255
+REPORT 93 gain_count 27096
+REPORT 93 bound_count 20878
+BEGIN_tree
+---* [5] -0.00747661
+--* (0) 2 (0f1)
+---* [13] -0.00430505
+-* (1) 1 (0f2)
+---* [3] -0.0151423
+--* (0) 2 (0f2)
+---* [37] -0.00765144
+* (0) 1 (0f0)
+---* [84] 0.0131616
+--* (2) 2 (0f2)
+---* [5] -0.113777
+-* (0) 2 (0f2)
+---* [1] -0.0359217
+--* (1) 1 (0f5)
+---* [1203] -0.000225543
+END_tree
+REPORT 94 FI (0) 1 (0f0) : 18.3709
+REPORT 94 FI (0) 1 (0f1) : 36.4535
+REPORT 94 FI (0) 1 (0f2) : 7.58508
+REPORT 94 FI (0) 1 (0f3) : 3.11372
+REPORT 94 FI (0) 1 (0f4) : 7.0248
+REPORT 94 FI (0) 1 (0f18) : 0.00377832
+REPORT 94 FI (0) 1 (0f22) : 0.259358
+REPORT 94 FI (0) 1 (0f24) : 0.259127
+REPORT 94 FI (0) 2 (0f1) : 15.3858
+REPORT 94 FI (0) 2 (0f2) : 36.4229
+REPORT 94 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 94 FI (0) 2 (0f3) : 1.06532
+REPORT 94 FI (0) 2 (0f6) : 0.080991
+REPORT 94 FI (1) 1 (0f2) : 30.6099
+REPORT 94 FI (1) 1 (0f3) : 19.4402
+REPORT 94 FI (1) 1 (0f4) : 11.8648
+REPORT 94 FI (1) 1 (0f5) : 0.0867006
+REPORT 94 FI (1) 1 (0f6) : 32.2927
+REPORT 94 FI (1) 1 (0f8) : 1.71618
+REPORT 94 FI (1) 1 (0f10) : 0.112927
+REPORT 94 FI (1) 1 (0f13) : 1.22254
+REPORT 94 FI (1) 1 (0f15) : 1.47618
+REPORT 94 FI (1) 1 (0f18) : 3.44122
+REPORT 94 FI (1) 1 (0f20) : 0.708982
+REPORT 94 FI (1) 1 (0f25) : 0.398309
+REPORT 94 FI (1) 1 (0f26) : 0.319896
+REPORT 94 FI (1) 2 (0f2) : 30.5139
+REPORT 94 FI (1) 2 (0f3) : 4.037
+REPORT 94 FI (1) 2 (0f11) : 2.79919
+REPORT 94 FI (1) 2 (0f16) : 1.4233
+REPORT 94 FI (2) 1 (0f3) : 8.47187
+REPORT 94 FI (2) 1 (0f4) : 0.317115
+REPORT 94 FI (2) 1 (0f5) : 49.9957
+REPORT 94 FI (2) 1 (0f7) : 0.925148
+REPORT 94 FI (2) 1 (0f14) : 2.7621
+REPORT 94 FI (2) 2 (0f2) : 1.08323
+REPORT 94 FI (2) 2 (0f3) : 2.08986
+REPORT 94 FI (2) 3 (0f3) : 0.661758
+REPORT 94 FI (3) 1 (0f3) : 2.01282
+REPORT 94 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 94 used_features 40
+REPORT 94 trainacc 0.793486
+REPORT 94 trainauc 0.82135
+REPORT 94 trainloss_mean 0.435886
+REPORT 94 testacc 0.75
+REPORT 94 testauc 0.771282
+REPORT 94 testloss_mean 0.516639
+REPORT 94 cache_size 255
+REPORT 94 gain_count 27429
+REPORT 94 bound_count 21141
+BEGIN_tree
+---* [3] 0.00779431
+--* (2) 2 (0f2)
+---* [1] -0.0209275
+-* (0) 1 (0f1)
+---* [17] -0.00498512
+--* (1) 1 (0f2)
+---* [37] -0.00857827
+* (0) 1 (0f0)
+---* [37] 0.0376718
+--* (2) 1 (0f5)
+---* [52] -0.0189911
+-* (0) 2 (0f2)
+---* [1] -0.0334732
+--* (1) 1 (0f5)
+---* [1203] -7.69085e-05
+END_tree
+REPORT 95 FI (0) 1 (0f0) : 18.3737
+REPORT 95 FI (0) 1 (0f1) : 36.4538
+REPORT 95 FI (0) 1 (0f2) : 7.58508
+REPORT 95 FI (0) 1 (0f3) : 3.11372
+REPORT 95 FI (0) 1 (0f4) : 7.0248
+REPORT 95 FI (0) 1 (0f18) : 0.00377832
+REPORT 95 FI (0) 1 (0f22) : 0.259358
+REPORT 95 FI (0) 1 (0f24) : 0.259127
+REPORT 95 FI (0) 2 (0f1) : 15.3858
+REPORT 95 FI (0) 2 (0f2) : 36.4247
+REPORT 95 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 95 FI (0) 2 (0f3) : 1.06532
+REPORT 95 FI (0) 2 (0f6) : 0.080991
+REPORT 95 FI (1) 1 (0f2) : 30.61
+REPORT 95 FI (1) 1 (0f3) : 19.4402
+REPORT 95 FI (1) 1 (0f4) : 11.8648
+REPORT 95 FI (1) 1 (0f5) : 0.087815
+REPORT 95 FI (1) 1 (0f6) : 32.2927
+REPORT 95 FI (1) 1 (0f8) : 1.71618
+REPORT 95 FI (1) 1 (0f10) : 0.112927
+REPORT 95 FI (1) 1 (0f13) : 1.22254
+REPORT 95 FI (1) 1 (0f15) : 1.47618
+REPORT 95 FI (1) 1 (0f18) : 3.44122
+REPORT 95 FI (1) 1 (0f20) : 0.708982
+REPORT 95 FI (1) 1 (0f25) : 0.398309
+REPORT 95 FI (1) 1 (0f26) : 0.319896
+REPORT 95 FI (1) 2 (0f2) : 30.5139
+REPORT 95 FI (1) 2 (0f3) : 4.037
+REPORT 95 FI (1) 2 (0f11) : 2.79919
+REPORT 95 FI (1) 2 (0f16) : 1.4233
+REPORT 95 FI (2) 1 (0f3) : 8.47187
+REPORT 95 FI (2) 1 (0f4) : 0.317115
+REPORT 95 FI (2) 1 (0f5) : 50.0651
+REPORT 95 FI (2) 1 (0f7) : 0.925148
+REPORT 95 FI (2) 1 (0f14) : 2.7621
+REPORT 95 FI (2) 2 (0f2) : 1.08385
+REPORT 95 FI (2) 2 (0f3) : 2.08986
+REPORT 95 FI (2) 3 (0f3) : 0.661758
+REPORT 95 FI (3) 1 (0f3) : 2.01282
+REPORT 95 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 95 used_features 40
+REPORT 95 trainacc 0.793486
+REPORT 95 trainauc 0.821453
+REPORT 95 trainloss_mean 0.435833
+REPORT 95 testacc 0.75
+REPORT 95 testauc 0.771282
+REPORT 95 testloss_mean 0.51688
+REPORT 95 cache_size 255
+REPORT 95 gain_count 27737
+REPORT 95 bound_count 21379
+BEGIN_tree
+---* [1] -0.419918
+--* (2) 3 (0f3)
+---* [11] -0.0230486
+-* (1) 1 (0f4)
+---* [73] 0.0368451
+--* (3) 1 (0f4)
+---* [9] -0.164295
+* (0) 2 (0f2)
+---* [17] -0.00475393
+--* (1) 1 (0f4)
+---* [36] -0.00779072
+-* (0) 1 (0f0)
+---* [1] -0.0324819
+--* (0) 2 (0f6)
+---* [1203] -2.52806e-05
+END_tree
+REPORT 96 FI (0) 1 (0f0) : 18.376
+REPORT 96 FI (0) 1 (0f1) : 36.4538
+REPORT 96 FI (0) 1 (0f2) : 7.58508
+REPORT 96 FI (0) 1 (0f3) : 3.11372
+REPORT 96 FI (0) 1 (0f4) : 7.0248
+REPORT 96 FI (0) 1 (0f18) : 0.00377832
+REPORT 96 FI (0) 1 (0f22) : 0.259358
+REPORT 96 FI (0) 1 (0f24) : 0.259127
+REPORT 96 FI (0) 2 (0f1) : 15.3858
+REPORT 96 FI (0) 2 (0f2) : 36.4279
+REPORT 96 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 96 FI (0) 2 (0f3) : 1.06532
+REPORT 96 FI (0) 2 (0f6) : 0.0820436
+REPORT 96 FI (1) 1 (0f2) : 30.61
+REPORT 96 FI (1) 1 (0f3) : 19.4402
+REPORT 96 FI (1) 1 (0f4) : 11.9175
+REPORT 96 FI (1) 1 (0f5) : 0.087815
+REPORT 96 FI (1) 1 (0f6) : 32.2927
+REPORT 96 FI (1) 1 (0f8) : 1.71618
+REPORT 96 FI (1) 1 (0f10) : 0.112927
+REPORT 96 FI (1) 1 (0f13) : 1.22254
+REPORT 96 FI (1) 1 (0f15) : 1.47618
+REPORT 96 FI (1) 1 (0f18) : 3.44122
+REPORT 96 FI (1) 1 (0f20) : 0.708982
+REPORT 96 FI (1) 1 (0f25) : 0.398309
+REPORT 96 FI (1) 1 (0f26) : 0.319896
+REPORT 96 FI (1) 2 (0f2) : 30.5139
+REPORT 96 FI (1) 2 (0f3) : 4.037
+REPORT 96 FI (1) 2 (0f11) : 2.79919
+REPORT 96 FI (1) 2 (0f16) : 1.4233
+REPORT 96 FI (2) 1 (0f3) : 8.47187
+REPORT 96 FI (2) 1 (0f4) : 0.317115
+REPORT 96 FI (2) 1 (0f5) : 50.0651
+REPORT 96 FI (2) 1 (0f7) : 0.925148
+REPORT 96 FI (2) 1 (0f14) : 2.7621
+REPORT 96 FI (2) 2 (0f2) : 1.08385
+REPORT 96 FI (2) 2 (0f3) : 2.08986
+REPORT 96 FI (2) 3 (0f3) : 0.806137
+REPORT 96 FI (3) 1 (0f3) : 2.01282
+REPORT 96 FI (3) 1 (0f4) : 0.324153
+REPORT 96 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 96 used_features 41
+REPORT 96 trainacc 0.793486
+REPORT 96 trainauc 0.821744
+REPORT 96 trainloss_mean 0.435509
+REPORT 96 testacc 0.75
+REPORT 96 testauc 0.771282
+REPORT 96 testloss_mean 0.516746
+REPORT 96 cache_size 255
+REPORT 96 gain_count 28077
+REPORT 96 bound_count 21649
+BEGIN_tree
+---* [35] -0.0446817
+--* (2) 2 (0f3)
+---* [54] 0.0483616
+-* (2) 2 (0f2)
+---* [3] -0.0609059
+--* (0) 1 (0f2)
+---* [2] -0.146941
+* (0) 2 (0f2)
+---* [4] -0.000646722
+--* (0) 1 (0f1)
+---* [49] -0.0070197
+-* (0) 1 (0f0)
+---* [1] -0.031338
+--* (1) 1 (0f5)
+---* [1203] -7.90116e-06
+END_tree
+REPORT 97 FI (0) 1 (0f0) : 18.3781
+REPORT 97 FI (0) 1 (0f1) : 36.4539
+REPORT 97 FI (0) 1 (0f2) : 7.59396
+REPORT 97 FI (0) 1 (0f3) : 3.11372
+REPORT 97 FI (0) 1 (0f4) : 7.0248
+REPORT 97 FI (0) 1 (0f18) : 0.00377832
+REPORT 97 FI (0) 1 (0f22) : 0.259358
+REPORT 97 FI (0) 1 (0f24) : 0.259127
+REPORT 97 FI (0) 2 (0f1) : 15.3858
+REPORT 97 FI (0) 2 (0f2) : 36.4315
+REPORT 97 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 97 FI (0) 2 (0f3) : 1.06532
+REPORT 97 FI (0) 2 (0f6) : 0.0820436
+REPORT 97 FI (1) 1 (0f2) : 30.61
+REPORT 97 FI (1) 1 (0f3) : 19.4402
+REPORT 97 FI (1) 1 (0f4) : 11.9175
+REPORT 97 FI (1) 1 (0f5) : 0.0887957
+REPORT 97 FI (1) 1 (0f6) : 32.2927
+REPORT 97 FI (1) 1 (0f8) : 1.71618
+REPORT 97 FI (1) 1 (0f10) : 0.112927
+REPORT 97 FI (1) 1 (0f13) : 1.22254
+REPORT 97 FI (1) 1 (0f15) : 1.47618
+REPORT 97 FI (1) 1 (0f18) : 3.44122
+REPORT 97 FI (1) 1 (0f20) : 0.708982
+REPORT 97 FI (1) 1 (0f25) : 0.398309
+REPORT 97 FI (1) 1 (0f26) : 0.319896
+REPORT 97 FI (1) 2 (0f2) : 30.5139
+REPORT 97 FI (1) 2 (0f3) : 4.037
+REPORT 97 FI (1) 2 (0f11) : 2.79919
+REPORT 97 FI (1) 2 (0f16) : 1.4233
+REPORT 97 FI (2) 1 (0f3) : 8.47187
+REPORT 97 FI (2) 1 (0f4) : 0.317115
+REPORT 97 FI (2) 1 (0f5) : 50.0651
+REPORT 97 FI (2) 1 (0f7) : 0.925148
+REPORT 97 FI (2) 1 (0f14) : 2.7621
+REPORT 97 FI (2) 2 (0f2) : 1.13815
+REPORT 97 FI (2) 2 (0f3) : 2.2737
+REPORT 97 FI (2) 3 (0f3) : 0.806137
+REPORT 97 FI (3) 1 (0f3) : 2.01282
+REPORT 97 FI (3) 1 (0f4) : 0.324153
+REPORT 97 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 97 used_features 41
+REPORT 97 trainacc 0.793486
+REPORT 97 trainauc 0.821803
+REPORT 97 trainloss_mean 0.43534
+REPORT 97 testacc 0.75
+REPORT 97 testauc 0.771282
+REPORT 97 testloss_mean 0.516544
+REPORT 97 cache_size 255
+REPORT 97 gain_count 28436
+REPORT 97 bound_count 21938
+BEGIN_tree
+---* [3] 0.0062021
+--* (2) 2 (0f2)
+---* [1] -0.0198647
+-* (0) 1 (0f1)
+---* [17] -0.00482092
+--* (1) 1 (0f2)
+---* [37] -0.00808079
+* (0) 1 (0f0)
+--* [1] -0.0304695
+-* (0) 2 (0f6)
+---* [89] 0.00265213
+--* (0) 2 (0f2)
+---* [1203] -1.85768e-06
+END_tree
+REPORT 98 FI (0) 1 (0f0) : 18.3807
+REPORT 98 FI (0) 1 (0f1) : 36.4541
+REPORT 98 FI (0) 1 (0f2) : 7.59396
+REPORT 98 FI (0) 1 (0f3) : 3.11372
+REPORT 98 FI (0) 1 (0f4) : 7.0248
+REPORT 98 FI (0) 1 (0f18) : 0.00377832
+REPORT 98 FI (0) 1 (0f22) : 0.259358
+REPORT 98 FI (0) 1 (0f24) : 0.259127
+REPORT 98 FI (0) 2 (0f1) : 15.3858
+REPORT 98 FI (0) 2 (0f2) : 36.4321
+REPORT 98 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 98 FI (0) 2 (0f3) : 1.06532
+REPORT 98 FI (0) 2 (0f6) : 0.0829823
+REPORT 98 FI (1) 1 (0f2) : 30.6102
+REPORT 98 FI (1) 1 (0f3) : 19.4402
+REPORT 98 FI (1) 1 (0f4) : 11.9175
+REPORT 98 FI (1) 1 (0f5) : 0.0887957
+REPORT 98 FI (1) 1 (0f6) : 32.2927
+REPORT 98 FI (1) 1 (0f8) : 1.71618
+REPORT 98 FI (1) 1 (0f10) : 0.112927
+REPORT 98 FI (1) 1 (0f13) : 1.22254
+REPORT 98 FI (1) 1 (0f15) : 1.47618
+REPORT 98 FI (1) 1 (0f18) : 3.44122
+REPORT 98 FI (1) 1 (0f20) : 0.708982
+REPORT 98 FI (1) 1 (0f25) : 0.398309
+REPORT 98 FI (1) 1 (0f26) : 0.319896
+REPORT 98 FI (1) 2 (0f2) : 30.5139
+REPORT 98 FI (1) 2 (0f3) : 4.037
+REPORT 98 FI (1) 2 (0f11) : 2.79919
+REPORT 98 FI (1) 2 (0f16) : 1.4233
+REPORT 98 FI (2) 1 (0f3) : 8.47187
+REPORT 98 FI (2) 1 (0f4) : 0.317115
+REPORT 98 FI (2) 1 (0f5) : 50.0651
+REPORT 98 FI (2) 1 (0f7) : 0.925148
+REPORT 98 FI (2) 1 (0f14) : 2.7621
+REPORT 98 FI (2) 2 (0f2) : 1.13866
+REPORT 98 FI (2) 2 (0f3) : 2.2737
+REPORT 98 FI (2) 3 (0f3) : 0.806137
+REPORT 98 FI (3) 1 (0f3) : 2.01282
+REPORT 98 FI (3) 1 (0f4) : 0.324153
+REPORT 98 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 98 used_features 41
+REPORT 98 trainacc 0.793486
+REPORT 98 trainauc 0.821803
+REPORT 98 trainloss_mean 0.435336
+REPORT 98 testacc 0.75
+REPORT 98 testauc 0.771282
+REPORT 98 testloss_mean 0.516693
+REPORT 98 cache_size 255
+REPORT 98 gain_count 28681
+REPORT 98 bound_count 22123
+BEGIN_tree
+---* [5] -0.00712923
+--* (0) 2 (0f1)
+---* [13] -0.00409075
+-* (1) 1 (0f2)
+---* [3] -0.00177819
+--* (0) 1 (0f1)
+---* [37] -0.00795183
+* (0) 1 (0f0)
+--* [1] -0.028694
+-* (0) 2 (0f6)
+---* [66] -0.0022626
+--* (0) 1 (0f4)
+---* [1226] 0.000275187
+END_tree
+REPORT 99 FI (0) 1 (0f0) : 18.3833
+REPORT 99 FI (0) 1 (0f1) : 36.4542
+REPORT 99 FI (0) 1 (0f2) : 7.59396
+REPORT 99 FI (0) 1 (0f3) : 3.11372
+REPORT 99 FI (0) 1 (0f4) : 7.0252
+REPORT 99 FI (0) 1 (0f18) : 0.00377832
+REPORT 99 FI (0) 1 (0f22) : 0.259358
+REPORT 99 FI (0) 1 (0f24) : 0.259127
+REPORT 99 FI (0) 2 (0f1) : 15.3858
+REPORT 99 FI (0) 2 (0f2) : 36.4321
+REPORT 99 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 99 FI (0) 2 (0f3) : 1.06532
+REPORT 99 FI (0) 2 (0f6) : 0.0838134
+REPORT 99 FI (1) 1 (0f2) : 30.6102
+REPORT 99 FI (1) 1 (0f3) : 19.4402
+REPORT 99 FI (1) 1 (0f4) : 11.9175
+REPORT 99 FI (1) 1 (0f5) : 0.0887957
+REPORT 99 FI (1) 1 (0f6) : 32.2927
+REPORT 99 FI (1) 1 (0f8) : 1.71618
+REPORT 99 FI (1) 1 (0f10) : 0.112927
+REPORT 99 FI (1) 1 (0f13) : 1.22254
+REPORT 99 FI (1) 1 (0f15) : 1.47618
+REPORT 99 FI (1) 1 (0f18) : 3.44122
+REPORT 99 FI (1) 1 (0f20) : 0.708982
+REPORT 99 FI (1) 1 (0f25) : 0.398309
+REPORT 99 FI (1) 1 (0f26) : 0.319896
+REPORT 99 FI (1) 2 (0f2) : 30.5139
+REPORT 99 FI (1) 2 (0f3) : 4.037
+REPORT 99 FI (1) 2 (0f11) : 2.79919
+REPORT 99 FI (1) 2 (0f16) : 1.4233
+REPORT 99 FI (2) 1 (0f3) : 8.47187
+REPORT 99 FI (2) 1 (0f4) : 0.317115
+REPORT 99 FI (2) 1 (0f5) : 50.0651
+REPORT 99 FI (2) 1 (0f7) : 0.925148
+REPORT 99 FI (2) 1 (0f14) : 2.7621
+REPORT 99 FI (2) 2 (0f2) : 1.13866
+REPORT 99 FI (2) 2 (0f3) : 2.2737
+REPORT 99 FI (2) 3 (0f3) : 0.806137
+REPORT 99 FI (3) 1 (0f3) : 2.01282
+REPORT 99 FI (3) 1 (0f4) : 0.324153
+REPORT 99 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 99 used_features 41
+REPORT 99 trainacc 0.793486
+REPORT 99 trainauc 0.821776
+REPORT 99 trainloss_mean 0.435333
+REPORT 99 testacc 0.75
+REPORT 99 testauc 0.771496
+REPORT 99 testloss_mean 0.516903
+REPORT 99 cache_size 255
+REPORT 99 gain_count 28943
+REPORT 99 bound_count 22325
+BEGIN_tree
+---* [3] 0.00325783
+--* (2) 2 (0f2)
+---* [1] -0.0190312
+-* (0) 1 (0f1)
+---* [17] -0.00472613
+--* (1) 1 (0f2)
+---* [37] -0.00782692
+* (0) 1 (0f0)
+--* [1] -0.0271154
+-* (0) 2 (0f6)
+---* [89] 0.00206678
+--* (0) 2 (0f2)
+---* [1203] -0.0001546
+END_tree
+REPORT 100 FI (0) 1 (0f0) : 18.3856
+REPORT 100 FI (0) 1 (0f1) : 36.4543
+REPORT 100 FI (0) 1 (0f2) : 7.59396
+REPORT 100 FI (0) 1 (0f3) : 3.11372
+REPORT 100 FI (0) 1 (0f4) : 7.0252
+REPORT 100 FI (0) 1 (0f18) : 0.00377832
+REPORT 100 FI (0) 1 (0f22) : 0.259358
+REPORT 100 FI (0) 1 (0f24) : 0.259127
+REPORT 100 FI (0) 2 (0f1) : 15.3858
+REPORT 100 FI (0) 2 (0f2) : 36.4325
+REPORT 100 FI (0) 2 (0f2) 1 (1f2) : 1.76991
+REPORT 100 FI (0) 2 (0f3) : 1.06532
+REPORT 100 FI (0) 2 (0f6) : 0.084548
+REPORT 100 FI (1) 1 (0f2) : 30.6103
+REPORT 100 FI (1) 1 (0f3) : 19.4402
+REPORT 100 FI (1) 1 (0f4) : 11.9175
+REPORT 100 FI (1) 1 (0f5) : 0.0887957
+REPORT 100 FI (1) 1 (0f6) : 32.2927
+REPORT 100 FI (1) 1 (0f8) : 1.71618
+REPORT 100 FI (1) 1 (0f10) : 0.112927
+REPORT 100 FI (1) 1 (0f13) : 1.22254
+REPORT 100 FI (1) 1 (0f15) : 1.47618
+REPORT 100 FI (1) 1 (0f18) : 3.44122
+REPORT 100 FI (1) 1 (0f20) : 0.708982
+REPORT 100 FI (1) 1 (0f25) : 0.398309
+REPORT 100 FI (1) 1 (0f26) : 0.319896
+REPORT 100 FI (1) 2 (0f2) : 30.5139
+REPORT 100 FI (1) 2 (0f3) : 4.037
+REPORT 100 FI (1) 2 (0f11) : 2.79919
+REPORT 100 FI (1) 2 (0f16) : 1.4233
+REPORT 100 FI (2) 1 (0f3) : 8.47187
+REPORT 100 FI (2) 1 (0f4) : 0.317115
+REPORT 100 FI (2) 1 (0f5) : 50.0651
+REPORT 100 FI (2) 1 (0f7) : 0.925148
+REPORT 100 FI (2) 1 (0f14) : 2.7621
+REPORT 100 FI (2) 2 (0f2) : 1.13903
+REPORT 100 FI (2) 2 (0f3) : 2.2737
+REPORT 100 FI (2) 3 (0f3) : 0.806137
+REPORT 100 FI (3) 1 (0f3) : 2.01282
+REPORT 100 FI (3) 1 (0f4) : 0.324153
+REPORT 100 FI (3) 1 (0f4) 1 (0f4) : 0.292053
+REPORT 100 used_features 41
+REPORT 100 trainacc 0.793486
+REPORT 100 trainauc 0.821765
+REPORT 100 trainloss_mean 0.43533
+REPORT 100 testacc 0.75
+REPORT 100 testauc 0.771496
+REPORT 100 testloss_mean 0.517048
+REPORT 100 cache_size 255
+REPORT 100 gain_count 29166
+REPORT 100 bound_count 22488
+[38;5;0m[48;5;40m --- end ---  [m

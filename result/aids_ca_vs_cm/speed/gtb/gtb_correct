@@ -1,0 +1,12 @@
+# maxpat: 10, minsup: 1, depth: 3, tree_num: 100
+time: 32535.834
+trainacc: 0.999931
+trainauc: 0
+trainloss_mean: 0.0487844
+testacc: 0.789474
+testauc: 0.807553
+testloss_mean: 0.607319
+features size: 409.0
+cache size: 1628066.0
+gain count: 267916787.0
+bound count: 267916787.0

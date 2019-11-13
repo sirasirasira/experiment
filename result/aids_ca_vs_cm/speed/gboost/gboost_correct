@@ -1,0 +1,7 @@
+# maxpat: 10, minsup: 1, nu: 0.3
+acc: 0.8157894736842105
+auc: 0.7129629629629629
+time: 967.019
+iterator: 366
+cache size: 301863
+search nodes: 58503136
