@@ -12,7 +12,7 @@ mkdir dat
 > bound.txt
 > dat/index
 #for i in 10 40 70 100 200 300 400 500
-for i in 100 200 300 400 500
+for i in 10 100 200 300 400 500
 do
 	echo ${i} >> dat/index
 	grep time ../iteration_${i}/gtb_bandit_r | cut -d " " -f 2,3 >> time.txt

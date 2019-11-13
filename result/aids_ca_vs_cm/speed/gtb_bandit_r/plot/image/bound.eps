@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0 EPSF-2.0
 %%Title: image/bound.eps
-%%Creator: gnuplot 4.6 patchlevel 2
-%%CreationDate: Wed Nov 13 18:00:03 2019
+%%Creator: gnuplot 5.2 patchlevel 7
+%%CreationDate: Wed Nov 13 18:55:49 2019
 %%DocumentFonts: (atend)
 %%BoundingBox: 50 50 302 201
 %%EndComments
@@ -18,6 +18,7 @@ gnudict begin
 /Dashlength 1 def
 /Landscape false def
 /Level1 false def
+/Level3 false def
 /Rounded false def
 /ClipToBoundingBox false def
 /SuppressPDFMark false def
@@ -29,11 +30,11 @@ gnudict begin
 %
 /vshift -46 def
 /dl1 {
-  10.0 Dashlength mul mul
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
   Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
 } def
 /dl2 {
-  10.0 Dashlength mul mul
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
   Rounded { currentlinewidth 0.75 mul add } if
 } def
 /hpt_ 31.5 def
@@ -47,7 +48,7 @@ gnudict begin
   } if
 } def
 %
-% Gnuplot Prolog Version 4.6 (September 2012)
+% Gnuplot Prolog Version 5.2 (Dec 2017)
 %
 %/SuppressPDFMark true def
 %
@@ -64,11 +65,11 @@ gnudict begin
 /vpt2 vpt 2 mul def
 /hpt2 hpt 2 mul def
 /Lshow {currentpoint stroke M 0 vshift R 
-	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
 /Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
-	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
 /Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
-	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
 /UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
   /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
 /DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
@@ -82,7 +83,7 @@ gnudict begin
 /PL {stroke userlinewidth setlinewidth
 	Rounded {1 setlinejoin 1 setlinecap} if} def
 3.8 setmiterlimit
-% Default Line colors
+% Classic Line colors (version 5.0)
 /LCw {1 1 1} def
 /LCb {0 0 0} def
 /LCa {0 0 0} def
@@ -95,19 +96,21 @@ gnudict begin
 /LC6 {0 0 0} def
 /LC7 {1 0.3 0} def
 /LC8 {0.5 0.5 0.5} def
-% Default Line Types
+% Default dash patterns (version 5.0)
+/LTB {BL [] LCb DL} def
 /LTw {PL [] 1 setgray} def
-/LTb {BL [] LCb DL} def
+/LTb {PL [] LCb DL} def
 /LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
 /LT0 {PL [] LC0 DL} def
-/LT1 {PL [4 dl1 2 dl2] LC1 DL} def
-/LT2 {PL [2 dl1 3 dl2] LC2 DL} def
-/LT3 {PL [1 dl1 1.5 dl2] LC3 DL} def
-/LT4 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
-/LT5 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC5 DL} def
-/LT6 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC6 DL} def
-/LT7 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC7 DL} def
-/LT8 {PL [2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 4 dl2] LC8 DL} def
+/LT1 {PL [2 dl1 3 dl2] LC1 DL} def
+/LT2 {PL [1 dl1 1.5 dl2] LC2 DL} def
+/LT3 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC3 DL} def
+/LT4 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [4 dl1 2 dl2] LC5 DL} def
+/LT6 {PL [1.5 dl1 1.5 dl2 1.5 dl1 1.5 dl2 1.5 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC8 DL} def
+/SL {[] 0 setdash} def
 /Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
 /Dia {stroke [] 0 setdash 2 copy vpt add M
   hpt neg vpt neg V hpt vpt neg V
@@ -302,7 +305,7 @@ gnudict begin
   ColR ColG ColB setrgbcolor} def
 /BoxColFill {gsave Rec PolyFill} def
 /PolyFill {gsave Density fill grestore grestore} def
-/h {rlineto rlineto rlineto gsave closepath fill grestore} bind def
+/h {rlineto rlineto rlineto closepath gsave fill grestore stroke} bind def
 %
 % PostScript Level 1 Pattern Fill routine for rectangles
 % Usage: x y w h s a XX PatternFill
@@ -329,9 +332,14 @@ gnudict begin
 %
 /languagelevel where
  {pop languagelevel} {1} ifelse
- 2 lt
-	{/InterpretLevel1 true def}
-	{/InterpretLevel1 Level1 def}
+dup 2 lt
+	{/InterpretLevel1 true def
+	 /InterpretLevel3 false def}
+	{/InterpretLevel1 Level1 def
+	 2 gt
+	    {/InterpretLevel3 Level3 def}
+	    {/InterpretLevel3 false def}
+	 ifelse }
  ifelse
 %
 % PostScript level 2 pattern fill definitions
@@ -420,16 +428,29 @@ Level1 {Level1PatternFill} {Level2PatternFill} ifelse
 /Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
 dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
 currentdict end definefont pop
+%
+/Metrics {ExtendTextBox Gswidth} def
+/Lwidth {currentpoint stroke M 0 vshift R Metrics} def
+/Rwidth {currentpoint stroke M dup stringwidth pop neg vshift R Metrics} def
+/Cwidth {currentpoint stroke M dup stringwidth pop -2 div vshift R Metrics} def
+/GLwidth {currentpoint stroke M 0 vshift R {ExtendTextBox} forall} def
+/GRwidth {currentpoint stroke M dup Gwidth vshift R {ExtendTextBox} forall} def
+/GCwidth {currentpoint stroke M dup Gwidth 2 div vshift R {ExtendTextBox} forall} def
+/GLwidth2 {0 Gwidth AddGlyphWidth} def
+/GRwidth2 {Gwidth -1 mul 0 AddGlyphWidth} def
+/GCwidth2 {Gwidth 2 div dup -1 mul AddGlyphWidth} def
+/AddGlyphWidth { dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+                 dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse } def
 /MFshow {
    { dup 5 get 3 ge
      { 5 get 3 eq {gsave} {grestore} ifelse }
      {dup dup 0 get findfont exch 1 get scalefont setfont
      [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
-     get exch 4 get {Gshow} {stringwidth pop 0 R} ifelse }if dup 5 get 0 eq
+     get exch 4 get {textshow} {Metrics pop 0 R} ifelse }if dup 5 get 0 eq
      {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
-     get 1 eq {dup 2 get exch dup 3 get exch 6 get stringwidth pop -2 div
-     dup 0 R} {dup 6 get stringwidth pop -2 div 0 R 6 get
-     show 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     get 1 eq {dup 2 get exch dup 3 get exch 6 get Gswidth pop -2 div
+     dup 0 R} {dup 6 get Gswidth pop -2 div 0 R 6 get
+     textshow 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
      pop aload pop M} ifelse }ifelse }ifelse }
      ifelse }
    forall} def
@@ -457,14 +478,39 @@ systemdict /pdfmark known not {
 SDict begin [
   /Title (image/bound.eps)
   /Subject (gnuplot plot)
-  /Creator (gnuplot 4.6 patchlevel 2)
-  /Author (sira)
+  /Creator (gnuplot 5.2 patchlevel 7)
 %  /Producer (gnuplot)
 %  /Keywords ()
-  /CreationDate (Wed Nov 13 18:00:03 2019)
+  /CreationDate (Wed Nov 13 18:55:49 2019)
   /DOCINFO pdfmark
 end
 } ifelse
+%
+% Support for boxed text - Ethan A Merritt Sep 2016
+%
+/InitTextBox { userdict /TBy2 3 -1 roll put userdict /TBx2 3 -1 roll put
+           userdict /TBy1 3 -1 roll put userdict /TBx1 3 -1 roll put
+	   /Boxing true def } def
+/ExtendTextBox { dup type /stringtype eq
+    { Boxing { gsave dup false charpath pathbbox
+      dup TBy2 gt {userdict /TBy2 3 -1 roll put} {pop} ifelse
+      dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+      dup TBy1 lt {userdict /TBy1 3 -1 roll put} {pop} ifelse
+      dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse
+      grestore } if }
+    {} ifelse} def
+/PopTextBox { newpath TBx1 TBxmargin sub TBy1 TBymargin sub M
+               TBx1 TBxmargin sub TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy1 TBymargin sub L closepath } def
+/DrawTextBox { PopTextBox stroke /Boxing false def} def
+/FillTextBox { gsave PopTextBox fill grestore /Boxing false def} def
+0 0 0 0 InitTextBox
+/TBxmargin 20 def
+/TBymargin 20 def
+/Boxing false def
+/textshow { ExtendTextBox Gshow } def
+%
 end
 %%EndProlog
 %%Page: 1 1
@@ -486,355 +532,433 @@ LCb setrgbcolor
 -63 0 V
 stroke
 854 448 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 10000)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+/vshift -46 def
+1.000 UL
+LTb
+LCb setrgbcolor
+938 595 M
+31 0 V
+2495 0 R
+-31 0 V
+938 680 M
+31 0 V
+2495 0 R
+-31 0 V
+938 741 M
+31 0 V
+2495 0 R
+-31 0 V
+938 788 M
+31 0 V
+2495 0 R
+-31 0 V
+938 827 M
+31 0 V
+2495 0 R
+-31 0 V
+938 860 M
+31 0 V
+2495 0 R
+-31 0 V
+938 888 M
+31 0 V
+2495 0 R
+-31 0 V
+938 913 M
+31 0 V
+2495 0 R
+-31 0 V
+938 935 M
+63 0 V
+2463 0 R
+-63 0 V
+stroke
+854 935 M
 [ [(Helvetica) 140.0 0.0 true true 0 ( 100000)]
 ] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
 1.000 UL
 LTb
 LCb setrgbcolor
-938 629 M
+938 1082 M
 31 0 V
 2495 0 R
 -31 0 V
-938 735 M
+938 1167 M
 31 0 V
 2495 0 R
 -31 0 V
-938 810 M
+938 1228 M
 31 0 V
 2495 0 R
 -31 0 V
-938 869 M
+938 1275 M
 31 0 V
 2495 0 R
 -31 0 V
-938 916 M
+938 1314 M
 31 0 V
 2495 0 R
 -31 0 V
-938 957 M
+938 1347 M
 31 0 V
 2495 0 R
 -31 0 V
-938 991 M
+938 1375 M
 31 0 V
 2495 0 R
 -31 0 V
-938 1022 M
+938 1400 M
 31 0 V
 2495 0 R
 -31 0 V
-938 1050 M
+938 1422 M
 63 0 V
 2463 0 R
 -63 0 V
 stroke
-854 1050 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 1e+06)]
-] -46.7 MRshow
+854 1422 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 1x10)]
+[(Helvetica) 112.0 70.0 true true 0 (6)]
+] -60.7 MRshow
+/Helvetica findfont 140 scalefont setfont
 1.000 UL
 LTb
 LCb setrgbcolor
-938 1231 M
+938 1569 M
 31 0 V
 2495 0 R
 -31 0 V
-938 1337 M
+938 1654 M
 31 0 V
 2495 0 R
 -31 0 V
-938 1412 M
+938 1715 M
 31 0 V
 2495 0 R
 -31 0 V
-938 1470 M
+938 1762 M
 31 0 V
 2495 0 R
 -31 0 V
-938 1518 M
+938 1801 M
 31 0 V
 2495 0 R
 -31 0 V
-938 1558 M
+938 1834 M
 31 0 V
 2495 0 R
 -31 0 V
-938 1593 M
+938 1862 M
 31 0 V
 2495 0 R
 -31 0 V
-938 1624 M
+938 1887 M
 31 0 V
 2495 0 R
 -31 0 V
-938 1652 M
+938 1909 M
 63 0 V
 2463 0 R
 -63 0 V
 stroke
-854 1652 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 1e+07)]
-] -46.7 MRshow
+854 1909 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 1x10)]
+[(Helvetica) 112.0 70.0 true true 0 (7)]
+] -60.7 MRshow
+/Helvetica findfont 140 scalefont setfont
 1.000 UL
 LTb
 LCb setrgbcolor
-938 1833 M
+938 2056 M
 31 0 V
 2495 0 R
 -31 0 V
-938 1939 M
+938 2141 M
 31 0 V
 2495 0 R
 -31 0 V
-938 2014 M
+938 2202 M
 31 0 V
 2495 0 R
 -31 0 V
-938 2072 M
+938 2249 M
 31 0 V
 2495 0 R
 -31 0 V
-938 2120 M
+938 2288 M
 31 0 V
 2495 0 R
 -31 0 V
-938 2160 M
+938 2321 M
 31 0 V
 2495 0 R
 -31 0 V
-938 2195 M
+938 2349 M
 31 0 V
 2495 0 R
 -31 0 V
-938 2226 M
+938 2374 M
 31 0 V
 2495 0 R
 -31 0 V
-938 2253 M
+938 2396 M
 63 0 V
 2463 0 R
 -63 0 V
 stroke
-854 2253 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 1e+08)]
-] -46.7 MRshow
+854 2396 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 1x10)]
+[(Helvetica) 112.0 70.0 true true 0 (8)]
+] -60.7 MRshow
+/Helvetica findfont 140 scalefont setfont
 1.000 UL
 LTb
 LCb setrgbcolor
-938 2434 M
+938 2543 M
 31 0 V
 2495 0 R
 -31 0 V
-938 2540 M
+938 2628 M
 31 0 V
 2495 0 R
 -31 0 V
-938 2616 M
+938 2689 M
 31 0 V
 2495 0 R
 -31 0 V
-938 2674 M
+938 2736 M
 31 0 V
 2495 0 R
 -31 0 V
-938 2722 M
+938 2775 M
 31 0 V
 2495 0 R
 -31 0 V
-938 2762 M
+938 2808 M
 31 0 V
 2495 0 R
 -31 0 V
-938 2797 M
+938 2836 M
 31 0 V
 2495 0 R
 -31 0 V
-938 2827 M
+938 2861 M
 31 0 V
 2495 0 R
 -31 0 V
-938 2855 M
+938 2883 M
 63 0 V
 2463 0 R
 -63 0 V
 stroke
-854 2855 M
-[ [(Helvetica) 140.0 0.0 true true 0 ( 1e+09)]
-] -46.7 MRshow
+854 2883 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 1x10)]
+[(Helvetica) 112.0 70.0 true true 0 (9)]
+] -60.7 MRshow
+/Helvetica findfont 140 scalefont setfont
 1.000 UL
 LTb
 LCb setrgbcolor
 938 448 M
 0 63 V
-0 2344 R
+0 2372 R
 0 -63 V
 stroke
 938 308 M
 [ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
 ] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
 1.000 UL
 LTb
 LCb setrgbcolor
 1359 448 M
 0 63 V
-0 2344 R
+0 2372 R
 0 -63 V
 stroke
 1359 308 M
 [ [(Helvetica) 140.0 0.0 true true 0 ( 100)]
 ] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
 1.000 UL
 LTb
 LCb setrgbcolor
 1780 448 M
 0 63 V
-0 2344 R
+0 2372 R
 0 -63 V
 stroke
 1780 308 M
 [ [(Helvetica) 140.0 0.0 true true 0 ( 200)]
 ] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
 1.000 UL
 LTb
 LCb setrgbcolor
 2201 448 M
 0 63 V
-0 2344 R
+0 2372 R
 0 -63 V
 stroke
 2201 308 M
 [ [(Helvetica) 140.0 0.0 true true 0 ( 300)]
 ] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
 1.000 UL
 LTb
 LCb setrgbcolor
 2622 448 M
 0 63 V
-0 2344 R
+0 2372 R
 0 -63 V
 stroke
 2622 308 M
 [ [(Helvetica) 140.0 0.0 true true 0 ( 400)]
 ] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
 1.000 UL
 LTb
 LCb setrgbcolor
 3043 448 M
 0 63 V
-0 2344 R
+0 2372 R
 0 -63 V
 stroke
 3043 308 M
 [ [(Helvetica) 140.0 0.0 true true 0 ( 500)]
 ] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
 1.000 UL
 LTb
 LCb setrgbcolor
 3464 448 M
 0 63 V
-0 2344 R
+0 2372 R
 0 -63 V
 stroke
 3464 308 M
 [ [(Helvetica) 140.0 0.0 true true 0 ( 600)]
 ] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
 1.000 UL
 LTb
 LCb setrgbcolor
 1.000 UL
-LTb
+LTB
 LCb setrgbcolor
-938 2855 N
+938 2883 N
 938 448 L
 2526 0 V
-0 2407 V
+0 2435 V
 -2526 0 V
 Z stroke
+1.000 UP
+1.000 UL
+LTb
 LCb setrgbcolor
-112 1651 M
+LCb setrgbcolor
+196 1665 M
 currentpoint gsave translate -270 rotate 0 0 moveto
 [ [(Helvetica) 140.0 0.0 true true 0 (bound)]
 ] -46.7 MCshow
 grestore
+/Helvetica findfont 140 scalefont setfont
 LTb
 LCb setrgbcolor
 2201 98 M
 [ [(Helvetica) 140.0 0.0 true true 0 (#monte carlo simulation)]
 ] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
 LTb
-1.000 UP
-1.000 UL
-LTb
-LCb setrgbcolor
 % Begin plot #1
 1.000 UP
 4.000 UL
-LT0
-LC0 setrgbcolor
+LTb
+0.58 0.00 0.83 C
 LCb setrgbcolor
-4388 2785 M
+4388 2813 M
 [ [(Helvetica) 140.0 0.0 true true 0 (proposed)]
 ] -46.7 MRshow
-LT0
-4472 2785 M
+/Helvetica findfont 140 scalefont setfont
+1.000 UP
+4.000 UL
+LTb
+0.58 0.00 0.83 C
+4472 2813 M
 399 0 V
 -399 31 R
 0 -62 V
 399 62 R
 0 -62 V
-1359 634 M
-421 194 V
-421 101 V
-421 61 V
-421 55 V
-1359 626 M
-0 15 V
--31 -15 R
+980 619 M
+379 466 V
+421 157 V
+421 83 V
+421 48 V
+421 45 V
+980 615 M
+0 9 V
+-31 -9 R
 62 0 V
--62 15 R
+-62 9 R
 62 0 V
-390 181 R
-0 11 V
--31 -11 R
+348 455 R
+0 12 V
+-31 -12 R
 62 0 V
--62 11 R
+-62 12 R
 62 0 V
-390 88 R
-0 16 V
--31 -16 R
+390 147 R
+0 9 V
+-31 -9 R
 62 0 V
--62 16 R
+-62 9 R
 62 0 V
-390 45 R
-0 15 V
--31 -15 R
+390 71 R
+0 13 V
+-31 -13 R
 62 0 V
--62 15 R
+-62 13 R
 62 0 V
-390 39 R
-0 17 V
--31 -17 R
+390 36 R
+0 13 V
+-31 -13 R
 62 0 V
--62 17 R
+-62 13 R
 62 0 V
-1359 634 Pls
-1780 828 Pls
-2201 929 Pls
-2622 990 Pls
-3043 1045 Pls
-4671 2785 Pls
+390 31 R
+0 14 V
+-31 -14 R
+62 0 V
+-62 14 R
+62 0 V
+980 619 Pls
+1359 1085 Pls
+1780 1242 Pls
+2201 1325 Pls
+2622 1373 Pls
+3043 1418 Pls
+4671 2813 Pls
 % End plot #1
 % Begin plot #2
 4.000 UL
-LT1
-LC1 setrgbcolor
+LTb
+0.00 0.62 0.45 C
 LCb setrgbcolor
-4388 2645 M
+4388 2673 M
 [ [(Helvetica) 140.0 0.0 true true 0 (naive GTB)]
 ] -46.7 MRshow
-LT1
-4472 2645 M
+/Helvetica findfont 140 scalefont setfont
+4.000 UL
+LTb
+0.00 0.62 0.45 C
+4472 2673 M
 399 0 V
-938 2511 M
+938 2604 M
 26 0 V
 25 0 V
 26 0 V
@@ -936,13 +1060,16 @@ LT1
 26 0 V
 % End plot #2
 stroke
-1.000 UL
+2.000 UL
 LTb
 LCb setrgbcolor
-938 2855 N
+1.000 UL
+LTB
+LCb setrgbcolor
+938 2883 N
 938 448 L
 2526 0 V
-0 2407 V
+0 2435 V
 -2526 0 V
 Z stroke
 1.000 UP
